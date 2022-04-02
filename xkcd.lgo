@@ -1,5 +1,10 @@
 
+ ; xkcd #2601: Instructions (the transcription)
+ ; https://github.com/theinternetftw/xkcd2601
+ ; TRANSCRIPTION START:
+
  ; And here we want to show you that you can program a picture right along with us.
+ ;
  ; We'll use a single color, some unorthodox functions, and each line we'll put
  ; a bit of nature's masterpieces right here on our canvas.
  ;
@@ -59,13 +64,13 @@ END
 
 TO XKCD 
 
+
 ; NOTE: added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
 ; SETSCREENRANGE -500 -450 500 450 
 
 ; NOTE: Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
-; If you decide to use FMSLogo, note that the editor is hidden behind the "Edall" button, and that
-; highlighting recent text and running those lines with ctrl-R is super helpful for quickly verifying input.
 SETPENSIZE 1 ; NOTE: looks better at 3, but setting back to 1 to more easily see bugs.
+
 
 MAKE "PIXERROR 0.5
 
@@ -2406,7 +2411,7 @@ PENUP
 
 ; NOTE: [03:18:33]
 
- ; Here are some more interesting bits from Interesting Facts About Turtles, a little
+ ; Here are some more interesting bits from "Interesting Facts About Turtles", a little
  ; nature study by a scientist, Forest and Stream, January 1916.
  ;
  ; "The laying of eggs. This is one of the most instructive things that I have ever
