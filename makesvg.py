@@ -2,6 +2,9 @@
 import re
 from math import sin, cos, pi
 
+# usage (from build dir): python makesvg.py
+# (no args needed)
+
 bounds = None
 def update_bounds(x, y):
     global bounds

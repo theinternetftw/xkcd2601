@@ -4,12 +4,14 @@ This is a project to transcribe xkcd #2601, the April Fools post for 2022, to ru
 
 ### Running the code:
 
-It runs in FMSLogo, which is windows only, sadly. But it might run on your
-logo variant of choice.
+I'm currently running it in FMSLogo, which is windows only, sadly. But it might run
+on your logo variant of choice.
 
-If you can find a logo that is open source, multi-platform, renderers
+There's also now a python script to generate an svg, which might be of use.
+
+If you can find a logo that is open source, multi-platform, renders
 beautifully, doesn't require an installer on windows, and runs this code with
-a minimum number of changes, i'll happily convert the project over to that.
+a minimum number of changes, I'll happily convert the project over to that.
 
 (I first tried aUCBLogo, which seemed nice, but it started crashing on the
 input once there were a certain number of comments, which seemed like a red flag)
