@@ -3529,57 +3529,50 @@ FORWARD 3
 PENUP
 
 SETXY 389 -498
-
 PENDOWN
 CUBIC 397 -502 407 -511 411 -516
 PENUP
 
-; Just as soon as a baby turtle emerges from the egg, off he scuttles down to
-; the sea. He has no one to teach him, no one to guide him. In his curious
-; little brain, there is implanted a streak of caution based upon the fact that
-; until aged a certain period in his life his armor is soft and no defense
-; against hungry fish, and he at once seeks shelter in the tropical profusion
-; of the gulf weed, which holds within its branching fronds an astonishing
-; abundance of marine life. Here the young turtle feeds unmolested while his
-; armor undergoes the hardening process.
+ ; "Just as soon as a baby turtle emerges from the egg, off he scuttles down to
+ ; the sea. He has no one to teach him, no one to guide him. In his curious
+ ; little brain, there is implanted a streak of caution based upon the fact that
+ ; until aged a certain period in his life his armor is soft and no defense
+ ; against hungry fish, and he at once seeks shelter in the tropical profusion
+ ; of the gulf weed, which holds within its branching fronds an astonishing
+ ; abundance of marine life. Here the young turtle feeds unmolested while his
+ ; armor undergoes the hardening process."
 
 SETXY 406 -480
-
 PENDOWN
 CUBIC 416 -482 432 -485 435 -498
 SETHEADING 30
 FORWARD 1
 PENUP
 
-; This is your world, your creation.
+ ; This is your world, your creation.
 
 SETXY 444 -478
-
 PENDOWN
 CUBIC 438 -470 428 -467 418 -466
 PENUP
 
 SETXY 429 -456
-
 PENDOWN
 CUBIC 437 -455 453 -456 455 -466
 CUBIC 456 -466 456 -465 456 -465
 PENUP
 
 SETXY 425 -450
-
 PENDOWN
 CUBIC 426 -448 427 -445 430 -444
 PENUP
 
 SETXY 395 -486
-
 PENDOWN
 CUBIC 390 -468 373 -448 355 -445
 PENUP
 
 SETXY 360 -501
-
 PENDOWN
 CUBIC 345 -496 331 -486 321 -474
 CUBIC 286 -473 243 -477 210 -489
@@ -3588,7 +3581,6 @@ CUBIC 198 -534 209 -546 221 -552
 PENUP
 
 SETXY 212 -487
-
 PENDOWN
 CUBIC 172 -467 180 -476 140 -482
 CUBIC 123 -485 106 -489 90 -494
@@ -3598,19 +3590,16 @@ PENUP
 ; NOTE: [05:25:29]
 
 SETXY 90 -495
-
 PENDOWN
 CUBIC 89 -552 83 -530 132 -551
 PENUP
 
 SETXY 63 -550
-
 PENDOWN
 CUBIC 73 -546 82 -542 90 -537
 PENUP
 
 SETXY 30 -472
-
 PENDOWN
 CUBIC 16 -476 1 -478 -13 -484
 CUBIC -27 -497 -42 -511 -52 -528
@@ -3618,45 +3607,39 @@ CUBIC -38 -533 -25 -541 -14 -551
 PENUP
 
 SETXY -15 -483
-
 PENDOWN
 CUBIC -18 -477 -24 -473 -29 -469
 PENUP
 
-; Whatever the young sea turtle eats and wherever he eats it is, facts not
-; generally ascertained, one thing is certain, it agrees with him immensely.
-; He leads a pleasant sort of life basking in the tropical sun and cruising
-; leisurely in the cool depths. 
+ ; "Whatever the young sea turtle eats and wherever he eats it is, facts not
+ ; generally ascertained, one thing is certain, it agrees with him immensely.
+ ; He leads a pleasant sort of life basking in the tropical sun and cruising
+ ; leisurely in the cool depths."
 
 SETXY -52 -528
-
 PENDOWN
 CUBIC -75 -523 -98 -529 -120 -533
 CUBIC -155 -524 -175 -522 -205 -546
 PENUP
 
 SETXY -120 -533
-
 PENDOWN
 CUBIC -121 -538 -121 -546 -119 -549
 PENUP
 
 SETXY -50 -467
-
 PENDOWN
 CUBIC -73 -466 -94 -479 -117 -479
 CUBIC -133 -488 -162 -507 -165 -527
 PENUP
 
 SETXY -185 -533
-
 PENDOWN
 CUBIC -196 -527 -205 -516 -207 -504
 CUBIC -197 -484 -177 -470 -157 -462
 PENUP
 
 SETXY -194 -459
-
 PENDOWN
 CUBIC -204 -461 -213 -468 -218 -477
 CUBIC -218 -484 -207 -494 -202 -495
