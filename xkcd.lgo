@@ -1938,16 +1938,15 @@ PENDOWN
 CUBIC -14 -265 -9 -261 -7 -259
 PENUP
 
-; "They always return home.
+; NOTE [03:09:16]
 
-; NOTE [03:09:18]
-
-;NOTE [03:10:14]
-;NOTE "Females return to the same beach they hatched on to lay their own eggs and bury them in sand. Marine turtles' amazing ability to navigate comes from their sensitivity to the Earth's magnetic fields."
+ ; "They always return home. Females return to the same beach they hatched on to lay
+ ; their own eggs and bury them in sand nests. Marine turtles' amazing ability to navigate
+ ; comes from their sensitivity to the Earth's magnetic fields."
 
 SETXY 1 -252
 PENDOWN 
-CUBIC 3 -254 -248 5 -245
+CUBIC 3 -250 4 -248 5 -245
 PENUP
 
 SETXY -44 -160
@@ -1972,6 +1971,7 @@ CUBIC -65 -192 -57 -198 -52 -205
 CUBIC -51 -207 -50 -208 -47 -208
 CUBIC -44 -209 -43 -214 -40 -214
 PENUP
+
 SETXY -59 -169
 PENDOWN
 CUBIC -52 -184 -50 -170 -41 -188
@@ -1980,11 +1980,11 @@ PENUP
 SETXY -14 -212
 PENDOWN
 CUBIC -9 -215 -5 -219 -5 -225
-CUBIC -3 -229 3 -234 -235
+CUBIC -3 -229 3 -230 4 -235
 PENUP 
 
 SETXY -10 -386
-PENDOWN 
+PENDOWN
 CUBIC 7 -361 -5 -330 -0 -303
 PENUP
 
@@ -1994,7 +1994,7 @@ CUBIC -7 -324 -7 -333 -9 -342
 CUBIC -9 -349 -3 -355 -4 -361
 PENUP
 
-;NOTE [03:16:04]
+; NOTE [03:16:04]
 
 SETXY -1 -393 
 PENDOWN
@@ -2028,7 +2028,7 @@ CUBIC 27 -370 22 -376 21 -383
 CUBIC 20 -388 20 -394 17 -399
 PENUP
 
-;NOTE "Move the turtle. Playing. Working. Just having fun"
+ ; "Move the turtle. Playing. Working. Just having fun"
 
 SETXY 8 -403
 PENDOWN 
@@ -2038,7 +2038,7 @@ PENUP
 
 SETXY 77 -406
 PENDOWN
-CUBIC 81 -483 -394 84 -387
+CUBIC 81 -400 83 -394 84 -387
 CUBIC 83 -393 83 -399 86 -404
 PENUP
 
@@ -2055,7 +2055,31 @@ CUBIC 71 -290 79 -301 74 -310
 CUBIC 70 -320 65 -323 67 -335
 PENUP
 
-;NOTE [03:19:45]
+; NOTE: [03:18:33]
+
+ ; Here are some more interesting bits from Interesting Facts About Turtles, a little
+ ; nature study by a scientist, Forest and Stream, January 1916.
+ ;
+ ; "The laying of eggs. This is one of the most instructive things that I have ever
+ ; watched. Invariably, they chose in my yard a situation with a southern exposure
+ ; when desiring to lay. In only two instances was an eastern exposure observed, and
+ ; once a western. Part of the yard being a cement walk, we could sometimes observe
+ ; the female making motions as for digging the nest. Sometimes for a half a day, she
+ ; would remain stationary, and with her back legs commence to work for this purpose.
+ ; Lifting her to the grass plot, in a short time she would commence to dig. First with
+ ; the left hind foot, she would remove a little dirt and pile it upon her left side,
+ ; then with the right hind foot, and pile the removed dirt upon the right side. This
+ ; would be repeated again and again, probably for hours, until the proper size hole
+ ; and depth was obtained."
+
+SETXY 49 -301
+PENDOWN
+CUBIC 41 -316 45 -330 48 -345
+CUBIC 48 -354 42 -362 41 -371
+CUBIC 43 -383 40 -395 33 -405
+PENUP
+
+; NOTE: [03:20:20]
 
 END
 
