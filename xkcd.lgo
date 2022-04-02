@@ -1,8 +1,11 @@
+
  ; And here we want to show you that you can program a picture right along with us.
  ; We’ll use a single color, some unorthodox functions, and each line we’ll put
  ; a bit of nature’s masterpieces right here on our canvas.
+ ;
  ; Today we’ll have them run all the functions across the stream, right now,
  ; that you need to program along with us.
+ ;
  ; Starting with a simple one:
 
 TO DIST :X0 :Y0 :X1 :Y1
@@ -161,10 +164,10 @@ SETHEADING 179
 FORWARD 19
 PENUP
 
- ; Merriam-Webster defines a turtle as: Noun. Any of an order (Testudines synonym Chelonia)
+ ; Merriam-Webster defines a turtle as: "Noun. Any of an order (Testudines synonym Chelonia)
  ; of terrestrial, freshwater, and marine reptiles that have a toothless horny beak and a shell
  ; of bony dermal plates usually covered with horny shields enclosing the trunk and into which
- ; the head, limbs, and tail usually may be withdrawn.
+ ; the head, limbs, and tail usually may be withdrawn."
 
 SETXY -454 378
 PENDOWN
@@ -379,13 +382,13 @@ PENUP
  ; are gotten rid of in a hurry. Blackberries, mayapples, cherries and mulberries,
  ; tomatoes, cucumbers.
  ;
- ; And one vegetable eagerly eaten by my stock is green
- ; sugarcorn, either raw or cooked. In the spring, when they first come out of
- ; the soil and food is not plentiful in their pen, I have bought canned corn,
- ; and they certainly have made it disappear very quickly. Beetles and tumblebugs,
- ; potato bugs, either in larval or mature forms, are destroyed. Toadstools,
- ; especially the large flat pink ones, white and yellow ones, are eaten, while I
- ; have seen them pass a black toadstool by several days unnoticed."
+ ; And one vegetable eagerly eaten by my stock is green sugarcorn, either raw or
+ ; cooked. In the spring, when they first come out of the soil and food is not
+ ; plentiful in their pen, I have bought canned corn, and they certainly have made
+ ; it disappear very quickly. Beetles and tumblebugs, potato bugs, either in
+ ; larval or mature forms, are destroyed. Toadstools, especially the large flat
+ ; pink ones, white and yellow ones, are eaten, while I have seen them pass a
+ ; black toadstool by several days unnoticed."
 
 ; NOTE: [00:24:48]
 
