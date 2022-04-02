@@ -1,7 +1,13 @@
 
  ; xkcd #2601: Instructions (the transcription)
  ; https://github.com/theinternetftw/xkcd2601
+ ;
+ ; (any comment beginning with "NOTE" is extra information added by transcribers)
+ ;
  ; TRANSCRIPTION START:
+
+
+
 
  ; And here we want to show you that you can program a picture right along with us.
  ;
@@ -62,15 +68,8 @@ END
 
  ; I think there's a programmer hidden at the bottom of every single one of us.
 
+; NOTE: The main draw calls have been wrapped in an "XKCD" function as it is helpful in debugging the transcription in some logo IDEs.
 TO XKCD
-
-
-; NOTE: added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
-; SETSCREENRANGE -500 -450 500 450
-
-; NOTE: Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
-SETPENSIZE 1 ; NOTE: looks better at 3, but setting back to 1 to more easily see bugs.
-
 
 MAKE "PIXERROR 0.5
 
