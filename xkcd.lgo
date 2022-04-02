@@ -2409,8 +2409,6 @@ CUBIC 71 -290 79 -301 74 -310
 CUBIC 70 -320 65 -323 67 -335
 PENUP
 
-; NOTE: [03:18:33]
-
  ; Here are some more interesting bits from "Interesting Facts About Turtles", a little
  ; nature study by a scientist, Forest and Stream, January 1916.
  ;
@@ -2433,11 +2431,11 @@ CUBIC 48 -354 42 -362 41 -371
 CUBIC 43 -383 40 -395 33 -405
 PENUP
 
-; NOTE: [03:20:20]
+; NOTE: [03:20:25]
 
 SETXY 38 -396
 PENDOWN
-CUBIC 37 -438 -405 42 -408
+CUBIC 37 -400 38 -405 42 -408
 PENUP
 
 SETXY 121 -409
@@ -2464,7 +2462,7 @@ PENUP
 SETXY 144 -320
 PENDOWN
 CUBIC 151 -325 150 -334 147 -341
-CUBIC 145 -355 154 -348 149 -361
+CUBIC 145 -353 154 -348 149 -361
 PENUP
 
 SETXY 142 -371
@@ -2550,13 +2548,11 @@ CUBIC 181 -201 180 -206 175 -210
 CUBIC 170 -219 166 -230 164 -240
 PENUP
 
-;egg-laying does not always occur during the daytime. As i have observed one or two digging away past midnight.
-;sometimes they will have dug for about an inch or so and then not make any more progress downwards.
-;in these instances they have met with obstructions like a small stone which they cannot remove.
-;i have, with a pair of forceps, removed the obstruction on several occasions with the turtle still in-situ,
-;and after a minute or two she resumes her work.
-
-
+ ; "Egg-laying does not always occur during the daytime, as I have observed one or two digging away past midnight.
+ ; Sometimes they will have dug for about an inch or so and then not make any more progress downward.
+ ; In these instances they have met with obstructions like a small stone which they cannot remove.
+ ; I have, with a pair of forceps, removed the obstruction on several occasions with the turtle still in-situ,
+ ; and after a minute or two she resumes her work."
 
 ; NOTE: [03:30:20]
 
@@ -2599,7 +2595,7 @@ PENUP
 SETXY 248 -234
 PENDOWN
 CUBIC 253 -232 254 -235 257 -237
-CUBIC 263 -236 261 -241 257 -242
+CUBIC 263 -236 261 -242 257 -242
 CUBIC 249 -245 241 -248 234 -252
 CUBIC 231 -255 227 -255 223 -253
 CUBIC 219 -253 216 -257 212 -256
@@ -2677,6 +2673,8 @@ CUBIC 106 -273 104 -279 109 -283
 PENUP
 
 ; NOTE: [03:40:17]
+
+
 
 
 
