@@ -16,6 +16,12 @@ to the code right before you call xkcd.
 
 This is fun to watch, and renders very nicely, but is slow (at least on my laptop).
 
+#### xkcd 2601 Drawer
+
+Benedikt Werner made a dedicated [xkcd 2601 drawer](https://benediktwerner.github.io/xkcd-2601-drawer/) with a 
+zooming/panning feature, which is very fast and loads the latest version of the logo code from this repo. Click the 
+"Load latest" and "Draw" buttons, use scroll-up/down to zoom in/out, click-and-drag to pan around.
+
 #### makesvg.py
 
 There's also now a python script to generate an svg, which might be of use.
