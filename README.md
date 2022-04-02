@@ -38,6 +38,6 @@ If you don't know how things should be typed out, check the current code or some
 
 Try to run your code before submitting by sticking it at the end of what we already have. Make sure it looks sane.
 
-### First 30 minutes of transcription:
+### First 60 minutes of transcription:
 
-![first 30 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-30-minutes.png)
+![first 60 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-60-minutes.png)

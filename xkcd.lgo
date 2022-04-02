@@ -458,6 +458,222 @@ CUBIC -463 257 -462 254 -461 252
 CUBIC -457 258 -455 265 -454 272
 PENUP
 
+SETXY -448 270
+PENDOWN
+CUBIC -450 265 -451 260 -449 256
+CUBIC -442 246 -435 261 -439 267
+CUBIC -440 272 -446 275 -448 270
+PENUP
+
+SETXY -433 253
+PENDOWN
+CUBIC -432 259 -432 266 -432 273
+CUBIC -420 276 -416 262 -431 264
+CUBIC -425 263 -421 258 -420 253
+PENUP
+
+SETXY -413 273
+PENDOWN
+CUBIC -413 252 -421 252 -403 253
+PENUP
+
+SETXY -399 253
+PENDOWN
+CUBIC -381 256 -376 275 -399 273
+CUBIC -399 267 -399 259 -399 253
+PENUP
+
+ ; NOTE(bcc): [32:41:00]
+
+ ; "Occasionally, when a female drops an egg on the ground, it
+ ; is quickly eaten by the others. Ordinary hens eggs were eaten
+ ; and at great relish. Enjoyed hugely by them is thick sour milk.
+ ; I have placed a quantity of this milk in two or three places in
+ ; the pen, and in five minutes it is surrounded by the turtles, just
+ ; like flies on a lump of sugar. The scraping of limburger cheese
+ ; have also been eaten."
+
+SETXY -423 354
+PENDOWN
+SETHEADING -174
+FORWARD 10
+PENUP
+
+SETXY -430 242
+PENDOWN
+CUBIC -432 211 -427 177 -407 151
+PENUP
+
+SETXY -237 -103
+PENDOWN
+CUBIC -222 -67 -195 -8 -221 27
+CUBIC -222 37 -221 35 -228 42
+CUBIC -230 45 -228 49 -230 52
+CUBIC -232 54 -235 55 -235 58
+CUBIC -235 66 -234 75 -244 74
+CUBIC -252 90 -255 76 -266 85
+CUBIC -270 87 -273 83 -277 83
+CUBIC -282 84 -287 84 -292 81
+CUBIC -295 80 -297 82 -300 83
+CUBIC -303 83 -306 80 -310 80
+CUBIC -322 84 -327 74 -337 81
+CUBIC -342 80 -342 74 -350 78
+CUBIC -356 80 -362 75 -368 75
+CUBIC -372 75 -375 77 -379 76
+CUBIC -385 72 -391 76 -397 72
+CUBIC -403 70 -409 69 -408 61
+CUBIC -415 50 -409 53 -411 46
+CUBIC -415 40 -411 32 -416 26
+CUBIC -419 19 -415 11 -420 4
+CUBIC -422 -8 -416 -4 -422 -18
+CUBIC -422 -21 -420 -23 -419 -25
+CUBIC -418 -32 -424 -31 -417 -39
+CUBIC -416 -45 -420 -46 -415 -52
+CUBIC -414 -55 -416 -57 -415 -60
+CUBIC -415 -62 -414 -63 -412 -64
+CUBIC -411 -65 -411 -68 -410 -69
+CUBIC -407 -68 -406 -71 -404 -72
+CUBIC -402 -72 -400 -72 -398 -73
+CUBIC -393 -79 -395 -75 -389 -77
+CUBIC -387 -83 -386 -79 -381 -80
+CUBIC -380 -81 -380 -81 -379 -82
+CUBIC -377 -84 -373 -81 -372 -83
+CUBIC -371 -89 -367 -86 -363 -87
+CUBIC -359 -89 -362 -95 -357 -95
+CUBIC -356 -96 -355 -95 -354 -96
+CUBIC -353 -100 -353 -104 -350 -106
+CUBIC -348 -107 -347 -109 -345 -108
+CUBIC -344 -107 -340 -108 -341 -106
+CUBIC -346 -105 -340 -100 -342 -98
+CUBIC -343 -96 -346 -93 -342 -91
+CUBIC -337 -88 -343 -80 -340 -76
+CUBIC -335 -75 -339 -64 -332 -68
+CUBIC -328 -56 -328 -69 -321 -66
+CUBIC -310 -59 -313 -68 -306 -64
+CUBIC -303 -62 -301 -64 -299 -66
+CUBIC -297 -66 -294 -63 -292 -65
+CUBIC -289 -69 -282 -62 -280 -68
+CUBIC -275 -73 -268 -61 -262 -68
+; NOTE(bcc): [00:42:39]
+CUBIC -258 -68 -255 -63 -252 -69
+CUBIC -245 -63 -246 -69 -247 -75
+CUBIC -247 -78 -241 -75 -245 -83
+CUBIC -248 -88 -239 -85 -242 -93
+CUBIC -242 -97 -236 -94 -238 -100
+CUBIC -238 -101 -238 -103 -237 -103
+PENUP
+
+ ; "A piece of butter which had upon a platter in the icebox for months
+ ; was placed before them, and this was eaten in due time. Crabapples and
+ ; cantelope is enjoyed by them, but watermelon is not so eagerly gobbled
+ ; up like the cantelope. I was surprised one morning when I found one of
+ ; the large turtles had caught and disembowled a very large toad which I
+ ; had in the yard. I have seen turtles eating at 11 o'clock at night,
+ ; when, one would think, they would be resting."
+
+; NOTE(bcc): [00:44:22]
+
+SETXY -227 -80
+PENDOWN
+CUBIC -222 -84 -229 -88 -227 -92
+CUBIC -226 -97 -229 -98 -230 -102
+CUBIC -229 -111 -232 -108 -236 -115
+CUBIC -239 -122 -245 -124 -247 -133
+CUBIC -249 -136 -252 -137 -253 -141
+CUBIC -253 -143 -255 -143 -257 -144
+CUBIC -259 -145 -259 -148 -262 -148
+CUBIC -269 -150 -264 -153 -275 -155
+CUBIC -279 -159 -284 -157 -289 -160
+CUBIC -290 -161 -292 -160 -293 -160
+CUBIC -295 -160 -296 -158 -298 -158
+CUBIC -307 -165 -305 -151 -313 -158
+CUBIC -318 -163 -320 -153 -325 -153
+CUBIC -335 -157 -333 -147 -338 -143
+CUBIC -341 -143 -346 -145 -346 -140
+CUBIC -348 -128 -351 -135 -356 -132
+CUBIC -357 -130 -356 -125 -359 -124
+CUBIC -361 -124 -363 -126 -365 -125
+CUBIC -367 -123 -365 -114 -371 -114
+CUBIC -372 -115 -374 -116 -375 -114
+CUBIC -376 -112 -375 -105 -379 -106
+CUBIC -388 -108 -384 -105 -388 -100
+CUBIC -389 -99 -390 -99 -390 -100
+CUBIC -397 -102 -393 -93 -398 -93
+CUBIC -407 -90 -408 -81 -417 -79
+CUBIC -419 -78 -417 -74 -419 -73
+CUBIC -425 -70 -430 -72 -431 -64
+CUBIC -436 -60 -441 -56 -444 -49
+CUBIC -445 -47 -448 -47 -450 -46
+CUBIC -458 -42 -450 -34 -463 -30
+CUBIC -471 -27 -466 -17 -471 -12
+CUBIC -483 -6 -472 7 -477 16
+CUBIC -482 25 -471 29 -475 38
+CUBIC -480 50 -467 53 -469 63
+CUBIC -470 65 -470 68 -469 70
+CUBIC -465 74 -458 76 -460 83
+CUBIC -460 88 -455 90 -453 94
+CUBIC -451 97 -449 100 -447 102
+CUBIC -445 105 -446 109 -443 111
+CUBIC -436 113 -435 122 -426 124
+CUBIC -420 135 -420 128 -414 133
+CUBIC -413 138 -412 137 -407 136
+CUBIC -402 137 -403 143 -395 140
+; NOTE(bcc): [00:53:15]
+CUBIC -389 142 -384 144 -378 143
+CUBIC -376 143 -374 145 -372 147
+CUBIC -367 147 -365 142 -360 148
+CUBIC -354 146 -353 145 -348 149
+CUBIC -336 149 -324 153 -312 153
+CUBIC -310 153 -307 155 -305 155
+CUBIC -300 155 -295 155 -290 157
+CUBIC -285 154 -281 154 -276 154
+CUBIC -270 147 -271 150 -263 149
+CUBIC -256 143 -246 142 -240 134
+CUBIC -238 133 -235 135 -233 133
+CUBIC -230 129 -226 126 -221 125
+CUBIC -220 120 -217 116 -212 114
+CUBIC -214 105 -206 105 -205 99
+CUBIC -209 91 -197 93 -201 81
+CUBIC -200 76 -196 71 -199 65
+CUBIC -194 61 -197 56 -195 51
+CUBIC -194 49 -195 48 -196 46
+CUBIC -197 39 -195 34 -197 27
+CUBIC -191 13 -200 17 -195 5
+CUBIC -195 -1 -195 -8 -196 -14
+CUBIC -197 -19 -194 -26 -199 -29
+CUBIC -200 -33 -198 -38 -200 -42
+CUBIC -203 -48 -206 -59 -214 -59
+CUBIC -220 -59 -215 -67 -222 -67
+
+ ; Here, you have the power to do anything you want.
+
+SETHEADING 58
+FORWARD 0 ; NOTE(bcc): correct? [00:58:00]
+PENUP
+
+ ; "They prefer the shade, and at certain times during the day,
+ ; if the sun is very hot, they retreat under the logs which I
+ ; have for a shelter. During rain, they are very active, and
+ ; move about with head and necks outstretched, enjoying the shower
+ ; bath hugely, and evidently on the outlook for worms, just as some
+ ; birds, after or during a shower. The youngest of turtles I have
+ ; ever had seems to take to the same food as the adults."
+
+SETXY -325 -154
+PENDOWN
+CUBIC -347 -211 -373 -268 -390 -327
+CUBIC -395 -325 -395 -335 -393 -331
+PENUP
+
+SETXY -435 -371
+PENDOWN
+CUBIC -415 -351 -393 -330 -373 -310
+CUBIC -372 -311 -372 -313 -370 -314
+CUBIC -390 -335 -411 -356 -431 -377
+CUBIC -432 -376 -436 -373 -435 -371
+
+; NOTE(bcc): [01:00:12]
+
 END
 
 Make "pixerr 0.5
