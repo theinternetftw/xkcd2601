@@ -2681,7 +2681,7 @@ PENUP
 
 SETXY 141 -180
 PENDOWN
-CUBIC 142 -185 141 -181 139 -193
+CUBIC 142 -185 141 -189 139 -193
 PENUP
 
 SETXY 166 -189
@@ -2698,13 +2698,12 @@ PENUP
 
 ; NOTE: [03:41:55]
 
- ; The nest or repository is about 3 inches in depth and about an inch and a half or a little more in width.
- ; When she has it finished, she discharges her eggs into it.
- ; When the egg is deposited in the hole, she is not just satisfied in dropping it,
- ; but she reaches down with her hind leg and places the egg horizontally and covers a little dirt over it.
- ; Then the second egg and the remaining eggs are all treated similarly and when the last one is deposited and placed,
- ; she commences to fill up with the dirt that remains.
- ; This she puts into the hole with an alternate right and left leg until all is filled in.
+ ; "The nest or repository is about 3 inches in depth and about an inch and a half or a little more in width.
+ ; When she has it finished, she discharges her eggs into it. When the egg is deposited in the hole, she is not
+ ; just satisfied in dropping it, but she reaches down with her hind leg and places the egg horizontally and covers
+ ; a little dirt over it. Then the second egg and the remaining eggs are all treated similarly and when the last
+ ; one is deposited and placed, she commences to fill up with the dirt that remains. This she puts into the hole
+ ; with an alternate right and left leg until all is filled in."
 
 ; NOTE [03:42:35]
 
@@ -2794,7 +2793,7 @@ PENDOWN
 CUBIC 249 -268 264 -274 273 -266
 CUBIC 276 -263 278 -260 281 -258
 CUBIC 287 -256 293 -257 298 -253
-CUBIC 309 -254 323 -245 335 -240
+CUBIC 309 -245 323 -245 335 -240
 CUBIC 340 -237 344 -231 349 -232
 PENUP
 
@@ -2810,7 +2809,7 @@ SETXY 182 -325
 PENDOWN
 CUBIC 179 -336 185 -346 189 -356
 CUBIC 187 -367 196 -375 197 -386
-CUBIC 196 -393 208 -384 210 -402
+CUBIC 196 -393 208 -394 210 -402
 PENUP
 
 SETXY -104 -197
@@ -2833,7 +2832,7 @@ SETXY 32 -160
 PENDOWN
 CUBIC 33 -167 32 -175 34 -181
 CUBIC 37 -190 35 -200 36 -209
--205 30 -201 28 -207
+CUBIC 34 -205 30 -201 28 -207
 CUBIC 28 -210 28 -214 24 -217
 CUBIC 23 -209 14 -189 6 -198
 CUBIC 5 -200 4 -202 3 -199
@@ -2848,7 +2847,7 @@ PENDOWN
 CUBIC 404 -173 386 -177 370 -175
 CUBIC 367 -175 364 -175 363 -177
 CUBIC 361 -184 358 -181 353 -180
-CUBIC 343 -181 318 -205 311 -194
+CUBIC 343 -180 318 -205 311 -194
 CUBIC 310 -195 309 -195 308 -194
 SETHEADING 24
 FORWARD 4
@@ -2858,7 +2857,7 @@ PENUP
 
 SETXY -198 94
 PENDOWN
-CUBIC -77 101 -155 101 -132 110
+CUBIC -177 101 -155 109 -132 110
 CUBIC -124 110 -116 107 -108 108
 CUBIC -90 114 -71 112 -52 114
 PENUP
@@ -2883,11 +2882,11 @@ CUBIC 224 116 281 109 336 105
 SETHEADING -126
 FORWARD 13
 CUBIC 333 95 329 91 325 88
-CUBIC 347 80 372 88 394 86
+CUBIC 347 80 371 88 394 86
 CUBIC 405 85 415 82 426 81
 CUBIC 451 84 476 66 499 74
-CUBIC 514 79 539 80 553 72
-CUBIC 464 71 576 74 587 69
+CUBIC 514 79 538 80 553 72
+CUBIC 564 71 576 74 587 69
 CUBIC 589 68 588 69 591 68
 PENUP
 
@@ -2898,7 +2897,8 @@ PENUP
 
 SETXY 330 93
 PENDOWN
-330 90 331 91 87 332 85
+CUBIC 330 90 331 87 332 85
+PENUP
 
 ; NOTE: [03:59:44]
 
