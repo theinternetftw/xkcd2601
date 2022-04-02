@@ -2200,19 +2200,28 @@ PENUP
 
 
 
-;NOTE [04:00:02]
-CUBIC 406 182 414 189 424 192
-CUBIC 434 184 444 175 452 165
-CUBIC 462 151 473 138 486 128
-CUBIC 509 110 530 88 556 74
-PENUP
+
+
+
+
+
+
+; NOTE: [04:00:02]
+
+; TODO: uncomment
+; CUBIC 406 182 414 189 424 192
+; CUBIC 434 184 444 175 452 165
+; CUBIC 462 151 473 138 486 128
+; CUBIC 509 110 530 88 556 74
+; PENUP
+
 SETXY 382 161
 PENDOWN
 SETHEADING -133
 FORWARD 16
 SETHEADING 70
 FORWARD 30
-CUBIC 395 155 393 150 192 144
+CUBIC 395 155 393 150 392 144
 CUBIC 426 170 407 159 423 147
 SETHEADING 38
 FORWARD 13
@@ -2221,6 +2230,7 @@ CUBIC 442 149 442 154 445 153
 CUBIC 452 151 458 147 464 144
 CUBIC 461 149 459 153 457 158
 PENUP
+
 SETXY 220 115
 PENDOWN
 CUBIC 246 124 269 142 293 154
@@ -2228,6 +2238,7 @@ CUBIC 304 148 314 140 325 133
 CUBIC 326 133 327 132 327 132
 CUBIC 328 133 328 135 328 134
 PENUP
+
 SETXY 269 139
 PENDOWN
 SETHEADING -135
@@ -2243,18 +2254,19 @@ FORWARD 7
 CUBIC 315 139 314 141 312 142
 PENUP
 
-;starting at around 4:04:13 (there are some words i couldn't really understand. i'm not a native):
-;after it is all done, she pads it with both her hind feet together
-;and then with her body raised and lowered pets and smooth over the place where
-;the eggs are buried. then she leaves it, and never looks after it as the sun now
-;plays its part at hatching the eggs.
-;the eggs are whitish in color with the semi elastic shell 
-;about the size of a pidgeon egg
+; NOTE: [04:04:13]
+
+ ; "After it is all done, she pats it with both her hind feet together, and then,
+ ; with her body raised and lowered, pats and smooths over the place where the eggs
+ ; are buried. Then she leaves it and never looks after it, as the sun now plays
+ ; its part in hatching the eggs. The eggs are whitish in color with a semi-elastic
+ ; shell, about the size of a pidgeon egg."
 
 SETXY 483 134
 PENDOWN
 CUBIC 570 178 507 182 591 112
 PENUP
+
 SETXY 512 149
 PENDOWN
 CUBIC 510 147 508 144 507 142
@@ -2266,6 +2278,7 @@ CUBIC 545 141 545 144 546 147
 SETHEADING 117
 FORWARD 15
 PENUP
+
 SETXY 421 268
 PENDOWN
 CUBIC 423 276 424 285 425 294
@@ -2275,6 +2288,7 @@ CUBIC 429 294 426 294 423 295
 CUBIC 426 294 430 295 431 297
 CUBIC 438 290 444 283 450 275
 PENUP
+
 SETXY 426 282
 PENDOWN
 SETHEADING 4
@@ -2284,6 +2298,7 @@ CUBIC 440 283 440 283 440 283
 SETHEADING 121
 FORWARD 1
 PENUP
+
 SETXY 422 283
 PENDOWN
 CUBIC 421 282 420 282 418 282
@@ -2291,14 +2306,15 @@ CUBIC 420 280 419 277 417 278
 CUBIC 417 274 419 273 414 271
 CUBIC 414 270 416 270 416 268
 CUBIC 417 267 415 265 416 264
-CUBIC 417 263 420 164 420 262
+CUBIC 417 263 420 264 420 262
 CUBIC 419 258 424 259 426 258
 CUBIC 428 256 430 258 432 259
 CUBIC 439 256 435 263 446 260
 CUBIC 445 268 451 263 450 272
 CUBIC 453 263 448 264 447 257
 CUBIC 435 259 441 252 432 256
-;NOTE [04:10:00]
+
+; NOTE: [04:10:00]
 
 END
 
