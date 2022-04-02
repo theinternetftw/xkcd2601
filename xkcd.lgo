@@ -3512,5 +3512,131 @@ SETHEADING -146
 FORWARD 0
 PENUP
 ; NOTE: [07:19:59]
+; Ralph Waldo Emerson once wrote that "All the thoughts of a turtle are
+; turtles and of a rabbit rabbits."  So let's try to think like a turtle!
+SETXY 417 -373
+PENDOWN
+CUBIC 418 -372 419 -371 419 -370
+PENUP
+SETXY 425 -368
+PENDOWN
+CUBIC 424 -374 419 -378 413 -379
+PENUP
+; NOTE: [07:20:51]
+; Many turtles are able to retract their heads and feet into their shells.
+; Turtles are placed in the two sub orders based on the method of retraction.
+; According to the Animal Diversity Web at the University of Michigan,
+; Pleurodirs pull their heads in sideways, Cryptodirs draw their heads
+; straight back into the shell.  Sea turtles have lost the ability to retract
+; their heads.
+SETXY 425 -369
+PENDOWN
+CUBIC 425 -375 419 -378 414 -379
+PENUP
+SETXY 426 -370
+PENDOWN
+CUBIC 424 -375 420 -379 414 -379
+PENUP
+SETXY 414 -367
+PENDOWN
+CUBIC 416 -370 418 -373 421 -376
+PENUP
+SETXY 414 -367
+PENDOWN
+CUBIC 416 -370 419 -372 422 -375
+PENUP
+SETXY 413 -364
+PENDOWN
+CUBIC 412 -364 412 -366 413 -366
+CUBIC 414 -366 414 -365 413 -364
+PENUP
+SETXY 284 431
+PENDOWN
+CUBIC 283 430 285 428 285 430
+CUBIC 285 430 285 431 284 431
+PENUP
+SETXY 300 444
+PENDOWN
+CUBIC 299 444 299 442 300 443
+CUBIC 301 443 300 445 299 444
+PENUP
+SETXY 299 420
+PENDOWN
+CUBIC 298 420 299 419 299 419
+CUBIC 300 420 299 421 299 420
+PENUP
+; NOTE: [07:24:36]
+; Turtles are very adaptive and can be found on every continent except Antarctica.
+; Most turtle species are found in southeastern North America and south Asia.
+; Only five species live in Europe, according to Drs. Foster and Smith,
+; a veterinarian business based in Wisconsin.
+SETXY 313 425
+PENDOWN
+CUBIC 311 425 311 424 313 424
+CUBIC 313 424 313 426 312 425
+PENUP
+SETXY 286 432
+PENDOWN
+CUBIC 290 435 294 439 298 442
+PENUP
+SETXY 286 429
+PENDOWN
+CUBIC 290 426 293 424 297 421
+PENUP
+SETXY 301 420
+PENDOWN
+SETHEADING 70
+FORWARD 11
+PENUP
+SETXY 300 441
+PENDOWN
+CUBIC 299 435 299 428 299 422
+PENUP
+SETXY 301 442
+PENDOWN
+CUBIC 305 437 309 432 312 426
+PENUP
+SETXY 286 430
+PENDOWN
+CUBIC 290 429 294 429 298 428
+PENUP
+SETXY 300 428
+PENDOWN
+CUBIC 304 427 307 427 310 426
+PENUP
+; NOTE: [07:27:26]
+; Sea turtles can be found in the Coral Triangle, an area that includes the
+; waters of Indonesia, Malaysia, the Philippines and Papua New Guinea;
+; coastal east Africa, the meso-American reef in the Caribbean, the Galapagos
+; Islands and the Gulf of California.
+SETXY -50 435
+PENDOWN
+CUBIC -51 435 -51 434 -50 434
+CUBIC -49 434 -49 435 -50 435
+PENUP
+SETXY -41 439
+PENDOWN
+CUBIC -43 439 -42 437 -41 437
+CUBIC -40 437 -40 440 -42 439
+PENUP
+SETXY -31 437
+PENDOWN
+CUBIC -33 436 -31 435 -30 436
+CUBIC -30 436 -31 437 -32 437
+PENUP
+SETXY -48 435
+PENDOWN
+CUBIC -47 436 -44 437 -43 437
+PENUP
+SETXY -39 437
+PENDOWN
+SETHEADING 97
+FORWARD 5
+PENUP
+; NOTE: [07:29:35]
+; Hey, what do you get if you cross a turtle with a giraffe?  A turtleneck!
+SETXY -29 436
+PENDOWN
+; NOTE: [07:30:02]
 
 END
