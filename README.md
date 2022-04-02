@@ -38,6 +38,9 @@ If you don't know how things should be typed out, check the current code or some
 
 Try to run your code before submitting by sticking it at the end of what we already have. Make sure it looks sane.
 
+If you don't have a github account and want to help, you can message me on reddit if you
+have an account there, and I'll update the bugs and such accordingly.
+
 ### First 60 minutes of transcription:
 
 ![first 60 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-60-minutes.png)
