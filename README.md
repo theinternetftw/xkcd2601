@@ -4,25 +4,38 @@ This is a project to transcribe xkcd #2601, the April Fools post for 2022, to ru
 
 ### Running the code:
 
-I'm currently running it in FMSLogo, which is windows only, sadly. But it might run
-on your logo variant of choice.
+There are options.
+
+#### jslogo
+
+One of the developers of #2601 [helpfully shared](https://github.com/theinternetftw/xkcd2601/issues/26)
+that the logo they used to develop the code was jslogo, which can be found online [here](https://www.calormen.com/jslogo/).
+To run the current iteration of the transcription in it, copy/paste the code into the window, then stick a line that says
+**xkcd** at the bottom of it all. If the image doesn't fit in your window, add **SETSCRUNCH 0.5 0.5** (or some other decimal)
+to the code right before you call xkcd.
+
+This is fun to watch, and renders very nicely, but is slow (at least on my laptop).
+
+#### makesvg.py
 
 There's also now a python script to generate an svg, which might be of use.
 
-If you can find a logo that is open source, multi-platform, renders
-beautifully, doesn't require an installer on windows, and runs this code with
-a minimum number of changes, I'll happily convert the project over to that.
+#### FMSLogo
 
-(I first tried aUCBLogo, which seemed nice, but it started crashing on the
-input once there were a certain number of comments, which seemed like a red flag)
+To quickly run the code again and again to check the commits as they come in, I'm currently
+using FMSLogo, which is windows only, sadly. But it might also run on your native logo
+variant of choice.
 
-To run this in FMSLogo, open the file, then in the console, type **xkcd**.
+If you know of a better fast-rendering, multi-platform logo variant that runs
+this code as is or close to it, feel free to file a bug report with that info.
+
+To run this code in FMSLogo, open the file, then in the console, type **xkcd**.
 
 To open the file for editing in FMSLogo, you press the inscrutable "Edall"
 button. You must then save and close your edit before running it again, or
 highlight lines in the editor and hit ctrl-R to run them immediately.
 
-Like I said, would love a decent alternative to this logo interpreter.
+Like I said, any good, fast alternatives to this logo interpreter are welcome.
 
 ### Aiding transcription
 
