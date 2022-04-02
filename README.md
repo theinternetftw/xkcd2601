@@ -12,7 +12,7 @@ a minimum number of changes, i'll happily convert the project over to that.
 (I first tried aUCBLogo, which seemed nice, but it started crashing on the
 input once there were a certain number of comments, which seemed like a red flag)
 
-To run this in FMSLogo, open the file, then in the console, type '''xkcd'''.
+To run this in FMSLogo, open the file, then in the console, type **xkcd**.
 
 To open the file for editing in FMSLogo, you press the inscrutable "Edall"
 button. You must then save and close your edit before running it again, or
@@ -22,4 +22,4 @@ Like I said, would love a decent alternative to this logo interpreter.
 
 ### First 30 minutes of transcription:
 
-![first 30 minutes](https://github.com/theinternetftw/xkcd2601/raw/master/screens/first-30-minutes.png)
+![first 30 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-30-minutes.png)
