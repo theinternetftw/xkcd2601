@@ -62,11 +62,11 @@ END
 
  ; I think there's a programmer hidden at the bottom of every single one of us.
 
-TO XKCD 
+TO XKCD
 
 
 ; NOTE: added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
-; SETSCREENRANGE -500 -450 500 450 
+; SETSCREENRANGE -500 -450 500 450
 
 ; NOTE: Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
 SETPENSIZE 1 ; NOTE: looks better at 3, but setting back to 1 to more easily see bugs.
@@ -1037,7 +1037,7 @@ PENUP
  ; "Occasionally one can see a turtle dragging another one along, the first one having the
  ; second fellows hind leg between his shell. This has probably been the result of a scuffle.
  ; I have never known a land turtle to bite, but have often seen them open their mouths wide
- ; and hiss or draw in their breath with a hissing or sighing sound." 
+ ; and hiss or draw in their breath with a hissing or sighing sound."
 
 SETXY -149 37
 PENDOWN
@@ -1867,7 +1867,7 @@ CUBIC -46 -152 -44 -146 -48 -145
 CUBIC -45 -154 -59 -169 -67 -159
 CUBIC -71 -160 -71 -166 -74 -170
 CUBIC -78 -174 -84 -175 -88 -178
-CUBIC -92 -184 -98 -177 -103 -180 
+CUBIC -92 -184 -98 -177 -103 -180
 CUBIC -104 -180 -105 -180 -104 -179
 CUBIC -106 -180 -106 -180 -108 -180
 PENUP
@@ -2228,7 +2228,7 @@ SETXY -105 -192
 PENDOWN
 CUBIC -100 -208 -77 -198 -72 -208
 CUBIC -66  -207 -62 -212 -60 -217
-CUBIC -54  -225 -35 -223 -35 -236 
+CUBIC -54  -225 -35 -223 -35 -236
 CUBIC -36  -254 -21 -227 -11 -276
 CUBIC -7   -278 -5  -282 -6  -286
 CUBIC -8   -297 -7  -309 -6  -320
@@ -2250,7 +2250,7 @@ CUBIC 214 -412 224 -415 235 -416
 PENUP
 
 SETXY 32 -162
-PENDOWN 
+PENDOWN
 CUBIC 29 -174 38 -182 33 -197
 CUBIC 32 -205 37 -212 40 -220
 CUBIC 50 -251 26 -282 1 -297
@@ -2271,14 +2271,14 @@ CUBIC -25 -163 -41 -168 -41 -155
 PENUP
 
 SETXY -31 -243
-PENDOWN 
+PENDOWN
 SETHEADING 136
 FORWARD 1
 CUBIC -27 -243 -21 -242 -21 -237
 PENUP
 
 SETXY -36 -232
-PENDOWN 
+PENDOWN
 CUBIC -35 -229 -34 -227 -32 -224
 PENUP
 
@@ -2299,7 +2299,7 @@ PENUP
  ; comes from their sensitivity to the Earth's magnetic fields."
 
 SETXY 1 -252
-PENDOWN 
+PENDOWN
 CUBIC 3 -250 4 -248 5 -245
 PENUP
 
@@ -2319,7 +2319,7 @@ CUBIC -57 -214 -47 -220 -38 -226
 PENUP
 
 SETXY -83 -188
-PENDOWN 
+PENDOWN
 CUBIC -80 -189 -76 -189 -73 -188
 CUBIC -65 -192 -57 -198 -52 -205
 CUBIC -51 -207 -50 -208 -47 -208
@@ -2335,7 +2335,7 @@ SETXY -14 -212
 PENDOWN
 CUBIC -9 -215 -5 -219 -5 -225
 CUBIC -3 -229 3 -230 4 -235
-PENUP 
+PENUP
 
 SETXY -10 -386
 PENDOWN
@@ -2350,7 +2350,7 @@ PENUP
 
 ; NOTE [03:16:04]
 
-SETXY -1 -393 
+SETXY -1 -393
 PENDOWN
 CUBIC 2 -380 10 -366 6 -352
 CUBIC -1 -337 -0 -316 10 -302
@@ -2385,7 +2385,7 @@ PENUP
  ; "Move the turtle. Playing. Working. Just having fun"
 
 SETXY 8 -403
-PENDOWN 
+PENDOWN
 CUBIC 10 -400 12 -396 14 -393
 CUBIC 13 -397 14 -402 16 -406
 PENUP
@@ -2676,23 +2676,24 @@ CUBIC 435 259 441 252 432 256
 
 ; NOTE: [04:10:00]
 
-; NOTE: [05:09:54]
+; NOTE: [05:10:00]
 
-CUBIC 361 -430 358 -428 356 -427
-CUBIC 338 -425 321 -416 304 -413
-CUBIC 294 -411 283 -411 273 -409
-CUBIC 252 -400 229 -402 206 -401
+; TODO: uncomment
+; CUBIC 361 -430 358 -428 356 -427
+; CUBIC 338 -425 321 -416 304 -413
+; CUBIC 294 -411 283 -411 273 -409
+; CUBIC 252 -400 229 -402 206 -401
 PENUP
 
-; Eating seems a mere superfluidity with him since for weeks at a time he may
-; be headed up in a barrel with a bung out and emerged after his long fast
-; apparently none the worse for his enforced abstinence from food, from light,
-; and almost from air.
+ ; "Eating seems a mere superfluidity with him, since for weeks at a time he may
+ ; be headed up in a barrel, with a bung out, and emerged after his long fast,
+ ; apparently none the worse for his enforced abstinence from food, from light,
+ ; and almost from air."
 
 SETXY 485 -533
 
-; All you need to draw is a few instructions, a little turtle, 
-; and a vision in your mind.
+ ; All you need to draw is a few instructions, a little turtle,
+ ; and a vision in your mind.
 
 PENDOWN
 CUBIC 517 -540 550 -541 582 -536
@@ -2709,15 +2710,12 @@ CUBIC 413 -539 382 -544 365 -535
 CUBIC 365 -542 361 -549 354 -552
 PENUP
 
-
 SETXY 567 -538
-
 PENDOWN
 CUBIC 565 -546 558 -549 551 -549
 PENUP
 
 SETXY 513 -464
-
 PENDOWN
 CUBIC 503 -463 494 -473 496 -483
 CUBIC 498 -493 512 -498 521 -495
@@ -2725,59 +2723,49 @@ CUBIC 538 -488 531 -463 513 -464
 PENUP
 
 SETXY 513 -472
-
 ; NOTE: [05:14:53]
-
 PENDOWN
 CUBIC 504 -474 507 -486 514 -487
 CUBIC 529 -489 528 -469 513 -472
 PENUP
 
 SETXY 513 -486
-
 PENDOWN
 CUBIC 510 -481 518 -473 523 -476
 PENUP
 
 SETXY 515 -486
-
 PENDOWN
 CUBIC 512 -481 519 -474 523 -478
 PENUP
 
 SETXY 516 -487
-
 PENDOWN
 CUBIC 514 -483 519 -476 524 -479
 PENUP
 
-; In the whole category of animal organisms, there is none so tenacious in life
-; as the turtle. Injuries that would instantly be fatal even to fish leave the
-; turtle apparently undisturbed and his power of staving off death is nothing
-; short of marvelous.
+ ; "In the whole category of animal organisms, there is none so tenacious in life
+ ; as the turtle. Injuries that would instantly be fatal even to fish leave the
+ ; turtle apparently undisturbed and his power of staving off death is nothing
+ ; short of marvelous."
 
 SETXY 517 -487
-
 PENDOWN
 CUBIC 516 -484 520 -479 524 -481
 PENUP
 
 SETXY 518 -487
-
 PENDOWN
 CUBIC 519 -484 520 -481 524 -482
 PENUP
 
 SETXY 520 -486
-
 PENDOWN
 CUBIC 520 -484 521 -483 523 -483
 PENUP
 
 SETXY 521 -475
-
 ; NOTE: [05:17:46]
-
 PENDOWN
 CUBIC 512 -470 504 -478 512 -485
 SETHEADING 0
@@ -2785,19 +2773,16 @@ FORWARD 0
 PENUP
 
 SETXY 472 -465
-
 PENDOWN
 CUBIC 449 -481 439 -513 436 -540
 PENUP
 
 SETXY 478 -467
-
 PENDOWN
 CUBIC 456 -482 446 -525 454 -549
 PENUP
 
 SETXY 464 -462
-
 PENDOWN
 CUBIC 465 -447 439 -444 428 -444
 CUBIC 425 -441 421 -440 417 -442
@@ -2805,11 +2790,10 @@ CUBIC 411 -427 367 -425 351 -427
 PENUP
 
 SETXY 381 -438
-
 PENDOWN
 CUBIC 395 -430 423 -441 428 -456
 CUBIC 423 -469 406 -464 407 -480
 
-; NOTE: [05:20:02]
+; NOTE: [05:20:06]
 
 END
