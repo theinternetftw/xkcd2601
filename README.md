@@ -66,4 +66,4 @@ have an account there, and I'll update the bugs and such accordingly.
 
 ### First 270 minutes of transcription:
 
-![first 270 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-270-minutes.png)
+![first 270 minutes](https://github.com/Gh05t-1337/xkcd2601/blob/main/screens/xkcd2601.png)
