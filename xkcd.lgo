@@ -3759,7 +3759,11 @@ CUBIC 98 -173 100 -177 98 -180
 CUBIC 97 -181 99 -181 100 -181
 PENUP
 
-; Not all turtles are tortoises but all tortoises are turtles. Yes technically all tortoises are in fact turtles. They belong to the Testudines family which includes reptiles whose bodies are protected by a bony outer shell. But the main difference between turtles and tortoises is that tortoises live exclusively on land while most turtles live in or near water
+ ; Yes, technically all tortoises are in fact turtles. They belong to the
+ ; Testudines family which includes reptiles whose bodies are protected by a
+ ; bony outer shell. But the main difference between turtles and tortoises is
+ ; that tortoises live exclusively on land, while most turtles live in or near
+ ; water.
 
 ; NOTE: [06:10:02]
 
