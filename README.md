@@ -2,6 +2,8 @@
 
 This is a project to transcribe xkcd #2601, the April Fools post for 2022, to runnable logo code.
 
+### Running the code:
+
 It runs in FMSLogo, which is windows only, sadly. But it might run on your
 logo variant of choice.
 
@@ -19,6 +21,22 @@ button. You must then save and close your edit before running it again, or
 highlight lines in the editor and hit ctrl-R to run them immediately.
 
 Like I said, would love a decent alternative to this logo interpreter.
+
+### Aiding transcription
+
+If you want to aid transcription, take a look at the code to get a sense of what
+things should look like. Make what you write look like that. Claim a time period in
+the [file](https://xkcd.com/2601/radio.mp3) (in chunks of 10 minutes) with a bug report.
+File your transcription with a pull request.
+
+In the pull request, start and end your contribution with a comment showing the time, and
+add additional timestamps every 5 minutes or so, which will make it easier to fix transcription
+bugs. They should look like e.g. **; [00:40:00]** for 40 minutes in.
+
+If you don't know how things should be typed out, check the current code or some logo docs.
+[This is what I've been using.](http://people.eecs.berkeley.edu/~bh/usermanual)
+
+Try to run your code before submitting by sticking it at the end of what we already have. Make sure it looks sane.
 
 ### First 30 minutes of transcription:
 
