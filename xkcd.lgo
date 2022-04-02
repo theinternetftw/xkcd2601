@@ -3655,11 +3655,11 @@ CUBIC 252 -166 252 -165 254 -165
 CUBIC 260 -163 266 -161 272 -159
 PENUP
 
- ; There are currently 356 known species of turtles. As a rule, they are all
- ; reptiles with a hard cartilage shell. But that's about where the
- ; similarities end. There are sea turtles, leatherback turtles, snapping
- ; turtles, pond turtles, soft-shelled turtles (pictured)– and of course,
- ; tortoises… 
+ ; They come in all shapes and sizes. There are currently 356 known species of
+ ; turtles. As a rule, they are all reptiles with a hard cartilage shell. But
+ ; that's about where the similarities end. There are sea turtles, leatherback
+ ; turtles, snapping turtles, pond turtles, soft-shelled turtles – and of
+ ; course, tortoises…
 
 SETXY 330 -156
 PENDOWN
