@@ -31,7 +31,9 @@ File your transcription with a pull request.
 
 In the pull request, start and end your contribution with a comment showing the time, and
 add additional timestamps every 5 minutes or so, which will make it easier to fix transcription
-bugs. They should look like e.g. **; [00:40:00]** for 40 minutes in.
+bugs. They should look like e.g.
+
+**; NOTE: [00:40:00]**
 
 If you don't know how things should be typed out, check the current code or some logo docs.
 [This is what I've been using.](http://people.eecs.berkeley.edu/~bh/usermanual)
