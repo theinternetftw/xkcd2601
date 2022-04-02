@@ -3970,6 +3970,7 @@ PENUP
 
 SETXY 478 219
 PENDOWN
+; NOTE: From here until noted below lines are read differently eg: CUBIC 478 quadrillion 219 trillion four hundred seventy eight billion 219 million four hundred seventy eight thousand two hundred nineteen
 CUBIC 478 219 478 219 478 219
 PENUP
 
@@ -3986,6 +3987,7 @@ SETHEADING -115
 FORWARD 1
 PENUP
 SETXY 479 215
+; Note: From here until noted below the pauses decrease (and perhaps reading speed increases)
 PENDOWN
 SETHEADING -140
 FORWARD 1
@@ -4010,6 +4012,7 @@ CUBIC 525 211 530 207 535 201
 PENUP
 SETXY 558 233
 PENDOWN
+; NOTE: The numbers return to being read out as normal again and the speed/spaces return to normal.
 CUBIC 559 234 560 234 560 234
 PENUP
 SETXY 564 236
