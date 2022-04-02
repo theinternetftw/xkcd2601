@@ -64,6 +64,6 @@ Try to run your code before submitting by sticking it at the end of what we alre
 If you don't have a github account and want to help, you can message me on reddit if you
 have an account there, and I'll update the bugs and such accordingly.
 
-### First 270 minutes of transcription:
+### transcription:
 
 ![first 270 minutes](https://github.com/Gh05t-1337/xkcd2601/blob/main/screens/xkcd2601.png)
