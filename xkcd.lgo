@@ -3094,6 +3094,7 @@ SETXY 552 336
 PENDOWN
 CUBIC 556 332 561 330 565 327
 PENUP
+
 SETXY 574 322
 PENDOWN
 CUBIC 579 320 583 318 588 316
@@ -3116,13 +3117,13 @@ SETHEADING 92
 FORWARD 9
 PENUP
 
-; "The number laid by a turtle varies. I have seen three, and on one occasion I
-; have seen eight laid at one sitting. I have also observed one turtle laying its
-; eggs, covering them over, and a little later – a day or two - another female dig
-; in the same place, remove the eggs, and lay her own in this doubly-dug
-; repository. Once a female dug six hours and laid four eggs. Another dug several
-; hours, the whole measure two inches across, three and one half inches across,
-; and she laid eight eggs within a half hour."
+ ; "The number laid by a turtle varies. I have seen three, and on one occasion I
+ ; have seen eight laid at one sitting. I have also observed one turtle laying its
+ ; eggs, covering them over, and a little later – a day or two - another female dig
+ ; in the same place, remove the eggs, and lay her own in this doubly-dug
+ ; repository. Once a female dug six hours and laid four eggs. Another dug several
+ ; hours, the hole measured two inches across, and three and one half inches in depth,
+ ; and she laid eight eggs within a half hour."
 
 SETXY 517 448
 PENDOWN
@@ -3289,11 +3290,11 @@ SETHEADING 28
 FORWARD 0
 PENUP
 
-; "Not all eggs hatch, but in the instance where eight were laid,
-; I had the pleasure of seeing six little baby turtles come out.
-; Other eggs which were laid in a hole with a western or eastern
-; exposure never came to anything. I have dug carefully into these
-; nests, but I have always come upon decomposing eggs."
+ ; "Not all eggs hatch out, but in the instance where eight were laid,
+ ; I had the pleasure of seeing six little baby turtles come out.
+ ; Other eggs which were laid in a hole with a western or eastern
+ ; exposure never came to anything. I have dug carefully into these
+ ; nests, but I have always come upon decomposing eggs."
 
 SETXY 25 343
 PENDOWN
@@ -3303,6 +3304,13 @@ CUBIC 35 338 35 336 35 335
 PENUP
 
 ; NOTE: [04:30:19]
+
+
+
+
+
+
+
 
 ; NOTE: [05:10:00]
 
