@@ -3648,14 +3648,20 @@ PENUP
 ; NOTE: [05:30:08]
 
 
+
+
+
+
+
+
 ; NOTE: [07:59:35]
 SETXY 342 352
 PENDOWN
-CUBIC 341 350 345 340 345 352
+CUBIC 341 350 345 350 345 352
 CUBIC 344 353 342 353 342 352
 PENUP
 
-SETXY 348 339 ; NOTE: [08:00:08]
+SETXY 348 339
 PENDOWN
 CUBIC 350 341 351 343 353 346
 PENUP
@@ -3690,7 +3696,7 @@ PENDOWN
 CUBIC 333 360 335 363 336 366
 PENUP
 
-SETXY 325 359 ; NOTE: [08:02:20]
+SETXY 325 359
 SETHEADING 131
 FORWARD 2
 PENUP
@@ -3710,7 +3716,7 @@ PENDOWN
 CUBIC 339 362 341 357 342 354
 PENUP
 
-SETXY 338 362
+SETXY 338 372
 SETHEADING 22
 FORWARD 19
 PENUP
@@ -3738,12 +3744,13 @@ PENUP
 SETXY 394 383
 PENDOWN
 CUBIC 394 385 394 388 394 390
-PENUP ; NOTE: [08:05:10]
+PENUP
 
-; Some species fight for the right to mate with a female while others seduce
-; her with a mating ritual to mate.
-; To mate, male and female turtles intertwined their tails so that their shell
-; openings line up perfectly.
+; NOTE: [08:05:10]
+
+ ; "Some species fight for the right to mate with a female while others seduce
+ ; her with a mating ritual. To mate, male and female turtles intertwine their
+ ; tails so that their shell openings line up perfectly."
 
 SETXY 387 363
 PENDOWN
@@ -3795,7 +3802,6 @@ PENDOWN
 CUBIC 398 414 400 414 401 413
 PENUP
 
-; NOTE: [08:08:27]
 SETXY 318 138
 PENDOWN
 CUBIC 322 140 326 143 327 146
@@ -3806,13 +3812,13 @@ CUBIC 335 147 335 147 336 147
 CUBIC 336 145 337 145 338 146
 CUBIC 340 144 341 140 344 138
 PENUP
-; NOTE: [08:09:49]
 
-; Sea turtles travel from the ocean to lay eggs on beaches. Usually, sea
-; turtles lay around 110 eggs in a nest, though the flat back turtle only lays
-; 50 at a time.
+ ; "Sea turtles travel from the ocean to lay eggs on beaches. Usually, sea
+ ; turtles lay around 110 eggs in a nest, though the flat back turtle only lays
+ ; 50 at a time."
 
 ; NOTE: [08:10:00]
+
 SETXY 330 146
 PENDOWN
 CUBIC 328 147 328 150 328 152
@@ -3852,7 +3858,7 @@ PENUP
 
 SETXY 332 143
 PENDOWN
-CUBIC 333 143 334 143 335 133
+CUBIC 333 143 334 143 335 143
 PENUP
 
 SETXY 332 144
@@ -3860,7 +3866,6 @@ PENDOWN
 SETHEADING 89
 FORWARD 2
 PENUP
-; NOTE: [08:13:00]
 
 SETXY 330 149
 PENDOWN
@@ -3868,6 +3873,7 @@ CUBIC 329 149 330 148 330 148
 CUBIC 330 147 330 149 330 149
 SETHEADING -174
 FORWARD 0
+PENUP
 
 SETXY 336 149
 PENDOWN
@@ -3879,18 +3885,17 @@ SETXY 332 150
 PENDOWN
 CUBIC 332 147 334 151 332 150
 PENUP
-; NOTE: [08:14:23]
 
-; The temperature of the sand affects the sex of the turtle. The perfect beach
-; temperature produces an equal number of male and female offspring. Due to
-; rising temperatures, too many sea turtle females are being born, contributing
-; to the decline in species numbers, according to the sea turtle conservancy.
+ ; "The temperature of the sand affects the sex of the turtle. The perfect beach
+ ; temperature produces an equal number of male and female offspring. Due to
+ ; rising temperatures, too many sea turtle females are being born, contributing
+ ; to the decline in species numbers, according to the sea turtle conservancy."
 
 ; NOTE: [08:14:43]
 
 SETXY 333 146
 PENDOWN
-CUBIC 333 149 335 147 133 146
+CUBIC 333 149 335 147 333 146
 PENUP
 
 SETXY 528 250
@@ -3901,7 +3906,7 @@ PENUP
 SETXY 526 250
 PENDOWN
 CUBIC 525 250 525 249 525 249
-CUBIC 526 248 526 240 525 240
+CUBIC 526 248 526 250 525 250
 PENUP
 
 SETXY 525 251
@@ -3910,6 +3915,7 @@ CUBIC 525 251 525 252 525 252
 PENUP
 
 SETXY 524 251
+PENDOWN
 SETHEADING -61
 FORWARD 0
 PENUP
@@ -3966,12 +3972,11 @@ SETXY 478 219
 PENDOWN
 CUBIC 478 219 478 219 478 219
 PENUP
-; NOTE: [08:19:41]
 
-; According to the International Union for Conservation of Nature, many turtle
-; species are listed as threatened, endangered or critically endangered. For
-; example the plow share tortoise and radiated tortoise are estimated to be
-; extinct in the next 45 years.
+ ; "According to the International Union for Conservation of Nature, many turtle
+ ; species are listed as threatened, endangered or critically endangered. For
+ ; example the plow share tortoise and radiated tortoise are estimated to be
+ ; extinct in the next 45 years."
 
 ; NOTE: [08:20:00]
 
