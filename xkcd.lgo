@@ -41,13 +41,13 @@ END
 
 TO XKCD 
 
-; NOTE(bcc): added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
+; NOTE: added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
 ; SETSCREENRANGE -500 -450 500 450 
 
-; NOTE(bcc): Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
+; NOTE: Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
 ; If you decide to use FMSLogo, note that the editor is hidden behind the "Edall" button, and that
 ; highlighting recent text and running those lines with ctrl-R is super helpful for quickly verifying input.
-SETPENSIZE 3
+SETPENSIZE 1 ; NOTE: looks better at 3, but setting back to 1 to more easily see bugs.
 
 
 MAKE "PIXERR 0.5
@@ -55,7 +55,7 @@ MAKE "PIXERR 0.5
  ; Let me show you what is going on up here.
  
 CLEARSCREEN
-WINDOW ; NOTE(bcc): for some LOGOs (like aUCBLogo), this must be WINDOWMODE.
+WINDOW ; NOTE: for some LOGOs (like aUCBLogo), this must be WINDOWMODE.
 PENUP
 SETXY -473 391
  
@@ -262,7 +262,7 @@ CUBIC -460 331 -456 312 -447 319
 CUBIC -442 324 -444 339 -453 335
 PENUP
 
-; NOTE(bcc): [00:17:11]
+; NOTE: [00:17:11]
 
 SETXY -439 335
 PENDOWN
@@ -373,7 +373,7 @@ PENUP
  ; especially the large flat pink ones, white and yellow ones, are eaten, while I
  ; have seen them pass a black toadstool by several days unnoticed.
 
-; NOTE(bcc): [00:24:48]
+; NOTE: [00:24:48]
 
 SETXY -423 303
 PENDOWN
@@ -420,7 +420,7 @@ PENDOWN
 CUBIC -358 299 -358 291 -358 286
 PENUP
 
-; NOTE(bcc): [00:27:30]
+; NOTE: [00:27:30]
 
 SETXY -351 301
 PENDOWN
@@ -449,7 +449,7 @@ PENDOWN
 CUBIC -318 295 -315 295 -312 295
 PENUP
 
-; NOTE(bcc): [00:29:31]
+; NOTE: [00:29:31]
 
 SETXY -473 273
 PENDOWN
@@ -483,7 +483,7 @@ CUBIC -381 256 -376 275 -399 273
 CUBIC -399 267 -399 259 -399 253
 PENUP
 
- ; NOTE(bcc): [32:41:00]
+; NOTE: [32:41:00]
 
  ; "Occasionally, when a female drops an egg on the ground, it
  ; is quickly eaten by the others. Ordinary hens eggs were eaten
@@ -554,7 +554,7 @@ CUBIC -303 -62 -301 -64 -299 -66
 CUBIC -297 -66 -294 -63 -292 -65
 CUBIC -289 -69 -282 -62 -280 -68
 CUBIC -275 -73 -268 -61 -262 -68
-; NOTE(bcc): [00:42:39]
+; NOTE: [00:42:39]
 CUBIC -258 -68 -255 -63 -252 -69
 CUBIC -245 -63 -246 -69 -247 -75
 CUBIC -247 -78 -241 -75 -245 -83
@@ -571,7 +571,7 @@ PENUP
  ; had in the yard. I have seen turtles eating at 11 o'clock at night,
  ; when, one would think, they would be resting."
 
-; NOTE(bcc): [00:44:22]
+; NOTE: [00:44:22]
 
 SETXY -227 -80
 PENDOWN
@@ -618,7 +618,7 @@ CUBIC -436 113 -435 122 -426 124
 CUBIC -420 135 -420 128 -414 133
 CUBIC -413 138 -412 137 -407 136
 CUBIC -402 137 -403 143 -395 140
-; NOTE(bcc): [00:53:15]
+; NOTE: [00:53:15]
 CUBIC -389 142 -384 144 -378 143
 CUBIC -376 143 -374 145 -372 147
 CUBIC -367 147 -365 142 -360 148
@@ -648,7 +648,7 @@ CUBIC -220 -59 -215 -67 -222 -67
  ; Here, you have the power to do anything you want.
 
 SETHEADING 58
-FORWARD 0 ; NOTE(bcc): correct? [00:58:00]
+FORWARD 0
 PENUP
 
  ; "They prefer the shade, and at certain times during the day,
@@ -671,8 +671,1082 @@ CUBIC -415 -351 -393 -330 -373 -310
 CUBIC -372 -311 -372 -313 -370 -314
 CUBIC -390 -335 -411 -356 -431 -377
 CUBIC -432 -376 -436 -373 -435 -371
+; NOTE: [01:00:12]
+PENUP
 
-; NOTE(bcc): [01:00:12]
+SETXY -437 -375
+PENDOWN
+CUBIC -443 -374 -446 -383 -445 -387
+CUBIC -442 -394 -439 -401 -442 -408
+CUBIC -440 -402 -433 -398 -433 -391
+CUBIC -433 -387 -434 -383 -432 -379
+PENUP
+
+SETXY -438 -379
+PENDOWN
+CUBIC -443 -384 -438 -392 -439 -398
+PENUP
+
+SETXY -382 -561
+PENDOWN
+CUBIC -356 -480 -341 -396 -312 -317
+CUBIC -272 -397 -245 -482 -213 -566
+PENUP
+
+SETXY -312 -318
+PENDOWN
+CUBIC -310 -264 -309 -210 -310 -157
+PENUP
+
+SETXY -289 -160
+PENDOWN
+CUBIC -282 -183 -274 -206 -267 -229
+CUBIC -266 -233 -262 -233 -259 -234
+PENUP
+
+SETXY -244 -141
+PENDOWN
+CUBIC -241 -200 -239 -209 -274 -259
+CUBIC -312 -353 -191 -386 -134 -275
+CUBIC -35 -135 -232 -42 -244 -141
+PENUP
+
+SETXY -220 -136
+PENDOWN
+CUBIC -213 -128 -206 -121 -197 -115
+CUBIC -197 -116 -197 -117 -198 -118
+CUBIC -204 -126 -211 -135 -217 -143
+CUBIC -208 -136 -200 -125 -190 -121
+CUBIC -197 -129 -204 -138 -210 -147
+SETHEADING 48
+FORWARD 33
+CUBIC -190 -133 -198 -138 -202 -147
+CUBIC -196 -143 -191 -139 -186 -134
+PENUP
+
+ ; "As a rule, they emerge in April. Sometimes that
+ ; middle of the month, but as early as April 6th, they
+ ; make their appearance. If the weather does not stay
+ ; warm, they again go back to their retreats. Mating
+ ; commences almost within a day or two after their
+ ; emergence. The males are quite persistent in their
+ ; lovemaking, biting at the females, etc. And on two
+ ; occasions, I have seen the scale removed from the
+ ; shell of the female and blood ooze from these surfaces."
+
+SETXY -175 -150
+PENDOWN
+CUBIC -178 -153 -181 -157 -184 -161
+CUBIC -177 -156 -170 -151 -162 -146
+CUBIC -169 -156 -182 -163 -188 -174
+CUBIC -177 -164 -166 -154 -154 -147
+CUBIC -163 -156 -172 -166 -179 -177
+CUBIC -172 -170 -165 -163 -157 -157
+CUBIC -160 -163 -168 -168 -168 -174
+CUBIC -165 -172 -163 -170 -160 -167
+PENUP
+
+SETXY -166 -208
+PENDOWN
+; NOTE: [01:08:20]
+CUBIC -161 -203 -155 -199 -149 -197
+CUBIC -154 -203 -161 -210 -167 -216
+SETHEADING 59
+FORWARD 38
+CUBIC -149 -208 -163 -220 -177 -234
+CUBIC -164 -223 -151 -214 -137 -205
+SETHEADING -130
+FORWARD 34
+SETHEADING 62
+FORWARD 20
+CUBIC -147 -220 -149 -223 -151 -224
+CUBIC -149 -223 -146 -221 -144 -220
+PENUP
+
+SETXY -186 -278
+PENDOWN
+CUBIC -178 -271 -170 -265 -161 -260
+CUBIC -166 -272 -180 -279 -189 -289
+CUBIC -179 -281 -169 -274 -159 -267
+CUBIC -166 -278 -180 -284 -186 -295
+CUBIC -179 -289 -170 -283 -162 -278
+SETHEADING -137
+FORWARD 24
+SETHEADING 59
+FORWARD 15
+PENUP
+
+; NOTE: [01:11:24]
+
+ ; I made friends with a turtle yesterday and he gave me his phone number.
+ ; I asked is that a landline? He said no it's my shell phone.
+
+SETXY -234 -301
+PENDOWN
+CUBIC -239 -304 -244 -309 -248 -314
+CUBIC -240 -309 -232 -304 -224 -300
+SETHEADING -131
+FORWARD 33
+SETHEADING 60
+FORWARD 37
+CUBIC -227 -310 -237 -317 -246 -326
+CUBIC -237 -321 -229 -316 -220 -312
+CUBIC -226 -316 -233 -321 -237 -328
+CUBIC -232 -325 -227 -323 -222 -320
+PENUP
+
+SETXY -280 -317
+PENDOWN
+CUBIC -278 -339 -277 -361 -277 -384
+PENUP
+
+SETXY -280 -403
+PENDOWN
+CUBIC -277 -451 -278 -500 -280 -548
+CUBIC -263 -547 -246 -547 -229 -549
+PENUP
+
+SETXY -280 -403
+PENDOWN
+CUBIC -277 -451 -278 -500 -280 -548
+CUBIC -263 -547 -246 -547 -229 -549
+PENUP
+
+; NOTE: 1:15:01
+
+ ; "It is interesting to see the males fight among themselves. They
+ ; raised themselves as high as possible and lunge and bite and snap
+ ; at each other. In getting away from his opponent, the Beaten one will
+ ; beat a hasty retreat and retract his front feet or back feet as occasion
+ ; demands and glide, not run away. Running away is slow as compared to this
+ ; turtle propulsion. It is not a slide, it is really a darting, forward glide.
+ ; Just recently I saw one male maltreating another in which the second fellow
+ ; had all parts retracted and was being snapped at pushed and actually rolled
+ ; over on his back by his opponent."
+
+SETXY -181 15
+PENDOWN
+CUBIC -180 8 -180 1 -180 -6
+CUBIC -174 -5 -169 -5 -164 -5
+CUBIC -166 2 -166 9 -165 16
+CUBIC -170 15 -176 14 -181 15
+PENUP
+
+SETXY -179 -19
+PENDOWN
+CUBIC -177 -19 -176 -19 -174 -20
+SETHEADING 9
+FORWARD 13
+CUBIC -172 -8 -176 -7 -177 -7
+CUBIC -178 -7 -178 -17 -179 -19
+PENUP
+
+SETXY -171 -7
+PENDOWN
+CUBIC -169 -11 -168 -15 -168 -20
+CUBIC -166 -19 -164 -19 -162 -19
+CUBIC -168 -6 -162 -6 -171 -7
+PENUP
+
+SETXY -158 4
+PENDOWN
+CUBIC -157 6 -156 7 -155 8
+CUBIC -157 10 -160 12 -163 14
+CUBIC -167 10 -161 8 -158 4
+PENUP
+
+SETXY -189 4
+PENDOWN
+CUBIC -190 3 -189 3 -189 3
+CUBIC -188 2 -187 1 -187 -0
+CUBIC -185 3 -182 5 -180 8
+CUBIC -180 8 -181 10 -181 11
+CUBIC -183 12 -188 5 -189 4
+PENUP
+
+SETXY -164 17
+PENDOWN
+CUBIC -164 22 -164 26 -163 30
+SETHEADING -83
+FORWARD 15
+CUBIC -178 27 -179 23 -179 18
+CUBIC -176 18 -168 18 -164 17
+PENUP
+
+SETXY -172 28
+PENDOWN
+CUBIC -172 28 -173 28 -174 28
+CUBIC -173 27 -174 25 -174 24
+CUBIC -172 25 -171 25 -169 24
+CUBIC -169 27 -168 28 -172 28
+PENUP
+
+SETXY -163 28
+PENDOWN
+CUBIC -168 28 -166 28 -167 24
+CUBIC -166 24 -165 24 -164 24
+PENUP
+
+SETXY -165 21
+PENDOWN
+CUBIC -167 22 -170 22 -173 22
+CUBIC -173 21 -173 20 -173 19
+CUBIC -170 19 -167 19 -164 18
+PENUP
+
+SETXY -171 22
+PENDOWN
+CUBIC -171 21 -171 20 -171 19
+PENUP
+
+SETXY -168 22
+PENDOWN
+CUBIC -169 21 -169 20 -169 19
+PENUP
+
+SETXY -166 21
+PENDOWN
+CUBIC -166 21 -166 20 -166 19
+PENUP
+
+SETXY -181 36
+PENDOWN
+SETHEADING -9
+FORWARD 8
+CUBIC -176 48 -175 41 -182 40
+PENUP
+
+SETXY -174 45
+PENDOWN
+CUBIC -176 43 -176 39 -174 38
+CUBIC -169 37 -169 48 -174 45
+PENUP
+
+SETXY -169 43
+PENDOWN
+CUBIC -169 40 -165 38 -164 41
+CUBIC -161 45 -167 49 -169 43
+PENUP
+
+SETXY -161 40
+PENDOWN
+CUBIC -161 42 -162 44 -162 46
+CUBIC -158 50 -155 44 -161 43
+CUBIC -158 43 -157 42 -156 40
+PENUP
+
+SETXY -154 46
+PENDOWN
+CUBIC -152 47 -149 47 -147 48
+PENUP
+
+SETXY -150 47
+PENDOWN
+CUBIC -150 45 -150 43 -150 41
+PENUP
+
+; NOTE: [01:25:38]
+
+SETXY -147 46
+PENDOWN
+SETHEADING 178
+FORWARD 5
+PENUP
+
+SETXY -147 45
+PENDOWN
+CUBIC -146 45 -145 45 -144 45
+PENUP
+
+SETXY -143 49
+PENDOWN
+CUBIC -144 46 -144 44 -143 41
+PENUP
+
+SETXY -141 49
+PENDOWN
+CUBIC -141 46 -141 44 -141 42
+PENUP
+
+SETXY -139 42
+PENDOWN
+CUBIC -139 44 -139 46 -139 48
+SETHEADING 143
+FORWARD 7
+CUBIC -135 45 -135 47 -135 49
+PENUP
+
+SETXY -131 46
+PENDOWN
+CUBIC -130 47 -129 47 -129 47
+CUBIC -128 42 -134 43 -133 47
+CUBIC -133 49 -131 51 -129 49
+PENUP
+
+SETXY -125 51
+PENDOWN
+CUBIC -126 49 -125 47 -125 46
+PENUP
+
+SETXY -125 43
+PENDOWN
+CUBIC -125 43 -126 43 -126 43
+CUBIC -126 43 -125 43 -125 43
+PENUP
+
+SETXY -153 35
+PENDOWN
+CUBIC -153 33 -153 31 -152 29
+PENUP
+
+SETXY -156 34
+PENDOWN
+CUBIC -154 35 -153 35 -152 36
+PENUP
+
+SETXY -155 28
+PENDOWN
+SETHEADING 74
+FORWARD 5
+PENUP
+
+; NOTE: [01:29:31]
+
+ ; "Occasionally one can see a turtle dragging another one along, the first one having the
+ ; second fellows hind leg between his shell. This has probably been the result of a scuffle.
+ ; I have never known a land turtle to bite, but have often seen them open their mouths wide
+ ; and hiss or draw in their breath with a hissing or sighing sound." 
+
+SETXY -149 37
+PENDOWN
+CUBIC -149 37 -149 36 -150 36
+PENUP
+
+SETXY -148 36
+PENDOWN
+CUBIC -147 33 -150 30 -145 31
+PENUP
+
+SETXY -143 37
+PENDOWN
+CUBIC -143 35 -143 33 -143 31
+CUBIC -142 31 -141 32 -139 32
+PENUP
+
+SETXY -137 38
+PENDOWN
+CUBIC -137 36 -137 34 -137 32
+PENUP
+
+SETXY -134 38
+PENDOWN
+CUBIC -134 36 -134 34 -134 32
+PENUP
+
+SETXY -137 35
+PENDOWN
+CUBIC -136 35 -135 35 -134 35
+PENUP
+
+SETXY -129 38
+PENDOWN
+CUBIC -130 37 -131 37 -133 37
+SETHEADING 174
+FORWARD 6
+CUBIC -131 32 -130 32 -128 32
+PENUP
+
+SETXY -132 -35
+PENDOWN
+SETHEADING 78
+FORWARD 3
+PENUP
+
+SETXY -126 38
+PENDOWN
+SETHEADING 179
+FORWARD 6
+CUBIC -125 32 -124 33 -123 33
+PENUP
+
+SETXY -121 32
+PENDOWN
+CUBIC -121 34 -122 36 -122 38
+CUBIC -118 39 -117 35 -121 35
+PENUP
+
+SETXY -144 29
+PENDOWN
+CUBIC -145 27 -144 24 -142 23
+PENUP
+
+SETXY -165 38
+PENDOWN
+CUBIC -165 36 -165 34 -166 33
+PENUP
+
+SETXY -157 -17
+PENDOWN
+CUBIC -153 -17 -149 -16 -145 -16
+CUBIC -146 -11 -147 -6 -149 -0
+CUBIC -145 -2 -141 -2 -137 -3
+CUBIC -137 -8 -137 -13 -138 -18
+PENUP
+
+SETXY -149 -1
+PENDOWN
+CUBIC -150 5 -144 10 -139 12
+PENUP
+
+SETXY -127 26
+PENDOWN
+CUBIC -137 31 -144 14 -135 9
+CUBIC -125 3 -116 22 -127 26
+PENUP
+
+SETXY -139 13
+PENDOWN
+CUBIC -138 9 -137 5 -135 2
+CUBIC -133 -2 -129 -3 -128 -7
+PENUP
+
+SETXY -139 12
+PENDOWN
+CUBIC -135 7 -131 -1 -124 -3
+PENUP
+
+SETXY -122 -3
+PENDOWN
+CUBIC -129 -4 -127 -9 -129 -10
+CUBIC -126 -14 -117 -9 -119 -4
+CUBIC -123 -4 -127 -7 -129 -11
+PENUP
+
+SETXY -122 -4
+PENDOWN
+CUBIC -122 -2 -123 0 -120 1
+CUBIC -120 -0 -120 -2 -120 -4
+PENUP
+
+; NOTE: [01:37:33]
+
+ ; "Some people have turtles in their cellars believing that they catch rats and mice. I tried
+ ; keeping some of mine in the cellar for two seasons in the wintertime. They kept up a constant
+ ; walk exactly like a caged beast. I gave them meat, vegetables and water, but on no occasion
+ ; did they take the proffered food. In the spring, I found several of them dead. I believe that
+ ; these turtles died because they were exhausted from wandering around and around during their
+ ; time of hibernation. I also believe that this unnatural hibernation led them to refuse all food."
+
+SETXY -120 -2
+PENDOWN
+CUBIC -120 -1 -118 -1 -118 -1
+CUBIC -118 -0 -118 0 -117 0
+CUBIC -115 0 -115 -1 -116 -3
+CUBIC -117 -3 -119 -3 -119 -4
+PENUP
+
+SETXY -117 -2
+PENDOWN
+CUBIC -117 -2 -117 -2 -117 -2
+PENUP
+
+SETXY -128 -7
+PENDOWN
+CUBIC -130 -7 -131 -6 -132 -8
+CUBIC -132 -9 -130 -9 -129 -9
+CUBIC -130 -10 -132 -11 -132 -12
+CUBIC -131 -12 -130 -11 -129 -11
+PENUP
+
+SETXY -125 -14
+PENDOWN
+CUBIC -126 -14 -127 -14 -127 -14
+CUBIC -125 -14 -123 -14 -120 -15
+CUBIC -124 -15 -128 -16 -132 -16
+CUBIC -129 -17 -125 -16 -122 -16
+CUBIC -123 -16 -125 -17 -126 -17
+PENUP
+
+SETXY -18 -1
+PENDOWN
+CUBIC -19 1 -22 1 -24 2
+PENUP
+
+SETXY -14 0
+PENDOWN
+CUBIC -15 3 -17 6 -20 7
+PENUP
+
+SETXY -9 1
+PENDOWN
+CUBIC -10 5 -9 9 -7 12
+PENUP
+
+SETXY -6 1
+PENDOWN
+CUBIC -5 4 -4 6 -3 8
+PENUP
+
+SETXY -24 53
+PENDOWN
+CUBIC -25 55 -27 55 -29 56
+PENUP
+
+; NOTE: [01:42:27]
+
+ ; "Regarding the catching of rats and mice in cellars, I believe that rats
+ ; and mice might be kept away by the noise made by the turtle making its endless
+ ; march around the cellar. I doubt whether a turtle could catch a rat or a mouse."
+
+SETXY -20 54
+PENDOWN
+CUBIC -21 57 -23 59 -25 61
+PENUP
+
+SETXY -17 54
+PENDOWN
+CUBIC -17 58 -17 63 -14 66
+PENUP
+
+SETXY -14 54
+PENDOWN
+CUBIC -13 57 -11 59 -8 59
+PENUP
+
+SETXY -33 86
+PENDOWN
+CUBIC -34 93 -35 100 -35 107
+CUBIC -29 107 -22 107 -16 108
+CUBIC -21 113 -25 119 -29 125
+CUBIC -25 124 -22 124 -18 124
+CUBIC -22 128 -27 133 -31 138
+CUBIC -27 137 -24 136 -21 136
+CUBIC -25 140 -28 144 -30 149
+CUBIC -28 148 -25 147 -22 147
+CUBIC -26 151 -30 156 -33 161
+CUBIC -31 161 -28 161 -26 161
+CUBIC -30 165 -34 170 -37 176
+CUBIC -38 169 -41 163 -46 158
+CUBIC -44 159 -41 159 -38 160
+SETHEADING -144
+FORWARD 19
+SETHEADING 77
+FORWARD 8
+CUBIC -44 142 -48 137 -52 132
+CUBIC -49 133 -46 133 -44 134
+CUBIC -48 129 -52 124 -57 119
+CUBIC -53 119 -49 120 -44 120
+CUBIC -49 115 -54 110 -59 105
+CUBIC -53 105 -47 105 -41 106
+CUBIC -42 103 -43 90 -43 87
+CUBIC -40 86 -36 87 -33 86
+PENUP
+
+; NOTE: [01:47:08]
+
+ ; "In my yard, I had a galvanized iron pin, 3 feet in length by 2 feet in width by 3 inches in depth for water.
+ ; In this the turtles would enjoy themselves drinking from the edge with heads submerged or with the entire body
+ ; submerged for sometimes as long as several hours, and even for a whole day. Even in the country where I now have
+ ; the herd, I have a small dish in which they can just get in and they certainly appreciate a bath."
+
+SETXY 39 69
+PENDOWN
+CUBIC 43 69 47 70 52 70
+CUBIC 50 76 49 83 48 89
+CUBIC 54 88 60 87 66 87
+CUBIC 61 91 58 96 56 102
+CUBIC 59 101 62 100 65 99
+CUBIC 60 105 56 112 53 119
+CUBIC 55 119 58 118 61 118
+CUBIC 57 125 53 131 50 138
+CUBIC 52 137 54 136 57 135
+CUBIC 51 141 47 148 45 156
+CUBIC 45 147 41 139 37 131
+CUBIC 39 132 42 133 44 134
+CUBIC 41 128 38 123 34 117
+SETHEADING 82
+FORWARD 7
+CUBIC 39 112 35 107 30 103
+SETHEADING 83
+FORWARD 8
+CUBIC 34 97 30 92 25 87
+CUBIC 43 86 43 95 39 69
+PENUP
+
+SETXY 117 97
+PENDOWN
+SETHEADING 13
+FORWARD 20
+CUBIC 124 110 126 103 128 97
+PENUP
+
+; NOTE: [01:50:22]
+
+ ; How about some interesting things in 10 facts about marine turtles from the WWF UK?
+ ;
+ ; "There are seven species of marine turtle. Marine turtles were around more than 100
+ ; million years ago and lived alongside dinosaurs. These days, scientists recognize
+ ; seven species of marine turtle, the hawksbill, the loggerhead, the leatherback, the
+ ; olive Ridley, the green, the flat back and the Kemps Ridley."
+
+SETXY 121 114
+PENDOWN
+CUBIC 121 119 121 123 120 127
+PENUP
+
+SETXY 113 136
+PENDOWN
+CUBIC 112 128 124 124 128 131
+CUBIC 133 144 116 152 113 136
+PENUP
+
+SETXY 125 143
+PENDOWN
+CUBIC 125 132 113 142 118 128
+PENUP
+
+SETXY 112 138
+PENDOWN
+CUBIC 108 141 105 136 106 132
+CUBIC 107 128 112 125 112 120
+CUBIC 112 125 112 129 113 134
+PENUP
+
+SETXY 120 126
+PENDOWN
+CUBIC 117 122 115 117 114 112
+PENUP
+
+SETXY 121 126
+PENDOWN
+CUBIC 129 126 131 126 136 133
+PENUP
+
+SETXY 136 125
+PENDOWN
+CUBIC 136 125 135 136 137 134
+CUBIC 135 127 136 147 136 149
+PENUP
+
+SETXY 137 148
+PENDOWN
+CUBIC 112 166 156 174 134 147
+SETHEADING 9
+FORWARD 1
+PENUP
+
+SETXY 189 87
+PENDOWN
+CUBIC 189 88 188 89 187 90
+PENUP
+
+SETXY 192 87
+PENDOWN
+CUBIC 192 90 191 92 189 94
+PENUP
+
+SETXY 195 87
+PENDOWN
+CUBIC 195 90 194 95 197 97
+PENUP
+
+; NOTE: [01:54:51]
+
+ ; "Turtles do not have teeth. They use their beak like mouth to grasp their food.
+ ; This beak is made of keratin, the same stuff your fingernails are made of."
+
+SETXY 198 87
+PENDOWN
+CUBIC 198 89 199 91 202 92
+PENUP
+
+SETXY 185 67
+PENDOWN
+CUBIC 177 65 175 57 168 53
+CUBIC 183 44 182 49 198 51
+CUBIC 202 52 195 59 194 61
+CUBIC 192 63 188 64 185 66
+CUBIC 182 60 180 54 180 46
+PENUP
+
+SETXY 159 91
+PENDOWN
+CUBIC 163 95 166 90 167 87
+CUBIC 163 86 151 84 159 91
+PENUP
+
+SETXY 233 85
+PENDOWN
+CUBIC 235 91 243 93 245 85
+CUBIC 241 85 236 85 233 85
+PENUP
+
+SETXY 109 21
+PENDOWN
+CUBIC 109 22 108 24 107 24
+PENUP
+
+SETXY 114 22
+PENDOWN
+CUBIC 114 25 113 28 112 31
+PENUP
+
+SETXY 118 20
+PENDOWN
+CUBIC 118 24 119 28 122 31
+PENUP
+
+; NOTE: [01:57:45]
+
+ ; "Turtle shells are made of over 50 bones fused together. So they are
+ ; literally wearing their bones on the outside. They also have light
+ ; spongy bones that help them float."
+
+SETXY 122 19
+PENDOWN
+CUBIC 123 21 124 24 126 24
+PENUP
+
+SETXY 45 23
+PENDOWN
+CUBIC 42 21 41 16 38 13
+CUBIC 41 12 42 8 45 7
+CUBIC 47 8 49 7 51 6
+CUBIC 54 5 57 8 59 6
+CUBIC 62 8 64 10 66 11
+CUBIC 66 19 52 34 45 23
+PENUP
+
+SETXY 43 21
+PENDOWN
+CUBIC 50 16 53 20 54 8
+PENUP
+
+SETXY 51 18
+PENDOWN
+CUBIC 51 21 56 22 57 26
+PENUP
+
+SETXY 229 -42
+PENDOWN
+CUBIC 231 -42 233 -41 236 -41
+PENUP
+
+SETXY 240 -39
+PENDOWN
+CUBIC 242 -39 244 -38 245 -38
+PENUP
+
+SETXY 249 -37
+PENDOWN
+CUBIC 251 -36 252 -36 254 -36
+PENUP
+
+SETXY 257 -32
+PENDOWN
+CUBIC 258 -31 259 -30 260 -28
+PENUP
+
+SETXY 263 -25
+PENDOWN
+CUBIC 264 -23 265 -22 266 -21
+PENUP
+
+SETXY 269 -18
+PENDOWN
+CUBIC 269 -17 270 -16 271 -15
+PENUP
+
+SETXY 259 -37
+PENDOWN
+SETHEADING 104
+FORWARD 6
+PENUP
+
+SETXY 269 -40
+PENDOWN
+CUBIC 271 -41 272 -41 274 -42
+PENUP
+
+SETXY 278 -42
+PENDOWN
+SETHEADING 97
+FORWARD 5
+PENUP
+
+SETXY 287 -44
+PENDOWN
+CUBIC 289 -45 290 -45 291 -45
+PENUP
+
+SETXY 211 -10
+PENDOWN
+CUBIC 213 -9 216 -8 218 -8
+PENUP
+
+; NOTE: [02:02:31]
+
+ ; "Their young lives are a mystery. The first few years of a marine turtle's life
+ ; are known as the lost years. That's because the time between when the hatchlings
+ ; emerge until they return to coastal shallow waters to forage is incredibly difficult
+ ; to study. The lost years they spend at sea, which can be up to 20 years, largely
+ ; remain a mystery to us."
+
+SETXY 223 -6
+PENDOWN
+CUBIC 224 -5 226 -5 228 -5
+PENUP
+
+SETXY 233 -3
+PENDOWN
+CUBIC 234 -3 236 -3 237 -3
+PENUP
+
+SETXY 243 -1
+PENDOWN
+CUBIC 244 0 246 0 248 0
+PENUP
+
+SETXY 253 1
+PENDOWN
+SETHEADING 71
+FORWARD 6
+PENUP
+
+SETXY 245 16
+PENDOWN
+SETHEADING 117
+FORWARD 5
+PENUP
+
+SETXY 253 12
+PENDOWN
+SETHEADING 122
+FORWARD 5
+PENUP
+
+SETXY 260 8
+PENDOWN
+SETHEADING 129
+FORWARD 5
+PENUP
+
+SETXY 269 2
+PENDOWN
+CUBIC 270 1 271 -0 272 -1
+PENUP
+
+SETXY 275 -3
+PENDOWN
+CUBIC 276 -4 277 -4 278 -5
+PENUP
+
+SETXY 321 -35
+PENDOWN
+CUBIC 316 -25 301 -28 295 -36
+CUBIC 308 -46 314 -38 326 -34
+CUBIC 334 -35 333 -42 322 -39
+PENUP
+
+SETXY 319 -38
+PENDOWN
+CUBIC 322 -39 324 -42 326 -45
+CUBIC 321 -47 319 -42 316 -39
+CUBIC 323 -46 298 -48 304 -41
+CUBIC 302 -43 302 -45 301 -47
+CUBIC 300 -47 298 -47 296 -47
+CUBIC 296 -44 297 -41 299 -39
+CUBIC 295 -42 289 -40 286 -36
+CUBIC 289 -38 293 -37 296 -36
+PENUP
+
+SETXY 325 -36
+PENDOWN
+CUBIC 325 -36 326 -36 326 -36
+PENUP
+
+; NOTE: [02:07:23]
+
+ ; "They can be ginormous. Marine turtle species vary greatly in size. The smallest, Kemps Ridley,
+ ; measure around 70 cm long and weigh up to 40 kg whilst the leatherback can reach up to 180 cm
+ ; long and weigh 500 kg. That is over 10 times heavier. Amazingly, Wales holds the world record
+ ; for the largest marine turtle ever found. In 1988, a leatherback was found ashore measuring
+ ; 2.5 m long, 2.5 m from flipper to flipper and weighing over 900 kg.
+
+SETXY 372 -44
+PENDOWN
+CUBIC 396 -46 375 -25 389 -17
+CUBIC 382 -16 371 -20 373 -29
+CUBIC 374 -35 376 -39 372 -44
+CUBIC 373 -37 373 -25 363 -28
+SETHEADING 31
+FORWARD 1
+SETHEADING -89
+FORWARD 1
+CUBIC 364 -26 364 -25 362 -24
+CUBIC 364 -24 363 -22 362 -23
+CUBIC 362 -21 362 -20 362 -19
+CUBIC 361 -19 359 -20 359 -21
+CUBIC 351 -22 351 -32 360 -30
+CUBIC 360 -31 361 -31 362 -32
+CUBIC 361 -34 359 -33 358 -34
+CUBIC 359 -36 362 -35 364 -35
+CUBIC 359 -36 361 -42 365 -42
+CUBIC 365 -44 363 -43 362 -44
+CUBIC 362 -47 368 -45 370 -45
+PENUP
+
+SETXY 358 -25
+PENDOWN
+CUBIC 358 -25 357 -26 357 -25
+PENUP
+
+SETXY 355 -22
+PENDOWN
+CUBIC 355 -18 355 -19 358 -21
+PENUP
+
+SETXY 503 -3
+PENDOWN
+SETHEADING 13
+FORWARD 19
+CUBIC 510 9 511 3 513 -3
+PENUP
+
+SETXY 507 14
+PENDOWN
+CUBIC 507 18 508 22 509 25
+PENUP
+
+SETXY 509 26
+PENDOWN
+CUBIC 505 22 501 18 499 13
+PENUP
+
+SETXY 510 26
+PENDOWN
+CUBIC 511 21 513 17 514 12
+PENUP
+
+SETXY 506 36
+PENDOWN
+CUBIC 511 17 530 30 520 44
+CUBIC 514 48 506 43 506 36
+PENUP
+
+SETXY 521 40
+PENDOWN
+CUBIC 515 31 505 46 507 27
+PENUP
+
+SETXY 506 37
+PENDOWN
+CUBIC 506 34 505 31 504 28
+PENUP
+
+SETXY 508 31
+PENDOWN
+CUBIC 508 29 508 27 509 26
+PENUP
+
+SETXY 520 42
+PENDOWN
+CUBIC 517 39 512 41 508 39
+PENUP
+
+SETXY 520 43
+PENDOWN
+CUBIC 515 44 509 42 507 37
+PENUP
+
+SETXY 284 40
+PENDOWN
+SETHEADING -44
+FORWARD 3
+PENUP
+
+SETXY 288 42
+PENDOWN
+CUBIC 287 44 285 47 283 49
+PENUP
+
+SETXY 293 42
+PENDOWN
+CUBIC 292 45 293 49 295 51
+PENUP
+
+SETXY 297 42
+PENDOWN
+CUBIC 297 44 299 46 301 47
+PENUP
+
+SETXY 356 43
+PENDOWN
+CUBIC 348 42 349 44 353 49
+CUBIC 356 52 360 46 362 44
+SETHEADING -97
+FORWARD 7
+PENUP
+
+SETXY 448 43
+PENDOWN
+SETHEADING -50
+FORWARD 3
+PENUP
+
+SETXY 450 44
+PENDOWN
+SETHEADING -22
+FORWARD 6
+PENUP
+
+SETXY 453 44
+PENDOWN
+SETHEADING 25
+FORWARD 7
+PENUP
+
+SETXY 458 43
+PENDOWN
+CUBIC 458 45 460 47 463 48
+PENUP
+
+; NOTE: [02:16:52]
+
+ ; "It's survival of the fittest. It is estimated that only around one in 1000 marine turtle
+ ; hatchlings make it to adulthood. This is down to the long time it takes for them to reach
+ ; maturity and the many dangers faced by hatchlings and juveniles, from predators to marine
+ ; plastics."
+
+SETXY 590 21
+PENDOWN
+CUBIC 552 11 520 -13 482 -23
+CUBIC 474 -33 462 -28 451 -27
+SETHEADING 145
+FORWARD 9
+CUBIC 435 -41 416 -53 394 -59
+CUBIC 358 -68 320 -65 283 -66
+CUBIC 263 -66 243 -65 224 -64
+CUBIC 203 -67 182 -66 162 -62
+SETHEADING 30
+FORWARD 7
+CUBIC 161 -57 157 -58 154 -60
+CUBIC 137 -53 120 -47 102 -42
+CUBIC 89 -38 94 -47 85 -35
+CUBIC 72 -38 60 -43 46 -39
+CUBIC 38 -37 30 -39 23 -35
+CUBIC 10 -30 -4 -33 -18 -36
+CUBIC -32 -39 -46 -36 -60 -42
+SETHEADING 15
+FORWARD 9
+CUBIC -61 -35 -63 -38 -65 -41
+CUBIC -86 -47 -108 -41 -130 -43
+CUBIC -140 -43 -150 -45 -159 -45
+CUBIC -171 -45 -184 -41 -195 -46
+PENUP
+
+; NOTE: [02:20:19]
+
 
 END
 
