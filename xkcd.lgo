@@ -3260,4 +3260,123 @@ CUBIC 397 -270 405 -276 414 -279
 CUBIC 424 -282 434 -286 443 -292
 PENUP
 ; NOTE: [06:59:57]
+SETXY 392 -333
+PENDOWN
+CUBIC 393 -332 393 -328 394 -329
+CUBIC 396 -331 400 -330 400 -327
+CUBIC 397 -322 389 -327 392 -332
+CUBIC 394 -338 402 -333 400 -328
+PENUP
+; NOTE: [07:00:52]
+;Turtles spend most of their lives in water.  They are adapted for aquatic life
+;with webbed feet or flippers in a streamlined body.  Sea turtles rarely leave
+;the ocean except to lay eggs in the sand.  Freshwater turtles live in ponds
+;and lakes and they climb out of the water onto logs or rocks to bask in the
+;warm sun.
+SETXY 393 -325
+PENDOWN
+CUBIC 393 -324 392 -324 391 -324
+CUBIC 389 -326 391 -329 389 -331
+CUBIC 389 -332 391 -330 391 -330
+PENUP
+SETXY 400 -338
+PENDOWN
+CUBIC 398 -337 395 -335 393 -334
+CUBIC 392 -335 392 -336 391 -337
+PENUP
+SETXY 393 -334
+PENDOWN
+CUBIC 393 -336 395 -337 396 -338
+CUBIC 397 -338 398 -339 399 -339
+PENUP
+SETXY 394 -338
+PENDOWN
+SETHEADING 139
+FORWARD 0
+CUBIC 395 -338 395 -338 395 -338
+PENUP
+SETXY 395 -338
+PENDOWN
+CUBIC 395 -339 395 -339 395 -339
+PENUP
+SETXY 396 -339
+PENDOWN
+CUBIC 396 -339 396 -339 396 -339
+PENUP
+SETXY 397 -340
+PENDOWN
+CUBIC 397 -340 397 -340 397 -340
+PENUP
+SETXY 398 -340
+PENDOWN
+CUBIC 398 -340 398 -340 398 -340
+PENUP
+; NOTE: [07:04:51]
+;Tortoises are land animals, their feet are round and stumpy adapted for walking
+;on land.  They also dig burrows with their strong forelimbs and slip underground
+;when the sun gets too hot. Terrapins live on land and in water usually in swamps,
+;ponds, lakes and rivers.
+SETXY 399 -340
+PENDOWN
+CUBIC 399 -340 399 -340 399 -339
+PENUP
+SETXY 400 -339
+PENDOWN
+CUBIC 400 -339 400 -339 400 -339
+PENUP
+SETXY 400 -338
+PENDOWN
+CUBIC 400 -338 401 -338 401 -338
+PENUP
+SETXY 401 -338
+PENDOWN
+CUBIC 402 -338 402 -338 402 -338
+PENUP
+SETXY 403 -338
+PENDOWN
+CUBIC 403 -338 403 -338 403 -338
+PENUP
+SETXY 404 -338
+PENDOWN
+CUBIC 404 -338 404 -338 404 -338
+PENUP
+SETXY 404 -339
+PENDOWN
+CUBIC 404 -339 405 -339 405 -339
+PENUP
+SETXY 405 -340
+PENDOWN
+CUBIC 405 -340 405 -340 405 -340
+PENUP
+SETXY 405 -341
+PENDOWN
+CUBIC 405 -341 405 -341 405 -342
+PENUP
+SETXY 405 -342
+PENDOWN
+CUBIC 405 -342 405 -343 405 -343
+PENUP
+SETXY 406 -343
+PENDOWN
+CUBIC 406 -343 406 -344 406 -344
+PENUP
+SETXY 407 -344
+PENDOWN
+CUBIC 407 -344 407 -344 407 -344
+PENUP
+SETXY 408 -344
+PENDOWN
+CUBIC 408 -344 408 -344 408 -344
+PENUP
+; NOTE: [07:09:21]
+;With so many different types of turtle, there is no average size.  The
+;largest sea turtle species is the leatherback turtle.  It weighs 600 to
+;1500 pounds and is about 4.5 to 5 and a quarter feet long.  According to the
+;World Wildlife Federation, the Galapagos tortoise grows up to six feet
+;long and 573 pounds.  According to the San Diego Zoo, the largest freshwater
+;turtle in North America is the alligator snapping turtle.  It can grow to 2.5
+;feet long and weigh as much as 200 pounds.  The Yangtze giant softshell
+;turtle is the largest softshell turtle.  It measures up to 3.6 feet across
+;and weighs up to 309 pounds.
+; NOTE: [07:10:12]
 END
