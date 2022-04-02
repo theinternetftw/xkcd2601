@@ -1,43 +1,58 @@
-TO CUBIC :X1 :Y1 :X2 :Y2 :EX :EY
-LOCALMAKE "X0 XCOR
-LOCALMAKE "Y0 YCOR
-LOCALMAKE "ERRX1 LERP :X0 :EX 0.25
-LOCALMAKE "ERRY1 LERP :Y0 :EY 0.25
-LOCALMAKE "ERRX2 LERP :X0 :EX 0.75
-LOCALMAKE "ERRY2 LERP :Y0 :EY 0.75
-IFELSE OR LESSP :PIXERR DIST :ERRX1 :ERRY1 :X1 :Y1 LESSP :PIXERR DIST :ERRX2 :ERRY2 :X2 :Y2 [
- LOCALMAKE "QX0 MIX :X0 :X1
- LOCALMAKE "QY0 MIX :Y0 :Y1
- LOCALMAKE "QX1 MIX :X1 :X2
- LOCALMAKE "QY1 MIX :Y1 :Y2
- LOCALMAKE "QX2 MIX :X2 :EX
- LOCALMAKE "QY2 MIX :Y2 :EY
- LOCALMAKE "LX0 MIX :QX0 :QX1
- LOCALMAKE "LY0 MIX :QY0 :QY1
- LOCALMAKE "LX1 MIX :QX1 :QX2
- LOCALMAKE "LY1 MIX :QY1 :QY2
- LOCALMAKE "PMX MIX :LX0 :LX1
- LOCALMAKE "PMY MIX :LY0 :LY1
- CUBIC :QX0 :QY0 :LX0 :LY0 :PMX :PMY
- CUBIC :LX1 :LY1 :QX2 :QY2 :EX :EY
-] [
-SETXY :EX :EY
-]
-END
+ ; And here we want to show you that you can program a picture right along with us.
+ ; We'll use a single color, some unorthodox functions, and each line we'll put
+ ; a bit of nature's masterpieces right here on our canvas.
+ ; Today we'll have them run all the functions across the stream, right now,
+ ; that you need to program along with us.
+ ; Starting with a simple one:
 
 TO DIST :X0 :Y0 :X1 :Y1
-LOCALMAKE "RX DIFFERENCE :X1 :X0
-LOCALMAKE "RY DIFFERENCE :Y1 :Y0
-OUTPUT SQRT SUM PRODUCT :RX :RX PRODUCT :RY :RY
+	LOCALMAKE "RX DIFFERENCE :X1 :X0
+	LOCALMAKE "RY DIFFERENCE :Y1 :Y0
+	OUTPUT SQRT SUM PRODUCT :RX :RX PRODUCT :RY :RY
 END
+
+ ; There we go! Just like that.
 
 TO LERP :A :B :T
-OUTPUT SUM :A PRODUCT :T DIFFERENCE :B :A
+	OUTPUT SUM :A PRODUCT :T DIFFERENCE :B :A
 END
 
+ ; One more done. No pressure.
+
 TO MIX :A :B
-OUTPUT LERP :A :B 0.5
+	OUTPUT LERP :A :B 0.5
 END
+
+ ; Really makes our programming life easier.
+
+TO CUBIC :X1 :Y1 :X2 :Y2 :EX :EY
+	LOCALMAKE "X0 XCOR
+	LOCALMAKE "Y0 YCOR
+	LOCALMAKE "ERRX1 LERP :X0 :EX 0.25
+	LOCALMAKE "ERRY1 LERP :Y0 :EY 0.25
+	LOCALMAKE "ERRX2 LERP :X0 :EX 0.75
+	LOCALMAKE "ERRY2 LERP :Y0 :EY 0.75
+	IFELSE OR LESSP :PIXERROR DIST :ERRX1 :ERRY1 :X1 :Y1 LESSP :PIXERROR DIST :ERRX2 :ERRY2 :X2 :Y2 [
+		LOCALMAKE "QX0 MIX :X0 :X1
+		LOCALMAKE "QY0 MIX :Y0 :Y1
+		LOCALMAKE "QX1 MIX :X1 :X2
+		LOCALMAKE "QY1 MIX :Y1 :Y2
+		LOCALMAKE "QX2 MIX :X2 :EX
+		LOCALMAKE "QY2 MIX :Y2 :EY
+		LOCALMAKE "LX0 MIX :QX0 :QX1
+		LOCALMAKE "LY0 MIX :QY0 :QY1
+		LOCALMAKE "LX1 MIX :QX1 :QX2
+		LOCALMAKE "LY1 MIX :QY1 :QY2
+		LOCALMAKE "PMX MIX :LX0 :LX1
+		LOCALMAKE "PMY MIX :LY0 :LY1
+		CUBIC :QX0 :QY0 :LX0 :LY0 :PMX :PMY
+		CUBIC :LX1 :LY1 :QX2 :QY2 :EX :EY
+	] [
+		SETXY :EX :EY
+	]
+END
+
+ ; I think there's a programmer hidden at the bottom of every single one of us.
 
 TO XKCD 
 
@@ -49,20 +64,20 @@ TO XKCD
 ; highlighting recent text and running those lines with ctrl-R is super helpful for quickly verifying input.
 SETPENSIZE 1 ; NOTE: looks better at 3, but setting back to 1 to more easily see bugs.
 
-MAKE "PIXERR 0.5
- 
+MAKE "PIXERROR 0.5
+
  ; Let me show you what is going on up here.
- 
+
 CLEARSCREEN
 WINDOW ; NOTE: for some LOGOs (like aUCBLogo), this must be WINDOWMODE.
 PENUP
 SETXY -473 391
- 
- ; I've just covered the entire canvas with just a bit of white
+
+ ; I've just covered the entire canvas with just a bit of white.
 
 PENDOWN
 
- ; We start with a vision in our hearts and we put it on canvas
+ ; We start with a vision in our hearts and we put it on canvas.
 
 CUBIC -469 424 -458 416 -456 389
 PENUP
@@ -164,7 +179,7 @@ PENUP
 
 SETXY -439 378
 PENDOWN
-CUBIC -434 379 -430 380 -424 380
+CUBIC -434 379 -430 380 -425 380
 PENUP
 
 SETXY -425 377
@@ -246,13 +261,13 @@ PENDOWN
 CUBIC -461 331 -461 323 -460 316
 PENUP
 
- ; Here are some interesting notes from interesting facts about turtles.
- ; A little nature study by a scientist, Forest and Stream, January 1916.
+ ; Here are some interesting notes from "Interesting Facts About Turtles",
+ ; a little nature study by a scientist, Forest and Stream, January 1916.
  ;
  ; "Over a great many years, I have taken a great interest in the land turtle.
  ; I have at the present time a number, some of which I have had for at least
  ; 17 years. To most people, they are ugly and repulsive, as the head, when fully
- ; extended and protruded, looks like a snake, and furthermore, their clumsy method
+ ; protruded and extended, looks like a snake, and furthermore, their clumsy method
  ; of progression does not add anything attractive."
 
 SETXY -453 335
@@ -356,7 +371,7 @@ PENDOWN
 CUBIC -425 311 -422 288 -438 293
 PENUP
 
- ; One of interesting points about turtles is their great variety of foods.
+ ; "One of the interesting points about turtles is their great variety of foods.
  ; They are, as a rule, good scavengers, eating all kinds of decomposing and
  ; putrifying materials. Beef or in fact any meat is eaten. I have seen them
  ; eat the flesh of birds and of moles, and, while earthworms are relished by
@@ -370,7 +385,7 @@ PENUP
  ; and they certainly have made it disappear very quickly. Beetles and tumblebugs,
  ; potato bugs, either in larval or mature forms, are destroyed. Toadstools,
  ; especially the large flat pink ones, white and yellow ones, are eaten, while I
- ; have seen them pass a black toadstool by several days unnoticed.
+ ; have seen them pass a black toadstool by several days unnoticed."
 
 ; NOTE: [00:24:48]
 
@@ -397,7 +412,7 @@ PENUP
 SETXY -381 304
  ; Here we have a happy little
 PENDOWN
- ; statement. That's it. And then
+ ; statement. That's it. And then,
 SETHEADING -177
 FORWARD 19
 SETHEADING 87
@@ -482,10 +497,10 @@ CUBIC -381 256 -376 275 -399 273
 CUBIC -399 267 -399 259 -399 253
 PENUP
 
-; NOTE: [32:41:00]
+; NOTE: [00:32:41]
 
  ; "Occasionally, when a female drops an egg on the ground, it
- ; is quickly eaten by the others. Ordinary hens eggs were eaten
+ ; is quickly eaten by the others. Ordinary hens' eggs are eaten
  ; and at great relish. Enjoyed hugely by them is thick sour milk.
  ; I have placed a quantity of this milk in two or three places in
  ; the pen, and in five minutes it is surrounded by the turtles, just
@@ -564,7 +579,7 @@ PENUP
 
  ; "A piece of butter which had upon a platter in the icebox for months
  ; was placed before them, and this was eaten in due time. Crabapples and
- ; cantelope is enjoyed by them, but watermelon is not so eagerly gobbled
+ ; cantelope are enjoyed by them, but watermelon is not so eagerly gobbled
  ; up like the cantelope. I was surprised one morning when I found one of
  ; the large turtles had caught and disembowled a very large toad which I
  ; had in the yard. I have seen turtles eating at 11 o'clock at night,
@@ -653,7 +668,7 @@ PENUP
  ; "They prefer the shade, and at certain times during the day,
  ; if the sun is very hot, they retreat under the logs which I
  ; have for a shelter. During rain, they are very active, and
- ; move about with head and necks outstretched, enjoying the shower
+ ; move about with heads and necks outstretched, enjoying the shower
  ; bath hugely, and evidently on the outlook for worms, just as some
  ; birds, after or during a shower. The youngest of turtles I have
  ; ever had seems to take to the same food as the adults."
@@ -2317,5 +2332,3 @@ CUBIC 435 259 441 252 432 256
 ; NOTE: [04:10:00]
 
 END
-
-Make "pixerr 0.5
