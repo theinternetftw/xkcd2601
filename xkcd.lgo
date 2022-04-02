@@ -2511,13 +2511,15 @@ PENUP
 
 SETXY -10 -388
 PENDOWN
-CUBIC -12 -400 -24 -404 -33 -409
+CUBIC 181 -201 180 -206 175 -210
+CUBIC 170 -219 166 -230 164 -240
 PENUP
 
-SETXY -11 -400
-PENDOWN
-CUBIC -5 -392 -5 -383 -3 -374
-PENUP
+; TODO: Machine transcription failure
+;SETXY -11 -400
+;PENDOWN
+;;CUBIC -5 -392 -5 -383 -3 -374
+;PENUP
 
 SETXY 187 -302
 PENDOWN
@@ -2674,14 +2676,237 @@ PENUP
 
 ; NOTE: [03:40:17]
 
+SETXY 152 -194
+PENDOWN
+CUBIC 149 -211 134 -211 136 -241
+PENUP
 
+SETXY 141 -180
+PENDOWN
+CUBIC 142 -185 141 -189 139 -193
+PENUP
 
+SETXY 166 -189
+PENDOWN
+CUBIC 166 -197 164 -203 159 -209
+CUBIC 157 -214 157 -220 155 -225
+PENUP
 
+SETXY 48 -160
+PENDOWN
+CUBIC 45 -171 48 -180 253 -191
+CUBIC 55 -199 50 -200 855 -214
+PENUP
 
+; the Nestor repository is about 3 inches in depth in about an inch and a half or a little more in width when she has
+; it finished she discharges her eggs into it when the egg is deposited in the hole she is not just satisfied in
+; dropping it but she reaches down with her hind leg and places the egg horizontally in covers a little dirt over it
+; then the second egg and the remaining eggs are all treated similarly and when the last one is deposited and placed
+; she commences to fill up with the dirt that remains this she puts into the hole with an alternate right and left leg
+; until all is filled in
 
+SETXY 34 -159
+PENDOWN
+CUBIC 36 -169 37 -178 37 -188
+CUBIC 35 -197 38 -205 43 -213
+PENUP
 
+SETXY 38 -157
+PENDOWN
+CUBIC 38 -162 39 -167 40 -172
+PENUP
 
+; TODO: Machine transcription failure
+;SETXY 83 -190
+;PENDOWN
+;CUBIC 77 -197 82 -200 587 -210
+;CUBIC 89 -215 90 -220 97 -217
+;;CUBIC 124 -204 107 -166 83 minus
+;PENUP
 
+; TODO: Machine transcription failure
+;;SETXY 90 -200 for
+;PENDOWN
+;CUBIC 94 -214 104 -205 102 -198
+;CUBIC 97 -196 87 -197 90 -204
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 94 -218
+;PENDOWN
+;CUBIC 95 -215 95 -212 96 -209
+;CUBIC 94 -212 91 -214 89 -216
+;SETHEADING 43
+;;FORWARD oh
+;PENUP
+
+SETXY 96 -209
+PENDOWN
+CUBIC 97 -211 98 -213 99 -216
+PENUP
+
+SETXY 89 -200
+PENDOWN
+CUBIC 85 -200 485 -195 89 -194
+CUBIC 93 -193 98 -193 102 -192
+CUBIC 107 -191 107 -201 102 -198
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 94 -192
+;PENDOWN
+;;CUBIC ninety three -one hundred eighty eight ninety eight -189 97 -193
+;PENUP
+
+SETXY 160 -121
+PENDOWN
+CUBIC 151 -145 166 -129 159 -162
+PENUP
+
+SETXY 147 -166
+PENDOWN
+CUBIC 148 -171 147 -177 145 -182
+PENUP
+
+SETXY 182 -298
+PENDOWN
+CUBIC 189 -298 193 -292 195 -287
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 193 -304
+;PENDOWN
+;;CUBIC 199 -300 200 for -294 207 -287
+;CUBIC 207 -286 208 -284 210 -284
+;CUBIC 243 -283 230 -276 251 -271
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -31 -243
+;PENDOWN
+;CUBIC -30 -248 -23 -249 -20 -253
+;CUBIC -16 -259 -18 -269 -12 -274
+;;CUBIC -eight -two hundred seventy seven -eight -281 -9 -285
+;;CUBIC -11 -301 -seven -317 -Six -333
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 240 -274
+;PENDOWN
+;;CUBIC 249 -268 264 -274 273 -260 six
+;;CUBIC 276 -263 278 -260 280 one -two hundred fifty eight
+;CUBIC 287 -256 293 -257 298 -253
+;CUBIC 309 -245 323 -245 335 -240
+;CUBIC 340 -237 344 -231 349 -232
+;PENUP
+
+SETXY 345 -232
+PENDOWN
+CUBIC 351 -226 362 -225 371 -224
+CUBIC 388 -218 404 -210 421 -206
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 182 -325
+;PENDOWN
+;CUBIC 179 -336 185 -346 189 -356
+;;CUBIC 187 -367 196 -375 seven -three hundred eighty six
+;;CUBIC 196 -393 208 -394 210 -400 to
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -104 -197
+;PENDOWN
+;;CUBIC -98 -197 -95 -204 -18 Ein -205
+;CUBIC -73 -202 -67 -211 -57 -221
+;CUBIC -48 -226 -35 -227 -35 -241
+;CUBIC -31 -249 -21 -252 -19 -262
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 257 -193
+;PENDOWN
+;;CUBIC 235 -203-211 -201 191 -215
+;CUBIC 187 -216 180 -217 179 -222
+;;CUBIC 180 -200 14 184 -206 188 -199
+;CUBIC 191 -194 190 -186 195 -182
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 32 -160
+;PENDOWN
+;CUBIC 33 -167 32 -175 34 -181
+;;CUBIC 37 -190 35 -236 -209
+;CUBIC 34 -205 30 -200 128 -207
+;;CUBIC 28 Minus 210 28 -214 24 -217
+;;CUBIC 23 -209 14 -189 6 -198
+;;CUBIC 5 -204 -200 23 -100 99
+;;CUBIC -4 -175 -12 -191 -24 -177
+;;CUBIC -twenty eight -160 -thirty eight -173 -43 -156
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 413 -158
+;PENDOWN
+;;CUBIC 404 -173 386 -177 370 D 5
+;CUBIC 367 -175 364 -175 363 -177
+;CUBIC 361 -184 358 -181 353 -180
+;CUBIC 343 -180 318 -205 311 -194
+;CUBIC 310 -195 309 -195 308 -194
+;SETHEADING 24
+;;FORWARD for
+;CUBIC 307 -190 305 -190 303 -191
+;CUBIC 305 -176 331 -168 329 -152
+;PENUP
+
+SETXY -198 94
+PENDOWN
+CUBIC -177 101 -155 109 -132 110
+CUBIC -124 110 -116 107 -108 108
+CUBIC -90 114 -71 112 -52 114
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -21 114
+;PENDOWN
+;;CUBIC -14 116 -7 117 -one 112
+;;CUBIC 11:112 23 113 34 110 pain hip set X Y 60 108
+;PENDOWN
+;;CUBIC 70 to 100 685 100 997 110
+;CUBIC 100 110 101 111 103 112
+;CUBIC 105 112 108 111 109 113
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 127 113
+;PENDOWN
+;CUBIC 141 116 152 103 168 110
+;CUBIC 224 116 281 109 336 105
+;SETHEADING -126
+;FORWARD 13
+;CUBIC 333 95 329 91 325 88
+;CUBIC 347 80 371 88 394 86
+;CUBIC 405 85 415 82 426 81
+;CUBIC 450 184 476 66 499 74
+;;CUBIC 500 1479 538 8550 372
+;CUBIC 564 71 576 74 587 69
+;CUBIC 589 68 588 69 591 68
+;PENUP
+
+SETXY 336 105
+PENDOWN
+CUBIC 335 99 336 92 338 85
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 330 93
+;PENDOWN
+;;CUBIC 330 9330 187 332 85
+;PENUP
+
+SETXY 272 109
+PENDOWN
+CUBIC 319 121 362 144 398 175
 
 ; NOTE: [04:00:02]
 
@@ -2793,6 +3018,781 @@ CUBIC 435 259 441 252 432 256
 
 ; NOTE: [04:10:00]
 
+CUBIC 426 251 427 258 423 255
+CUBIC 419 257 417 261 414 264
+PENUP
+
+SETXY 428 273
+PENDOWN
+CUBIC 426 271 429 271 430 269
+CUBIC 432 268 435 269 436 270
+CUBIC 441 275 431 278 428 273
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 415 279
+;PENDOWN
+;CUBIC 405 290 398 302 389 313
+;;CUBIC 395 293 404s 275 411 256
+;CUBIC 416 249 426 245 433 239
+;SETHEADING -16
+;FORWARD 14
+;PENUP
+
+SETXY 386 311
+PENDOWN
+CUBIC 393 291 400 271 409 252
+CUBIC 415 246 422 242 429 236
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 382 309
+;PENDOWN
+;CUBIC 391 289 398 267 407 247
+;;CUBIC 413-241-3263 for hundred twenty-five 234
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 384 301
+;PENDOWN
+;;CUBIC 382 301 381 three hundred three hundred eighty three hundred
+;SETHEADING 149
+;FORWARD 27
+;PENUP
+
+SETXY 433 469
+PENDOWN
+SETHEADING 154
+FORWARD 17
+PENUP
+
+SETXY 447 443
+PENDOWN
+CUBIC 450 438 453 433 456 428
+PENUP
+
+SETXY 463 418
+PENDOWN
+CUBIC 466 414 470 409 473 405
+PENUP
+
+SETXY 480 397
+PENDOWN
+CUBIC 483 393 487 389 490 385
+PENUP
+
+SETXY 496 378
+PENDOWN
+CUBIC 499 375 503 371 506 368
+PENUP
+
+SETXY 512 363
+PENDOWN
+SETHEADING 128
+FORWARD 16
+PENUP
+
+SETXY 532 349
+PENDOWN
+CUBIC 536 345 540 343 544 340
+PENUP
+
+SETXY 552 336
+PENDOWN
+CUBIC 556 332 561 330 565 327
+PENUP
+
+SETXY 574 322
+PENDOWN
+CUBIC 579 320 583 318 588 316
+PENUP
+
+SETXY 476 451
+PENDOWN
+CUBIC 480 445 479 438 481 432
+CUBIC 483 438 486 444 488 450
+PENUP
+
+SETXY 490 433
+PENDOWN
+CUBIC 495 459 500 456 504 432
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 492 442
+;PENDOWN
+;SETHEADING 92
+;;FORWARD 9
+;PENUP
+
+; the number laid by a turtle varies I have seen three and on one occasion I have seen eight late at one sitting I
+; have also observed one turtle laying its eggs covering them over and a little later a day or two another female dig
+; in the same place remove the eggs and lay her own in this doubly Doug repository once a female dug six hours and
+; laid for another dug several hours the whole measured two inches across and 3 and 1/2 inches in depth and she laid 8
+; eggs within a half hour
+SETXY 517 448
+PENDOWN
+CUBIC 510 459 500 425 519 434
+PENUP
+
+SETXY 522 450
+PENDOWN
+CUBIC 518 424 540 427 534 451
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 500 4449
+;PENDOWN
+;CUBIC 533 425 558 428 552 451
+;PENUP
+
+SETXY 556 433
+PENDOWN
+CUBIC 556 438 557 443 557 449
+CUBIC 569 437 564 444 574 450
+CUBIC 575 444 572 437 573 431
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 505 400
+;PENDOWN
+;;CUBIC 511 400 to 500 12 409 511 415
+;;CUBIC 507 419 five hundred to four hundred nineteen 497 419
+;CUBIC 498 414 498 410 498 405
+;CUBIC 497 398 498 396 505 400
+;PENUP
+
+SETXY 526 417
+PENDOWN
+CUBIC 522 419 518 419 514 419
+CUBIC 516 397 509 398 526 402
+PENUP
+
+SETXY 522 411
+PENDOWN
+CUBIC 520 411 516 409 515 410
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 541 417
+;PENDOWN
+;;CUBIC 526 427 526 392 541 403 three
+;PENUP
+
+SETXY 544 400
+PENDOWN
+CUBIC 548 425 554 422 559 399
+PENUP
+
+SETXY 546 408
+PENDOWN
+CUBIC 549 409 552 410 556 409
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 567 398
+;PENDOWN
+;;SETHEADING one
+;FORWARD 12
+;CUBIC 564 410 562 415 559 416
+;PENUP
+
+SETXY 567 410
+PENDOWN
+CUBIC 569 413 572 415 575 418
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY for 376
+;PENDOWN
+;;CUBIC 3 373 one 369 00 366
+;CUBIC -11 371 -25 373 -38 377
+;CUBIC -35 382 -42 384 -45 388
+;SETHEADING 44
+;FORWARD 11
+;CUBIC -33 394 -25 378 -24 388
+;CUBIC -28 389 -25 396 -21 394
+;;CUBIC -17 393 -19 387 -three 388
+;CUBIC -25 384 -22 384 -19 383
+;;CUBIC -13 382 -one 377 for 376
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -39 370
+;PENDOWN
+;;CUBIC -4365 -31 369 -35 372
+;CUBIC -37 374 -39 372 -39 370
+;PENUP
+
+SETXY -25 368
+PENDOWN
+CUBIC -26 367 -25 364 -23 365
+CUBIC -17 364 -22 374 -25 368
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -9 361
+;PENDOWN
+;;CUBIC -5 356 one 363 -5 366
+;;CUBIC -7 366 -10 363 -9 361
+;PENUP
+
+SETXY -35 372
+PENDOWN
+CUBIC -28 376 -21 381 -23 370
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -6 366
+;PENDOWN
+;;CUBIC -6 368 -5 372 -7 374
+;CUBIC -12 376 -17 378 -22 379
+;CUBIC -22 379 -24 376 -24 376
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -4 379
+;PENDOWN
+;SETHEADING 18
+;FORWARD 13
+;;CUBIC -1 392 -to 392 -for 392
+;;CUBIC -to 394 -1 397 -14 hundred
+;;CUBIC three 399 7 398 11 396
+;;CUBIC 11 394 10 391 9 388
+;;CUBIC 7 389 5 393 394
+;;CUBIC to 387 -0 380 -0 378
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY to 370 pinned down
+;;CUBIC 7 364 10 375 for 374
+;;CUBIC for 374 for 375 400 375
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 2381
+;PENDOWN
+;;CUBIC 2377 25 377 26 380
+;;CUBIC 28 385 2386 2381
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 7 373
+;PENDOWN
+;CUBIC 11 374 15 377 19 379
+;PENUP
+
+SETXY 23 378
+PENDOWN
+CUBIC 24 375 24 369 24 366
+PENUP
+
+SETXY 25 363
+PENDOWN
+CUBIC 25 362 27 362 28 361
+CUBIC 28 364 29 366 29 368
+CUBIC 29 368 27 368 27 368
+CUBIC 25 368 25 364 25 363
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 26 361
+;PENDOWN
+;CUBIC 26 360 26 359 26 357
+;SETHEADING 28
+;;FORWARD 0
+;PENUP
+
+; not all eggs hatch out but in the instance where eight were laid I had the pleasure of seeing six little baby
+; turtles come out other eggs which were laid in a hole dug with a Western or Eastern exposure never came to anything
+; I have dug carefully into these nests but I have always come upon decomposing eggs
+
+; TODO: Machine transcription failure
+;;SETXY 25 D3
+;PENDOWN
+;CUBIC 26 344 28 344 29 345
+;CUBIC 28 342 33 338 36 339
+;CUBIC 35 338 35 336 35 335
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 31 344
+;PENDOWN
+;CUBIC 33 341 35 339 38 338
+;CUBIC 41 345 31 351 29 345
+;CUBIC 31 352 22 350 27 347
+;;CUBIC 28 347 28 344 3344
+;CUBIC 31 344 31 343 32 343
+;PENUP
+
+SETXY 37 338
+PENDOWN
+CUBIC 37 337 38 336 39 336
+PENUP
+
+SETXY 99 391
+PENDOWN
+CUBIC 104 358 160 347 175 378
+PENUP
+
+SETXY 179 389
+PENDOWN
+CUBIC 196 446 105 460 99 403
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 185 396
+;PENDOWN
+;;CUBIC 250-300 6827 400 597 411
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 98 416
+;PENDOWN
+;;CUBIC -45 426 200 to 300 61 220 for 385
+;CUBIC 220 395 195 400 184 402
+;PENUP
+
+SETXY 251 382
+PENDOWN
+CUBIC 247 380 250 374 255 375
+CUBIC 260 377 256 385 251 382
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -190 419
+;PENDOWN
+;;CUBIC -194 416 -197 413 -
+;CUBIC -198 407 -167 428 -176 427
+;CUBIC -186 425 -208 412 -208 402
+;CUBIC -199 400 -172 418 -167 427
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -96 432
+;PENDOWN
+;CUBIC -89 425 -82 428 -93 434
+;CUBIC -115 445 -91 421 -82 421
+;;CUBIC -76 423 -86400 33 -89 435
+;PENUP
+
+SETXY -237 324
+PENDOWN
+CUBIC -232 327 -228 330 -223 334
+CUBIC -229 333 -234 334 -240 334
+CUBIC -235 330 -230 326 -226 323
+CUBIC -227 328 -229 333 -231 338
+CUBIC -233 333 -235 328 -237 324
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -253 328
+;PENDOWN
+;SETHEADING -135
+;;FORWARD oh
+;PENUP
+
+SETXY -254 332
+PENDOWN
+CUBIC -254 332 -254 333 -254 334
+PENUP
+
+SETXY -251 332
+PENDOWN
+CUBIC -250 332 -250 333 -249 333
+PENUP
+
+SETXY -249 328
+PENDOWN
+CUBIC -248 329 -248 329 -247 329
+PENUP
+
+SETXY -250 325
+PENDOWN
+CUBIC -249 325 -249 324 -248 324
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -253 324
+;PENDOWN
+;SETHEADING 166
+;;FORWARD to
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -255 324
+;PENDOWN
+;;CUBIC mine is 256 324 -256 323 -256 322
+;PENUP
+
+SETXY -259 326
+PENDOWN
+CUBIC -259 326 -260 325 -260 325
+PENUP
+
+SETXY -257 330
+PENDOWN
+CUBIC -258 330 -258 331 -259 331
+PENUP
+
+SETXY -185 103
+PENDOWN
+CUBIC -287 237 -131 426 18 347
+CUBIC 104 298 138 193 80 109
+PENUP
+
+; for the most interesting egg-laying I ever witnessed the turtle commenced to dig at 6 p.m. and was still busy at
+; work the next morning at 8:00 five days later a second Turtle dug these eggs out arid deposited for of her own and
+; covered the nest up personally I do not believe that the turtle digging out the previous batch of eggs was
+; vindictive or mischievous but that the ground seemed soft and easily worked therefore it took advantage of the spot
+
+; TODO: Machine transcription failure
+;SETXY 43 300
+;PENDOWN
+;;CUBIC 46 350 298 53 298
+;CUBIC 60 298 61 290 63 285
+;PENUP
+
+SETXY 28 310
+PENDOWN
+CUBIC 34 310 34 310 34 304
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 48 325
+;PENDOWN
+;;CUBIC 47 323 5322 51 320
+;;CUBIC 50 to 300 1853 317 55 317
+;CUBIC 56 316 56 312 59 313
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 74 298
+;PENDOWN
+;CUBIC 71 295 73 290 77 288
+;CUBIC 77 282 76 279 82 275
+;CUBIC 87 270 85 263 89 257
+;;CUBIC ninety to two-hundred fifty three ninety four two hundred forty nine ninety eight 245
+;CUBIC 101 243 102 239 104 235
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 107 219
+;PENDOWN
+;SETHEADING -34
+;;FORWARD 3
+;CUBIC 104 218 104 214 105 210
+;SETHEADING 59
+;;FORWARD 1
+;;CUBIC 105 to 106 106 202 106 198
+;CUBIC 107 198 107 199 107 199
+;CUBIC 108 198 108 197 107 197
+;CUBIC 107 197 107 198 108 198
+;PENUP
+
+; average person paints three Turtles a year factoid actually just statistical error average person paints 0 Turtles
+; per year Turtles G org who lives in cave and eats over 10,000 each day is an outlier and should not have been counted
+
+; TODO: Machine transcription failure
+;SETXY 104 166
+;PENDOWN
+;;CUBIC 100 to 160 799 161 101 160
+;CUBIC 104 158 94 149 98 143
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -203 227
+;PENDOWN
+;;CUBIC -200 to 220 9 -201 227 -202 226
+;CUBIC -200 234 -195 241 -193 249
+;CUBIC -193 251 -194 254 -192 255
+;;CUBIC -200 to 240 3 -203 246 -203 227
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -192 285
+;PENDOWN
+;CUBIC -189 285 -187 287 -184 287
+;;CUBIC -181 287 -178 282 -175 200 82
+;CUBIC -141 282 -148 295 -126 302
+;CUBIC -120 303 -115 301 -109 305
+;;CUBIC -100 311 -9314 -81 318
+;;CUBIC -67 332 -53 345 -4359
+;;CUBIC -42 360 -47 352 -4359
+;CUBIC -42 360 -42 363 -41 364
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -161 154
+;PENDOWN
+;;CUBIC -161 154 -162 154 -162 four
+;CUBIC -162 153 -161 154 -162 154
+;PENUP
+
+SETXY -150 149
+PENDOWN
+CUBIC -151 149 -150 147 -151 148
+PENUP
+
+SETXY -138 146
+PENDOWN
+CUBIC -138 145 -137 144 -136 145
+PENUP
+
+; the young Turtles when they make their emergence at the end of three months or dark in color and quite active if you
+; place one on its back at this time it will Arch its head and neck and come around its normal position the shell of
+; course is quite soft but in about three years the shell really becomes hardened though some clear pores Shane's of
+; the shell around the edges are still soft the color of the shell gradually changes to that usually seen in the head
+; and soft parts are modeled speckled or of a solid color I have two in my collection where the head and neck are
+; solid yellow
+
+; TODO: Machine transcription failure
+;;SETXY -100 to 140 for
+;PENDOWN
+;CUBIC -104 143 -107 139 -104 137
+;CUBIC -103 137 -100 140 -101 138
+;CUBIC -100 140 -99 143 -102 143
+;;CUBIC -102 143 -103 142 -103 104 two
+;CUBIC -103 143 -103 143 -103 143
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -202 141
+;PENDOWN
+;;CUBIC -198 139 -198 132 -196
+;CUBIC -195 130 -192 128 -193 126
+;CUBIC -194 124 -195 122 -194 121
+;;CUBIC -187 120 -T1 115 -188 111
+;SETHEADING -38
+;;FORWARD to
+;PENUP
+
+SETXY -216 198
+PENDOWN
+CUBIC -214 196 -213 193 -215 191
+CUBIC -213 190 -213 177 -213 174
+PENUP
+
+SETXY -202 171
+PENDOWN
+CUBIC -202 168 -203 165 -200 164
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 255 260 one
+;PENDOWN
+;CUBIC 254 272 258 284 265 293
+;CUBIC 276 277 268 258 266 241
+;CUBIC 263 240 258 243 255 241
+;;CUBIC 253 247 255 255 255 260 1
+;PENUP
+
+SETXY 257 237
+PENDOWN
+CUBIC 247 231 260 220 258 211
+CUBIC 257 220 270 227 264 236
+PENUP
+
+; do you know what a sea turtles favorite sandwich is peanut butter and jellyfish that sounds weird but it's actually
+; true just ask the next sea turtle you meet but I think we shouldn't mention it to the jellyfish
+
+SETXY 259 233
+PENDOWN
+CUBIC 257 232 258 228 258 226
+PENUP
+
+SETXY 262 233
+PENDOWN
+CUBIC 263 231 262 228 261 226
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 268 251
+;PENDOWN
+;;CUBIC 275 250 270 to 242 273 237
+;CUBIC 271 239 269 240 267 241
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 254 253
+;PENDOWN
+;CUBIC 247 252 247 245 247 248
+;;CUBIC 249 241 252 240 to 250 for 243
+;PENUP
+
+; here are some interesting observations from odd facts about turtles Christian Observer May 11th 1919 it has been
+; said that the turtle like the whale has no other enemy than man and as much as both the little creature and the big pursue their various ways in Practical immunity from harm in the fear of sudden death
+
+SETXY 255 267
+PENDOWN
+CUBIC 262 -264 265 264 272 264
+PENUP
+
+SETXY 254 260
+PENDOWN
+CUBIC 259 259 264 259 269 258
+PENUP
+
+SETXY 124 293
+PENDOWN
+CUBIC 127 296 132 295 134 292
+CUBIC 135 296 143 296 145 292
+PENUP
+
+SETXY 153 312
+PENDOWN
+CUBIC 158 311 161 306 163 302
+CUBIC 165 306 169 310 173 312
+PENUP
+
+SETXY 168 288
+PENDOWN
+CUBIC 177 296 183 297 187 285
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 175 206
+;PENDOWN
+;CUBIC 164 216 145 206 146 192
+;;CUBIC 150 to 160 one 194 181 175 206
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 162 215
+;PENDOWN
+;;SETHEADING -3
+;;FORWARD six
+;PENUP
+
+SETXY 170 214
+PENDOWN
+CUBIC 171 217 172 219 173 220
+PENUP
+
+SETXY 178 211
+PENDOWN
+CUBIC 179 212 180 214 182 216
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 184 202
+;PENDOWN
+;;CUBIC 186 203 188 203 190 200 for
+;PENUP
+
+SETXY 185 190
+PENDOWN
+CUBIC 187 190 189 189 192 189
+PENUP
+
+SETXY 182 182
+PENDOWN
+CUBIC 184 181 186 180 188 179
+PENUP
+
+SETXY 174 174
+PENDOWN
+CUBIC 175 173 176 171 177 169
+PENUP
+
+SETXY 163 172
+PENDOWN
+CUBIC 163 170 163 168 163 166
+PENUP
+
+; in many ways the turtle is one or the strangest of living things Wales must come to the surface frequently to
+; breathe and it is pretty well known what they feed upon the seal cannot remain Beneath the Sea nearly so long as the
+; whale his food is very well known but the turtle in all his varieties in all his ways is a most mysterious animal it
+; does not indeed seem to matter to him whether he stays beneath the surface for an hour or for a week nor does it
+; trouble him to spend an equal time on aisle and if the need arises your turtle is neither fish flesh nor fowl yet
+; his flesh partakes of the characteristics of all three
+
+; TODO: Machine transcription failure
+;;SETXY one 150 to 175
+;PENDOWN
+;SETHEADING -144
+;;FORWARD six
+;PENUP
+
+SETXY 145 181
+PENDOWN
+CUBIC 143 180 141 179 140 178
+PENUP
+
+SETXY 140 190
+PENDOWN
+CUBIC 139 189 137 189 135 189
+PENUP
+
+SETXY 141 198
+PENDOWN
+CUBIC 139 199 137 200 136 200
+PENUP
+
+SETXY 145 206
+PENDOWN
+CUBIC 144 207 142 208 141 209
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 152 212
+;PENDOWN
+;SETHEADING -30
+;;FORWARD five
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -18 -393
+;PENDOWN
+;;CUBIC -32 -391 -44 -404 -59 is 405
+;CUBIC -70 -405 -79 -414 -91 -415
+;CUBIC -103 -416 -97 -421 -112 -424
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -150 -435
+;PENDOWN
+;CUBIC -155 -438 -161 -436 -166 -440
+;CUBIC -170 -443 -193 -451 -190 -456
+;CUBIC -191 -456 -193 -457 -194 -459
+;;CUBIC -one hundred eighty three -four hundred fifty Seven -156 -441 -148 -448
+;SETHEADING -153
+;;FORWARD for
+;CUBIC -149 -452 -148 -453 -147 -453
+;CUBIC -150 -456 -153 -459 -157 -461
+;CUBIC -142 -457 -126 -461 -117 -473
+;CUBIC -123 -466 -117 -448 -106 -448
+;CUBIC -103 -449 -101 -446 -100 -443
+;CUBIC -97 -439 -91 -442 -86 -442
+;;CUBIC -a 78 -441 -5 -443 -43 -458
+;CUBIC -50 -463 -53 -470 -42 -465
+;CUBIC -37 -462 -31 -464 -27 -468
+;CUBIC -25 -465 -31 -461 -29 -457
+;;CUBIC -26 -450 5 -15 -445 -11 -449
+;;CUBIC -8 -450 -four -four hundred forty six -zero -four hundred forty four
+;;CUBIC seven-441 15 -445 20 -439
+;;CUBIC 34 -four hundred thirty four fifty -445 52 -460
+;CUBIC 46 -465 38 -467 31 -471
+;;CUBIC 45 -471 60 -four hundred seventy seventy two -four hundred seventy eight
+;CUBIC 71 -474 58 -458 68 -459
+;;CUBIC 73 -459 72 -450 175 -4 grid 48
+;;CUBIC 84 -442 90 -450 for 101 -443
+;CUBIC 111 -433 131 -449 133 -435
+;CUBIC 140 -441 147 -449 155 -455
+;CUBIC 165 -458 172 -465 178 -475
+;CUBIC 170 -460 181 -440 198 -441
+;CUBIC 201 -438 202 -435 201 -431
+;CUBIC 211 -434 221 -435 231 -435
+;;CUBIC 233 -434 234 -400 38 231 -439
+;CUBIC 243 -437 256 -440 268 -442
+;CUBIC 277 -442 284 -449 291 -454
+;CUBIC 301 -458 313 -461 318 -471
+;CUBIC 319 -467 320 -464 323 -461
+;CUBIC 323 -454 312 -449 315 -443
+;;CUBIC 323 -436 300 47 -444 358 -445
+;CUBIC 356 -435 377 -441 383 -440
+;;CUBIC 377 -433 368 -400 3359 -
+
 ; NOTE: [05:10:00]
 
 ; TODO: uncomment
@@ -2891,10 +3891,12 @@ PENUP
 
 SETXY 472 -465
 PENDOWN
-CUBIC 449 -481 439 -513 436 -540
+CUBIC 465 -447 439 -444 428 -444
+CUBIC 425 -441 421 -440 417 -442
+CUBIC 411 -427 367 -425 351 -427
 PENUP
 
-SETXY 478 -467
+SETXY 381 -438
 PENDOWN
 CUBIC 456 -482 446 -525 454 -549
 PENUP
@@ -2912,5 +3914,3244 @@ CUBIC 395 -430 423 -441 428 -456
 CUBIC 423 -469 406 -464 407 -480
 
 ; NOTE: [05:20:06]
+
+; TODO: Machine transcription failure
+;;CUBIC 398 -482 390 -400 9390 -500
+;CUBIC 360 -499 364 -499 346 -520
+;CUBIC 326 -519 307 -526 292 -540
+;CUBIC 281 -544 270 -547 259 -550
+;SETHEADING 11
+;;FORWARD three
+;PENUP
+
+SETXY 389 -498
+PENDOWN
+CUBIC 397 -502 407 -511 411 -516
+PENUP
+
+; just says soon as a baby turtle emerges from the egg off he scuttles down to the Sea he has no one to teach him no
+; one to guide him in his curious little brain there is implanted a streak of caution based upon the fact that until
+; h a certain period in his life his armor as soft and no defense against Hungry Fish and he at once seeks shelter in
+; the tropical profusion of the gulf weed which holds within its branching Franz and astonishing abundance of marine
+; life here the young Turtle feeds unmolested while his armor undergoes as the hardening process
+
+; TODO: Machine transcription failure
+;SETXY 406 -480
+;PENDOWN
+;CUBIC 416 -482 432 -485 435 -498
+;SETHEADING 30
+;;FORWARD 1
+;PENUP
+;; this is your world your creation
+;SETXY 444 -478
+;PENDOWN
+;;CUBIC 438 -400 7428 -467 418 -466
+;PENUP
+
+SETXY 429 -456
+PENDOWN
+CUBIC 437 -455 453 -456 455 -466
+CUBIC 456 -466 456 -465 456 -465
+PENUP
+
+SETXY 425 -450
+PENDOWN
+CUBIC 426 -448 427 -445 430 -444
+PENUP
+
+SETXY 395 -486
+PENDOWN
+CUBIC 390 -468 373 -448 355 -445
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 360 -500 won
+;PENDOWN
+;CUBIC 345 -496 331 -486 321 -474
+;CUBIC 286 -473 243 -477 210 -489
+;CUBIC 206 -500 200 -510 196 -520
+;CUBIC 198 -534 209 -546 221 -552
+;PENUP
+
+SETXY 212 -487
+PENDOWN
+CUBIC 172 -467 180 -476 140 -482
+CUBIC 123 -485 106 -489 90 -494
+CUBIC 82 -490 75 -483 70 -476
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 90 -495
+;PENDOWN
+;;CUBIC 89 -five hundred fifty to eighty three -500 3132 -551
+;PENUP
+
+SETXY 63 -550
+PENDOWN
+CUBIC 73 -546 82 -542 90 -537
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 30 -472
+;PENDOWN
+;;CUBIC 16 -476 one -478 -13 -484
+;CUBIC -27 -497 -42 -511 -52 -528
+;CUBIC -38 -533 -25 -541 -14 -551
+;PENUP
+
+SETXY -15 -483
+PENDOWN
+CUBIC -18 -477 -24 -473 -29 -469
+PENUP
+
+; whatever the young sea turtle eats and wherever he eats it facts not generally ascertain one thing is certain it
+; agrees with him immensely he leads a pleasant sort of Life basking in the tropical sun in cruising leisurely in the
+; cool depths
+
+SETXY -52 -528
+PENDOWN
+CUBIC -75 -523 -98 -529 -120 -533
+CUBIC -155 -524 -175 -522 -205 -546
+PENUP
+
+SETXY -120 -533
+PENDOWN
+CUBIC -121 -538 -121 -546 -119 -549
+PENUP
+
+SETXY -50 -467
+PENDOWN
+CUBIC -73 -466 -94 -479 -117 -479
+CUBIC -133 -488 -162 -507 -165 -527
+PENUP
+
+SETXY -185 -533
+PENDOWN
+CUBIC -196 -527 -205 -516 -207 -504
+CUBIC -197 -484 -177 -470 -157 -462
+PENUP
+
+SETXY -194 -459
+PENDOWN
+CUBIC -204 -461 -213 -468 -218 -477
+CUBIC -218 -484 -207 -494 -202 -495
+PENUP
+
+SETXY -220 -477
+PENDOWN
+CUBIC -227 -480 -233 -484 -237 -490
+PENUP
+
+SETXY -231 -507
+PENDOWN
+CUBIC -223 -508 -215 -507 -208 -504
+PENUP
+
+SETXY -245 -498
+PENDOWN
+CUBIC -256 -505 -263 -516 -265 -528
+CUBIC -255 -537 -242 -547 -227 -545
+PENUP
+
+SETXY -265 -530
+PENDOWN
+CUBIC -271 -531 -277 538 -280 -544
+PENUP
+
+; once he has attained the weight of 25 pounds which usually occurs within the first year the turtle is free from all
+; danger after that no fish are mammal however ravenous however well armed with teeth interferes with the turtle
+
+SETXY -53 -429
+PENDOWN
+CUBIC -53 -428 -54 -427 -55 -425
+PENUP
+
+SETXY -50 -429
+PENDOWN
+CUBIC -50 -427 -50 -425 -50 -423
+PENUP
+
+SETXY -47 -430
+PENDOWN
+CUBIC -47 -428 -46 -426 -45 -425
+PENUP
+
+SETXY -44 -431
+PENDOWN
+CUBIC -43 -429 -42 -428 -41 -427
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 70 -428
+;PENDOWN
+;;CUBIC 68 -420 666 -430 68 -433 one
+;CUBIC 70 -431 71 -429 70 -428
+;PENUP
+
+SETXY 126 -427
+PENDOWN
+CUBIC 125 -426 124 -427 125 -428
+CUBIC 126 -429 128 -427 126 -426
+PENUP
+
+SETXY 26 -427
+PENDOWN
+CUBIC 26 -425 26 -424 25 -82
+PENUP
+
+SETXY 29 -427
+PENDOWN
+CUBIC 29 -425 29 -421 31 -421
+PENUP
+
+SETXY 32 -427
+PENDOWN
+CUBIC 32 -426 33 -424 35 -424
+PENUP
+
+SETXY 22 -428
+PENDOWN
+CUBIC 22 -427 20 426 20 -426
+PENUP
+
+; when once he has withdrawn his head from its position of Outlook into the folds of his neck between the 2 shells
+; intending devours May struggle in vain to make an impression upon him
+
+; TODO: Machine transcription failure
+;SETXY -128 -455
+;PENDOWN
+;CUBIC -128 -449 -130 -440 -130 -435
+;CUBIC -136 -436 -142 -437 -148 -437
+;SETHEADING 35
+;FORWARD 22
+;CUBIC -139 -420 -143 -420 -146 -421
+;CUBIC -141 -416 -136 -411 -132 -405
+;CUBIC -136 -405 -140 -406 -144 -407
+;;CUBIC -139 -and 2 -135 -397 -133 -391
+;SETHEADING -101
+;;FORWARD eight
+;CUBIC -137 -389 -134 -385 -131 -381
+;CUBIC -133 -381 -135 -381 -137 -382
+;CUBIC -134 -377 -132 -371 -131 -364
+;CUBIC -127 -372 -123 -379 -119 -386
+;CUBIC -121 -386 -124 -386 -126 -385
+;;CUBIC -hundred twenty-three -391 -119 -396 -114 -401
+;CUBIC -117 -401 -120 -401 -123 -401
+;CUBIC -119 -407 -140 -412 -109 -417
+;SETHEADING -94
+;;FORWARD nine
+;SETHEADING 139
+;FORWARD 18
+;CUBIC -112 -432 -118 -433 -124 -433
+;SETHEADING 174
+;FORWARD 21
+;;CUBIC -124 -454 -126 -450 5 -128 -455
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -147 -454
+;PENDOWN
+;;CUBIC -146 -452 -145 -450 1 -143 -451
+;CUBIC -141 -449 -140 -447 -138 -446
+;PENUP
+
+SETXY -153 -446
+PENDOWN
+CUBIC -150 -444 -144 -446 -141 -443
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C-110 -422
+;PENDOWN
+;CUBIC -107 -420 -104 -418 -101 -417
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY Cat6 -413
+;PENDOWN
+;CUBIC -85 -411 -81 -409 -80 -412
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY is 53 -403
+;PENDOWN
+;CUBIC -52 -400 -50 -400 -48 -402
+;PENUP
+
+; how about some neat facts courtesy of ten cool facts about turtles from Deutsche welle they have been around for a
+; really really long time there is a reason why Turtles look a little prehistoric the first-ever specimens evolved
+; around 260 million years ago in the late Triassic period shortly after their arrival the Earth experienced a mass
+; extinction event that wiped out about ninety percent of all life on land luckily for the turtles they're burrowing
+; and water-dwelling habits set them up for long-term survival in This Strange New World
+
+; TODO: Machine transcription failure
+;;SETXY C-95 -422
+;PENDOWN
+;SETHEADING 78
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C-77 -116
+;PENDOWN
+;;SETHEADING 74 word one
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C-64 -411
+;PENDOWN
+;SETHEADING 81
+;;FORWARD to
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C250 52 402
+;PENDOWN
+;;CUBIC 257 to four hundred two hundred fifty eight -four hundred three thousand two hundred fifty nine -403
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY CT 286 to 411
+;PENDOWN
+;;CUBIC 7 -409 290 -408 291 -410
+;PENUP
+
+SETXY 323 -418
+PENDOWN
+CUBIC 324 -416 326 -417 327 -419
+PENUP
+
+SETXY 245 -408
+PENDOWN
+CUBIC 247 -408 249 -408 251 -409
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 292 -416
+;PENDOWN
+;SETHEADING 100
+;;FORWARD 3
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 310 -419
+;PENDOWN
+;SETHEADING 98
+;;FORWARD for
+;PENUP
+
+SETXY 334 -426
+PENDOWN
+CUBIC 335 -426 336 -427 337 -427
+PENUP
+
+SETXY 200 -430
+PENDOWN
+CUBIC 200 -428 195 -428 195 -425
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 257 -426
+;PENDOWN
+;SETHEADING -15
+;;FORWARD six
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 259 -426
+;PENDOWN
+;;CUBIC 259 -423 260 -400 2261 -416
+;PENUP
+
+SETXY 253 -426
+PENDOWN
+CUBIC 253 -426 252 -425 251 -424
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 262 -426
+;PENDOWN
+;;CUBIC 262 -425 263 -NT3 264 -423
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 211 -425
+;PENDOWN
+;;CUBIC 210 -424 210 -420 to 210 -422
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 213 -425
+;PENDOWN
+;;CUBIC 213 -423 212 -400 2214 -418
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 214 -425
+;PENDOWN
+;;CUBIC 215 -424 two hundred sixteen -420 to 217 -422
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 208 -426
+;PENDOWN
+;;CUBIC 208 -425 207 -424 207 -400 D5
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 230 -401
+;PENDOWN
+;SETHEADING 18
+;FORWARD 17
+;;CUBIC 237 -391 238 -396 240 -400 to
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 236 -386
+;PENDOWN
+;;CUBIC 236 -382 236 -378 237 -three 174
+;PENUP
+
+SETXY 228 -388
+PENDOWN
+CUBIC 231 -383 233 -378 236 -373
+CUBIC 239 -378 240 -383 241 -389
+PENUP
+
+; they have one of the longest life spans in the animal kingdom while a curdles lifespan largely depends on the
+; species almost all of them have the potential to live to a ripe old age a typical pet turtle can make it to anywhere
+; between 10 and 18 years while larger species often keep going for more than 100 years because it's so difficult to
+; accurately measure age over a century researchers think some turtles could even be hundreds of years old
+
+SETXY 233 -359
+PENDOWN
+CUBIC 231 -365 237 -369 242 -367
+CUBIC 243 -370 240 -375 241 -377
+CUBIC 242 -377 242 -377 243 -377
+CUBIC 248 -379 244 -370 246 -367
+CUBIC 248 -361 243 -356 237 -357
+CUBIC 223 -358 227 -381 241 -372
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 231 -374
+;PENDOWN
+;SETHEADING -165
+;;FORWARD 4
+;CUBIC 232 -377 233 -377 235 -378
+;CUBIC 237 -377 239 -378 242 -378
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 6550 to
+;PENDOWN
+;;CUBIC 65-53 64-54 6355
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 68 53
+;PENDOWN
+;;CUBIC 67-55 67 5865 60
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 7050 to
+;PENDOWN
+;;CUBIC 7156 7160 73 64
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 7350 to
+;PENDOWN
+;;CUBIC 74/54 76 56 78 57
+;PENUP
+
+SETXY -280 -252
+PENDOWN
+CUBIC -282 -235 -282 -218 -282 -201
+PENUP
+
+SETXY -73 -167
+PENDOWN
+CUBIC -72 -169 -66 -167 -65 -165
+CUBIC -64 -163 -62 -163 -61 -162
+PENUP
+
+SETXY -33 -158
+PENDOWN
+CUBIC -28 -163 -24 -157 -24 -159
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -107 -183
+;PENDOWN
+;CUBIC -107 -180 -104 -181 -103 -182
+;CUBIC -97 -183 -87 -183 -85 -176
+;CUBIC -81 -174 -77 -175 -74 -172
+;CUBIC -74 -170 -72 -168 -70 -168
+;CUBIC -62 -167 -66 -161 -57 -162
+;;CUBIC -55 -161 -54 4 -158 -52 -157
+;CUBIC -49 -156 -47 -144 -45 -153
+;PENUP
+;; see how easy it is to create a tree in your little World
+;SETXY -11 -160
+;PENDOWN
+;;CUBIC -5 -162 -zero -150 47 -157
+;;CUBIC 8 -156 8 -158 10 -158
+;CUBIC 11 -158 15 -158 14 -157
+;CUBIC 14 -157 14 -157 14 -157
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 47 -161
+;PENDOWN
+;CUBIC 49 -161 51 -162 52 -161
+;;CUBIC 54 -159 fifty Seven -one hundred sixty two sixty -162
+;PENUP
+
+SETXY 70 -162
+PENDOWN
+CUBIC 68 -167 72 -163 73 -165
+CUBIC 75 -160 375 -163 73 -162
+CUBIC 73 -162 74 -162 74 -162
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 137 -176
+;PENDOWN
+;;CUBIC 135 -180 141 -181 140 -178 eight
+;PENUP
+
+SETXY 155 -186
+PENDOWN
+CUBIC 155 -186 154 -188 154 -189
+CUBIC 155 -190 159 -189 158 -188
+PENUP
+
+SETXY 123 -177
+PENDOWN
+CUBIC 124 -178 127 -176 129 -177
+CUBIC 131 -178 135 -177 138 -176
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 173 -192
+;PENDOWN
+;CUBIC 178 -190 186 -193 188 -188
+;CUBIC 199 -184 201 -173 210 -182
+;CUBIC 211 -185 18 -183 215 -183
+;CUBIC 215 -185 218 -183 219 -184
+;CUBIC 227 -188 233 -176 241 -180
+;SETHEADING -112
+;;FORWARD 1
+;CUBIC 244 -180 247 -176 245 -173
+;CUBIC 245 -170 249 -169 251 -168
+;CUBIC 152 -166 252 -165 254 -165
+;CUBIC 260 -163 266 -161 272 -159
+;PENUP
+
+; they come in all shapes and sizes there are currently three hundred fifty six known species of turtles as a rule
+; they are all reptiles with a hard cartilage shell but that is about where the similarities end there are sea turtles
+; leatherback turtles snapping turtles pond turtles soft-shelled turtles and of course tortoises
+
+; TODO: Machine transcription failure
+;;SETXY 330 -1 156
+;PENDOWN
+;CUBIC 332 -155 334 -156 336 -156
+;;CUBIC 337 -156 338 -155 339 -150 5
+;;CUBIC -156 341 -156 342 -156
+;CUBIC 343 -158 344 -156 345 -157
+;;CUBIC 345 -157 346 -346 -157
+;CUBIC 346 -157 346 -158 346 -158
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 365 -153
+;PENDOWN
+;CUBIC 367 -147 376 -148 381 -144
+;CUBIC 382 -146 384 -144 385 -145
+;CUBIC 387 -147 389 -145 391 -147
+;CUBIC 393 -148 397 -144 399 -146
+;CUBIC 400 -148 402 -147 404 -147
+;SETHEADING -176
+;;FORWARD one
+;CUBIC 404 -149 406 -149 406 -148
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 460 -146
+;;PENDOWN it is your creation you can do anything you want to do
+;;CUBIC 461 -140 III 464 -142 467 -141
+;CUBIC 468 -140 470 -138 472 -138
+;CUBIC 473 -138 474 -138 474 -138
+;SETHEADING 15
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 481 -130
+;PENDOWN
+;CUBIC 484 -124 489 -121 495 -120
+;;CUBIC 496 -118 497 -117 for 199 -118
+;CUBIC 500 -119 502 -117 503 -119
+;CUBIC 505 -121 508 -119 510 -120
+;PENUP
+
+SETXY 525 -119
+PENDOWN
+CUBIC 527 -117 528 -114 532 -116
+CUBIC 532 -116 533 -115 534 -116
+CUBIC 534 -115 535 -115 536 -115
+CUBIC 537 -115 538 -114 538 -114
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 552 -109
+;PENDOWN
+;SETHEADING 164
+;;FORWARD oh
+;CUBIC 552 -103 561 -103 564 -98
+;PENUP
+
+SETXY 43 -159
+PENDOWN
+CUBIC 42 -168 43 -178 47 -186
+PENUP
+
+SETXY 62 -162
+PENDOWN
+CUBIC 62 -168 60 -175 64 -181
+CUBIC 65 -185 62 -190 64 -195
+PENUP
+
+SETXY 54 -158
+PENDOWN
+CUBIC 53 -160 155 -178 57 -180
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 83 -163
+;PENDOWN
+;CUBIC 84 -160 681 -169 81 -173
+;;CUBIC 83 -179 80 -100 84-82 -186
+;PENUP
+
+SETXY 87 -161
+PENDOWN
+CUBIC 86 -165 86 -160 787 -171
+CUBIC 88 -174 87 -180 88 -183
+PENUP
+
+SETXY 92 -168
+PENDOWN
+CUBIC 91 -172 91 -176 93 -179
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 98 -170
+;PENDOWN
+;SETHEADING 28
+;;FORWARD 1
+;CUBIC 98 -173 100 -177 98 -180
+;CUBIC 97 -180 199 -181 100 -181
+;PENUP
+
+; not all turtles are tortoises but all tortoises are turtles yes technically all tortoises are in fact Turtles they
+; belong to the two student he's family which includes reptiles whose bodies are protected by a bony outer shell but
+; the main difference between Turtles and tortoises is that tortoises live exclusively on land While most turtles live
+; in or near water
+
+; TODO: Machine transcription failure
+;;SETXY 5 -169
+;PENDOWN
+;SETHEADING -174
+;;FORWARD 4
+;PENUP
+
+SETXY 90 -165
+PENDOWN
+CUBIC 89 -166 89 -168 90 -170
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 84 -162
+;PENDOWN
+;SETHEADING -173
+;;FORWARD five
+;PENUP
+
+SETXY 78 -162
+PENDOWN
+CUBIC 77 -164 76 -160 777 -169
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 66 -162
+;PENDOWN
+;;CUBIC 66 -one hundred sixty-three sixty-four -one hundred sixty nine sixty seven -169
+;PENUP
+
+SETXY 109 -181
+PENDOWN
+CUBIC 109 -183 110 -185 111 -186
+PENUP
+
+SETXY 113 -183
+PENDOWN
+CUBIC 113 -185 114 -187 114 -189
+PENUP
+
+SETXY 124 -177
+PENDOWN
+CUBIC 125 -179 123 -183 124 -185
+PENUP
+
+SETXY 129 -180
+PENDOWN
+CUBIC 129 -184 129 -189 128 -193
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 148 -182
+;PENDOWN
+;;CUBIC 147 -180 for 147 -186 147 -188
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 172 -191
+;PENDOWN
+;;CUBIC 171 -199 169 -288 red 63 -215
+;PENUP
+
+; some turtles are vegetarians While others are carnivorous most Turtles are actually omnivores but a few species are
+; more picky when it comes to their diet most tortoises are happy to munch on leafy greens or fruit Natsu the
+; fearsome-looking alligator turtle which is almost entirely carnivorous and feeds on anything from fish to small
+; mammals that venture too close to the water's edge
+
+SETXY 178 -192
+PENDOWN
+CUBIC 178 -195 177 -197 176 -199
+PENUP
+
+SETXY 162 -189
+PENDOWN
+CUBIC 162 -190 161 -192 160 -193
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 271 -160
+;PENDOWN
+;;CUBIC 272 -162 271 -163 read 74 -164
+;CUBIC 274 -165 273 -168 275 -168
+;PENUP
+
+SETXY 280 -157
+PENDOWN
+CUBIC 280 -159 282 -161 281 -162
+PENUP
+
+SETXY 287 -152
+PENDOWN
+CUBIC 288 -155 289 -158 288 -161
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 292 -159
+;PENDOWN
+;SETHEADING -136
+;;FORWARD one
+;CUBIC 291 -159 292 -159 292 -158
+;;CUBIC 292 -157 291 -156 291 -150 5
+;;CUBIC 290 -154 291 -150 to 200 90 -151
+;;CUBIC 291 -152 292 -153 292 -150 for
+;;CUBIC 292 -155 3 -156 294 -157
+;CUBIC 293 -158 293 -159 294 -160
+;;CUBIC 294 -161 294 -162 294 -164 or
+;CUBIC 294 -164 295 -166 294 -167
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 283 -155
+;PENDOWN
+;;CUBIC 283 -156 284 -158 -159
+;PENUP
+
+SETXY 276 -159
+PENDOWN
+CUBIC 276 -160 276 -160 277 -161
+PENUP
+
+SETXY 308 -154
+PENDOWN
+CUBIC 307 -155 305 -157 304 -157
+CUBIC 303 -158 302 -160 301 -161
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 312 -157
+;PENDOWN
+;;SETHEADING 84 were do
+;CUBIC 310 -161 302 -162 303 -165
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 317 -158
+;PENDOWN
+;SETHEADING -135
+;;FORWARD seven
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 326 -157
+;PENDOWN
+;CUBIC 326 -161 322 -164 320 -167
+;;CUBIC 319 -169 three hundred sixteen -seventy three hundred fifteen -172
+;PENUP
+
+; all species lay their eggs on land when they are ready to lay their eggs even water-dwelling turtles will dig their
+; nests in the sand or the Earth near their habitat but they are not the nurturing type no species of turtle sticks
+; around to raise their young when the babies hatch they are on their own
+
+; TODO: Machine transcription failure
+;;SETXY 5 -176
+;PENDOWN
+;CUBIC 307 -178 305 -181 304 -183
+;PENUP
+
+SETXY 300 -164
+PENDOWN
+CUBIC 298 -165 297 -167 296 -168
+PENUP
+
+SETXY 310 -156
+PENDOWN
+CUBIC 309 -157 307 -158 106 -159
+PENUP
+
+SETXY 410 -171
+PENDOWN
+CUBIC 416 -168 417 -164 419 -159
+PENUP
+
+SETXY 427 -157
+PENDOWN
+CUBIC 426 -157 424 -163 425 -164
+CUBIC 425 -166 422 -167 421 -169
+CUBIC 421 -171 420 -173 418 -173
+PENUP
+
+SETXY 435 -155
+PENDOWN
+CUBIC 437 -156 434 -158 434 -160
+CUBIC 435 -161 433 -163 433 -163
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 417 -158
+;PENDOWN
+;SETHEADING 30
+;;FORWARD 1
+;CUBIC 411 -161 413 -166 403 -170
+;PENUP
+
+; a turtle's gender as determined by temperature like crocodiles and alligators a turtle's gender is determined after
+; fertilization if the Turtles Eggs incubate below twenty seven point seven degrees Celsius the hatchlings will be
+; male but if the eggs incubate above 31 degrees they will be female if the temperature is somewhere in between our
+; fluctuates a mix of male and female babies will hatch as oceans warm Turtles tend to give birth to more females
+
+SETXY 432 -156
+PENDOWN
+CUBIC 431 -158 430 -159 430 -61
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 424 -158
+;PENDOWN
+;;CUBIC 423 -158 422 -159 to -160
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 440 -152
+;PENDOWN
+;SETHEADING -167
+;;FORWARD six
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 455 -147
+;PENDOWN
+;;CUBIC 456 -151 453 -150 for 450 -156
+;PENUP
+
+SETXY 495 -120
+PENDOWN
+CUBIC 491 -123 487 -128 182 -132
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 505 -120
+;PENDOWN
+;;SETHEADING 6
+;;FORWARD one
+;CUBIC 502 -122 499 -126 496 -130
+;PENUP
+
+SETXY 500 -119
+PENDOWN
+CUBIC 497 -121 494 -124 493 -28
+PENUP
+
+; they have an amazing sense of direction sea turtles are known for their amazing ability to return to the exact Beach
+; where they were born years later like many animals turtles can navigate their way at Sea by sensing the individual
+; lines of the magnetic field but they can also remember the magnetic signature of coastlines and sense tiny
+; variations in magnetic fields allowing them to guide themselves home
+
+SETXY 479 -135
+PENDOWN
+CUBIC 476 -138 473 -142 469 -143
+CUBIC 467 -43 466 -44 465 -145
+CUBIC 463 -146 461 -147 461 -149
+PENUP
+
+SETXY 481 -136
+PENDOWN
+CUBIC 477 -140 472 -143 69 -148
+PENUP
+
+SETXY 503 -120
+PENDOWN
+CUBIC 501 -122 499 -123 498 -126
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 499 -118
+;PENDOWN
+;SETHEADING -144
+;;FORWARD six
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 489 -122
+;PENDOWN
+;;SETHEADING o
+;;FORWARD one
+;CUBIC 488 -123 486 -125 485 -127
+;CUBIC 485 -127 485 -127 486 -127
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 510 -122
+;PENDOWN
+;SETHEADING 33
+;;FORWARD one
+;CUBIC 508 -122 507 -125 506 -127
+;SETHEADING 57
+;;FORWARD one
+;PENUP
+
+SETXY 514 -124
+PENDOWN
+CUBIC 512 -125 511 -128 508 -129
+CUBIC 508 -129 508 -129 508 -129
+PENUP
+
+SETXY 529 -122
+PENDOWN
+CUBIC 528 -125 526 -127 523 -128
+PENUP
+
+SETXY 517 -133
+PENDOWN
+CUBIC 509 -141 502 -149 493 -156
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 492 -159
+;PENDOWN
+;SETHEADING -137
+;;FORWARD for
+;PENUP
+
+SETXY 522 -132
+PENDOWN
+SETHEADING 51
+FORWARD 14
+PENUP
+
+SETXY 535 -121
+PENDOWN
+CUBIC 536 -118 539 -116 541 -115
+PENUP
+
+SETXY 535 -114
+PENDOWN
+CUBIC 534 -116 532 -117 531 -118
+PENUP
+
+SETXY 531 -116
+PENDOWN
+CUBIC 530 -115 525 -123 526 -123
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY five hundred sixteen -127
+;PENDOWN
+;CUBIC 515 -128 514 -129 513 -130
+;PENUP
+
+SETXY 521 -126
+PENDOWN
+CUBIC 520 -127 519 -128 518 -129
+PENUP
+
+SETXY 416 -161
+PENDOWN
+CUBIC 416 -160 417 -159 418 -158
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -108 -182
+;PENDOWN
+;;CUBIC -107 -186 -104 -188 -100 to -100 91
+;PENUP
+
+; and excellent Vision to turtles have strong underwater eyesight researchers have discovered that they can see a
+; range of different colors and even prefer some colors to others although sea turtles are famous for their internal
+; GPS there is evidence to suggest they do not see very well on land
+
+; TODO: Machine transcription failure
+;SETXY -104 -180
+;PENDOWN
+;CUBIC -104 -183 -103 -185 -100 -186
+;CUBIC -98 -188 -96 -188 -96 -191
+;;CUBIC -94 -192 --195 -88 -194
+;PENUP
+
+SETXY -97 -182
+PENDOWN
+CUBIC -95 -185 -92 -188 -88 -189
+PENUP
+
+SETXY -90 -181
+PENDOWN
+CUBIC -89 -183 -87 -185 -84 -187
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -85 -179
+;PENDOWN
+;;CUBIC -84 -180 1 -81 -180 for -79 -185
+;PENUP
+
+SETXY -81 -176
+PENDOWN
+CUBIC -79 -179 -76 -180 -73 -182
+CUBIC -71 -186 -69 -185 -66 -186
+CUBIC -65 -187 -64 -189 -63 -190
+CUBIC -62 -190 -59 -188 -58 -190
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -73 -169
+;PENDOWN
+;;CUBIC -73 -170 1 -72 -172 -71 -172
+;PENUP
+
+SETXY -49 -153
+PENDOWN
+CUBIC -49 -160 -43 -168 -38 -170
+PENUP
+
+SETXY -56 -160
+PENDOWN
+CUBIC -55 -163 -54 -166 -51 -168
+PENUP
+
+SETXY -46 -152
+PENDOWN
+CUBIC -46 -154 -45 -159 -42 -160
+PENUP
+
+SETXY -53 -158
+PENDOWN
+CUBIC -52 -160 -51 -162 -51 -163
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -62 -163
+;PENDOWN
+;;CUBIC -62 -164 -61 -166 is 59 -167
+;PENUP
+
+; many species are endangered having survived for millions of years six out of seven turtle species are classified as
+; threatened or endangered as a result of human activity every year thousands become trapped in commercial trawl Nets
+; while in some parts of the world they are killed for their eggs meat and shells
+
+SETXY -105 -189
+PENDOWN
+CUBIC -104 -194 -97 -195 -94 -198
+PENUP
+
+SETXY -87 -200
+PENDOWN
+CUBIC -82 -201 -75 -201 -71 -205
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -60 -213
+;PENDOWN
+;CUBIC -57 -217 -55 -221 -50 -221
+;;CUBIC -48 -220 2 -48 -223 -46 -222
+;CUBIC -44 -222 -43 -224 -42 -225
+;CUBIC -40 -227 -35 -225 -34 -229
+;PENUP
+
+SETXY -75 -194
+PENDOWN
+CUBIC -73 -196 -72 -196 -69 -196
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -106 -182
+;PENDOWN
+;;CUBIC -106 -183 -104 -187 -100 to -100 87
+;PENUP
+
+SETXY -94 -183
+PENDOWN
+CUBIC -94 -182 -94 -182 94 -182
+CUBIC -92 -184 -92 -184 -91 -184
+PENUP
+
+SETXY -87 -180
+PENDOWN
+CUBIC -87 -181 -87 -180 -86 -181
+PENUP
+
+SETXY -83 -176
+PENDOWN
+CUBIC -83 -177 -82 -178 -81 -179
+PENUP
+
+SETXY -77 -174
+PENDOWN
+CUBIC -77 -175 -76 -176 -75 -177
+PENUP
+
+SETXY -69 -169
+PENDOWN
+CUBIC -69 -169 -68 -170 -67 -171
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -40 -172
+;PENDOWN
+;SETHEADING 129
+;;FORWARD five
+;PENUP
+
+SETXY -30 -178
+PENDOWN
+CUBIC -27 -182 -25 -188 -20 -189
+PENUP
+
+; how about some interesting facts from turtle facts by Alina Bradford writing for live science.com Turtles are
+; reptiles with hard shells that protect them from predators they are among the oldest and most primitive groups of
+; reptiles having evolved millions of years ago turtles live all over the world in almost every type of climate
+
+; TODO: Machine transcription failure
+;;SETXY -16 -191 one
+;PENDOWN
+;CUBIC -15 -190 -14 -191 -13 -191
+;;CUBIC -11 -one hundred ninety three -eight -one hundred ninety three -six -195
+;PENUP
+
+SETXY 272 -173
+PENDOWN
+CUBIC 273 -177 268 -179 266 -180
+PENUP
+
+SETXY 263 -185
+PENDOWN
+CUBIC 262 -187 262 -189 261 -191
+PENUP
+
+SETXY 174 -230
+PENDOWN
+SETHEADING -168
+FORWARD 13
+PENUP
+
+SETXY 170 -249
+PENDOWN
+CUBIC 168 -257 171 -255 172 -261
+PENUP
+
+SETXY 172 -271
+PENDOWN
+CUBIC 173 -277 169 -282 172 -287
+PENUP
+
+SETXY 173 -292
+PENDOWN
+CUBIC 174 -294 176 -295 177 -295
+PENUP
+
+SETXY 182 -235
+PENDOWN
+CUBIC 182 -232 185 -228 188 -229
+CUBIC 194 -227 199 -221 205 -219
+PENUP
+
+SETXY 212 -281
+PENDOWN
+CUBIC 216 -279 220 -281 225 -281
+CUBIC 234 -280 239 -269 248 -269
+CUBIC 254 -270 260 -266 265 -264
+CUBIC 265 -265 86 -265 266 -264
+PENUP
+
+; according to the integrated taxonomic information system the turtle order to student he's or chelonia splits into
+; two sub orders Cryptid Yura implore adira and then further splits into 13 families 75 generator and more than 300
+; species
+
+SETXY 209 -267
+PENDOWN
+CUBIC 213 -263 220 -266 225 -265
+PENUP
+
+SETXY 231 -264
+PENDOWN
+CUBIC 237 -261 244 -259 250 -256
+CUBIC 252 -253 255 -251 259 -249
+CUBIC 265 -243 278 -247 284 -240
+PENUP
+
+SETXY 308 -232
+PENDOWN
+CUBIC 312 -230 315 -227 319 -226
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 356 -225
+;PENDOWN
+;;CUBIC 360 -224 365 -221 T9 -220
+;CUBIC 372 -219 375 -220 377 -218
+;PENUP
+
+SETXY 384 -215
+
+; they say everything looks better with odd values for things but sometimes I put even values just to upset The
+; Interpreter
+
+; TODO: Machine transcription failure
+;PENDOWN
+;CUBIC 392 -208 405 -211 413 -205
+;CUBIC 415 -203 418 -204 420 -203
+;;CUBIC 426 -200 to 400 29 -196 435 -196
+;PENUP
+
+SETXY 443 -191
+PENDOWN
+CUBIC 453 -184 462 -178 472 -172
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -193 200
+;PENDOWN
+;SETHEADING -175
+;;FORWARD ho
+;;CUBIC -193 200 -193 201 -190 to 200 one
+;;CUBIC -191 206 -190 200 8 -196 209
+;CUBIC -197 206 -197 203 -198 200
+;CUBIC -197 200 -195 200 -194 199
+;CUBIC -193 202 -193 205 -192 207
+;PENUP
+
+SETXY -190 208
+PENDOWN
+CUBIC -190 208 -191 208 -191 208
+CUBIC -191 207 -192 205 -190 205
+CUBIC -191 209 -188 207 -190 205
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -192 205
+;PENDOWN
+;;CUBIC -192 205 -190 to 200 4 -190 to 200 3
+;;CUBIC -192 203 -191 203 -191 203 three
+;;CUBIC -190 to 200 5 -189 205 -191 203
+;;SETHEADING o
+;;FORWARD o
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -191 202
+;PENDOWN
+;;CUBIC -190 to 200 2 -190 to 200 3 -190 to 200 2
+;;CUBIC -193 201 -193 200 -190 to 200
+;;CUBIC -192 203 -190-200 to -100 ninety to two-hundred
+;PENUP
+
+; turtle tortoise and Terrapin are often used interchangeably as synonyms but there are distinct differences between
+; the types of Chalo nians according to the San Diego Zoo
+
+SETXY -196 209
+PENDOWN
+CUBIC -197 210 -198 206 -197 206
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -197 205
+;PENDOWN
+;;CUBIC -198 207 -199 200 3 -98 203
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -198 203
+;PENDOWN
+;;CUBIC -199 200 3 -199 200 -198 200
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -195 209
+;PENDOWN
+;CUBIC -195 210 -195 211 -193 210
+;CUBIC -193 210 -193 210 -193 210
+;;CUBIC -193 210 -three 209 -193 208
+;PENUP
+
+SETXY 390 -351
+PENDOWN
+CUBIC 391 -347 393 -343 396 -339
+CUBIC 392 -338 389 -336 385 -335
+CUBIC 382 -50 378 -347 390 -351
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 383 -281
+;PENDOWN
+;CUBIC 375 -324 436 -325 443 -288
+;CUBIC 455 -253 403 -236 387 -267
+;;CUBIC 378 -288 eight 382 -313 384 -335
+;PENUP
+
+SETXY 396 -339
+PENDOWN
+CUBIC 408 -329 421 -318 433 -307
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 387 -335
+;PENDOWN
+;;CUBIC 390 -318 393 -301 six -284
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 392 -338
+;PENDOWN
+;CUBIC 395 -336 397 -333 399 -330
+;;CUBIC 408 -318 420 -427 -295
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 384 -275
+;PENDOWN
+;;CUBIC 398 -200 9421 -292 440 -298
+;PENUP
+
+SETXY 388 -267
+PENDOWN
+CUBIC 397 -270 405 -276 414 -279
+CUBIC 424 -282 434 -286 443 -292
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 392 -333
+;PENDOWN
+;CUBIC 393 -332 393 -328 394 -329
+;;CUBIC 396 -331 four hundred -three hundred thirty four hundred -327
+;CUBIC 397 -322 389 -327 392 -332
+;CUBIC 394 -338 402 -333 400 -328
+;PENUP
+
+; Turtles spend most of their lives in water they are adapted for Aquatic Life with webbed feet are flippers in a
+; streamlined body sea turtles rarely leave the ocean except to lay eggs in the sand freshwater turtles live in ponds
+; and lakes and they climb out of the water onto logs or rocks to bask in the warm sun
+
+SETXY 393 -325
+PENDOWN
+CUBIC 393 -324 392 -324 391 -324
+CUBIC 389 -326 391 -329 389 -331
+CUBIC 389 -332 391 -330 391 -330
+PENUP
+
+SETXY 400 -338
+PENDOWN
+CUBIC 398 -337 395 -335 393 -334
+CUBIC 392 -335 392 -336 391 -337
+PENUP
+
+SETXY 393 -334
+PENDOWN
+CUBIC 393 -336 395 -337 396 -338
+CUBIC 397 -338 398 -339 399 -339
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 394 -338
+;PENDOWN
+;SETHEADING 139
+;;FORWARD oh
+;CUBIC 395 -338 395 -338 395 -338
+;PENUP
+
+SETXY 395 -338
+PENDOWN
+CUBIC 395 -339 395 -339 395 -339
+PENUP
+
+SETXY 396 -339
+PENDOWN
+CUBIC 396 -339 396 -339 396 -339
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 397 -340
+;PENDOWN
+;;CUBIC 397 -340 397 -300 4397 -340
+;PENUP
+
+SETXY 398 -340
+PENDOWN
+CUBIC 398 -340 398 -340 398 -340
+PENUP
+
+; tortoises are land animals their feet are around and Stumpy adapted for walking on land they also dig burrows with
+; strong forelimbs and slip under ground when the sun gets too hot Terrapins live on land and in water usually in
+; swamps ponds lakes and rivers
+
+SETXY 399 -340
+PENDOWN
+CUBIC 399 -340 399 -340 399 -339
+PENUP
+
+SETXY 400 -339
+PENDOWN
+CUBIC 400 -339 400 -339 400 -339
+PENUP
+
+SETXY 400 -338
+PENDOWN
+CUBIC 400 -338 401 -338 401 -338
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 401 -338
+;PENDOWN
+;;CUBIC 402 -338 402 -338 402 -eight
+;PENUP
+
+SETXY 403 -338
+PENDOWN
+CUBIC 403 -338 403 -338 403 -338
+PENUP
+
+SETXY 404 -338
+PENDOWN
+CUBIC 404 -338 404 -338 404 -338
+PENUP
+
+SETXY 404 -339
+PENDOWN
+CUBIC 404 -339 405 -339 405 -339
+PENUP
+
+SETXY 405 -340
+PENDOWN
+CUBIC 405 -340 405 -340 405 -340
+PENUP
+
+SETXY 405 -341
+PENDOWN
+CUBIC 405 -341 405 -341 405 -342
+PENUP
+
+SETXY 405 -342
+PENDOWN
+CUBIC 405 -342 405 -343 405 -343
+PENUP
+
+SETXY 406 -343
+PENDOWN
+CUBIC 406 -343 406 -344 406 -344
+PENUP
+
+SETXY 407 -344
+PENDOWN
+CUBIC 407 -344 407 -344 407 -344
+PENUP
+
+SETXY 408 -344
+PENDOWN
+CUBIC 408 -344 408 -344 408 -344
+PENUP
+
+; with so many different types of turtle there is no average size the largest sea turtle species is the leatherback
+; turtle it weighs 600 to 1000 500 pounds and is about 4.5 to five and a quarter feet long according to the World
+; Wildlife Federation the Galapagos tortoise grows up to six feet long and 500 73 pounds according to the San Diego
+; Zoo the largest freshwater turtle in North America is the alligator snapping turtle it can grow to two and a half
+; feet long and weigh as much as 200 pounds the Yangtze giant softshell turtle is the largest softshell turtle it
+; measures up to three point six feet across and way up to 309 pounds
+
+SETXY 409 -344
+PENDOWN
+CUBIC 409 -344 409 -344 409 -344
+PENUP
+
+SETXY 410 -344
+PENDOWN
+CUBIC 410 -343 410 -343 410 -343
+PENUP
+
+SETXY 410 -342
+PENDOWN
+CUBIC 410 -342 410 -342 410 -342
+PENUP
+
+SETXY 409 -342
+PENDOWN
+CUBIC 409 -341 409 -342 409 -342
+PENUP
+
+SETXY 408 -342
+PENDOWN
+CUBIC 408 -343 408 -343 408 -344
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 409 -345
+;PENDOWN
+;SETHEADING 155
+;;FORWARD oh
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 409 -346
+;PENDOWN
+;SETHEADING 160
+;;FORWARD one
+;PENUP
+
+SETXY 410 -347
+PENDOWN
+CUBIC 410 -347 410 -347 410 -347
+PENUP
+
+SETXY 410 -348
+PENDOWN
+CUBIC 410 -348 410 -348 410 -348
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 410 -349
+;PENDOWN
+;SETHEADING -150
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 409 -350
+;PENDOWN
+;;CUBIC 409 -350 400 9 -350 408 -351
+;PENUP
+
+SETXY 408 -351
+PENDOWN
+CUBIC 408 -351 408 -351 407 -351
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 407 -352
+;PENDOWN
+;;CUBIC 407 -350 to 400 6 -350 to 400 6 -352
+;PENUP
+
+SETXY 406 -353
+PENDOWN
+CUBIC 406 -353 406 -353 406 -353
+PENUP
+
+SETXY 406 -354
+PENDOWN
+CUBIC 406 -354 406 -354 406 -354
+PENUP
+
+SETXY 406 -355
+PENDOWN
+CUBIC 406 -355 406 -355 407 -355
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 407 -356
+;PENDOWN
+;;CUBIC 407 -356 407 -356 -356
+;PENUP
+
+SETXY 408 -357
+PENDOWN
+CUBIC 408 -357 408 -357 408 -357
+PENUP
+
+SETXY 409 -358
+PENDOWN
+CUBIC 409 -358 409 -358 409 -358
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 409 -359
+;PENDOWN
+;SETHEADING 175
+;;FORWARD 1
+;PENUP
+
+; a turtle's shell is a modified rib cage and part of its vertebral column according to the animal diversity web at
+; the University of Michigan the top part of the shell is called the carapace and the bottom is called the plastron
+; according to the San Diego Zoo the shell is made up of about 60 bones that are covered by plates called scoots
+; scutes are made of keratin the same material that makes up humans fingernails
+
+SETXY 409 -360
+PENDOWN
+CUBIC 409 -360 409 -360 409 -360
+PENUP
+
+SETXY 409 -361
+PENDOWN
+CUBIC 409 -361 409 -362 409 -362
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 409 -362
+;PENDOWN
+;;CUBIC 409 -363 409 -363 fine -363
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 410 -363
+;PENDOWN
+;SETHEADING 117
+;;FORWARD oh
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 411 -364
+;PENDOWN
+;SETHEADING 119
+;;FORWARD oh
+;PENUP
+
+SETXY 411 -366
+PENDOWN
+CUBIC 412 -367 414 -367 414 -365
+CUBIC 414 -363 410 -363 411 -366
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 414 -367
+;PENDOWN
+;;CUBIC 416 -369 419 -372 hundred twenty one -375
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 424 -368
+;PENDOWN
+;CUBIC 425 -368 425 -368 425 -368
+;CUBIC 424 -373 419 -378 413 -379
+;CUBIC 413 -379 414 -378 414 -378
+;SETHEADING -146
+;;FORWARD 0
+;PENUP
+
+; Ralph Waldo Emerson once wrote that all the thoughts of a turtle are turtles and of a rabbit rabbits so let's try to
+; think like a turtle
+
+SETXY 417 -373
+PENDOWN
+CUBIC 418 -372 419 -371 419 -370
+PENUP
+
+SETXY 425 -368
+PENDOWN
+CUBIC 424 -374 419 -378 413 -379
+PENUP
+
+; many turtles are able to retract their heads and feet into their shells Turtles are placed in the to suborders based
+; on the method of retraction according to the animal diversity web at the University of Michigan pleura Dyers pulled
+; their heads in sideways Cryptid iar's draw their heads straight back into the shell sea turtles have lost the
+; ability to retract their heads
+
+; TODO: Machine transcription failure
+;;SETXY -369
+;PENDOWN
+;CUBIC 425 -375 419 -378 414 -379
+;PENUP
+
+SETXY 426 -370
+PENDOWN
+CUBIC 424 -375 420 -379 414 -379
+PENUP
+
+SETXY 414 -367
+PENDOWN
+CUBIC 416 -370 418 -373 421 -376
+PENUP
+
+SETXY 414 -367
+PENDOWN
+CUBIC 416 -370 419 -372 422 -375
+PENUP
+
+SETXY 413 -364
+PENDOWN
+CUBIC 412 -364 412 -366 413 -366
+CUBIC 414 -366 414 -365 413 -364
+PENUP
+
+SETXY 284 431
+PENDOWN
+CUBIC 283 430 285 428 285 430
+CUBIC 285 430 285 431 284 431
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 300 444
+;PENDOWN
+;;CUBIC 299 444 299 442 three hundred four hundred forty three
+;;CUBIC 301-443-6197 hundred ninety-nine 444
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 299 420
+;PENDOWN
+;CUBIC 298 420 299 419 299 419
+;;CUBIC 300 -400 2299 421 299 420
+;PENUP
+
+; Turtles are very adaptive and can be found on every continent except Antarctica most turtle species are found in
+; Southeastern North America and South Asia only five species live in Europe according to Doctors Foster and Smith a
+; veterinarian business based in Wisconsin
+
+SETXY 313 425
+PENDOWN
+CUBIC 311 425 311 424 313 424
+CUBIC 313 424 313 426 312 425
+PENUP
+
+SETXY 286 432
+PENDOWN
+CUBIC 290 435 294 439 298 442
+PENUP
+
+SETXY 286 429
+PENDOWN
+CUBIC 290 426 293 424 297 421
+PENUP
+
+SETXY 301 420
+PENDOWN
+SETHEADING 70
+FORWARD 11
+PENUP
+
+SETXY 300 441
+PENDOWN
+CUBIC 299 435 299 428 299 422
+PENUP
+
+SETXY 301 442
+PENDOWN
+CUBIC 305 437 309 432 312 426
+PENUP
+
+SETXY 286 430
+PENDOWN
+CUBIC 290 429 294 429 298 428
+PENUP
+
+SETXY 300 428
+PENDOWN
+CUBIC 304 427 307 427 310 426
+PENUP
+
+; sea turtles can be found in the coral triangle an area that includes the Waters of Indonesia Malaysia the
+; Philippines and Papua New Guinea Coastal East Africa the Mesoamerican Reef in the Caribbean the Galapagos Islands
+; and the Gulf of California
+
+SETXY -50 435
+PENDOWN
+CUBIC -51 435 -51 434 -50 434
+CUBIC -49 434 -49 435 -50 435
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -41 439
+;PENDOWN
+;CUBIC -43 439 -42 437 -41 437
+;;CUBIC -44 137 -4440 -42 439
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -31 437
+;PENDOWN
+;;CUBIC -33 436 -31 435 -3436
+;;CUBIC -3436 -31 437 -32 437
+;PENUP
+
+SETXY -48 435
+PENDOWN
+CUBIC -47 436 -44 437 -43 437
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -39 437
+;PENDOWN
+;SETHEADING 97
+;;FORWARD five
+;PENUP
+
+; hey what do you get if you cross a turtle with a giraffe a turtleneck
+
+SETXY -29 436
+PENDOWN
+CUBIC -27 435 -25 435 -24 434
+PENUP
+
+SETXY -22 434
+PENDOWN
+CUBIC -23 435 -23 432 -22 432
+CUBIC -21 432 -21 434 -22 434
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -22 431
+;PENDOWN
+;SETHEADING -176
+;;FORWARD seven
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -23 423
+;PENDOWN
+;CUBIC -25 424 -24 420 -23 422
+;;CUBIC -22400 22 -23 423 -23 423
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -21 422
+;PENDOWN
+;;CUBIC -19 420 to -16 421 -13 421
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -11 421
+;PENDOWN
+;CUBIC -12 422 -12 420 -12 420
+;;CUBIC -11 419 -10 420 to minus-12 421
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -10 422
+;PENDOWN
+;;CUBIC -9 424 -7 427 -5 429
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -for 432
+;PENDOWN
+;;CUBIC -5 432 -6 430 -five four hundred thirty
+;;CUBIC -for 430 -3 431 -for 432
+;PENUP
+
+; the African helmeted turtle is the most common turtle in Africa according to Animal Planet it is a hunter scavenger
+; that eats young birds and small mammals it steals bait from Fisherman's hooks it also releases a foul-smelling
+; liquid from glands in its legs
+
+SETXY -49 436
+PENDOWN
+CUBIC -46 438 -44 439 -41 440
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -4441
+;PENDOWN
+;;CUBIC -4439 -37 441 -39 442
+;;CUBIC -4440 3 -4442 -4441
+;PENUP
+
+; Roti Island snake necked Turtles are found only on Rhode Island a 62 square mile island in Indonesia according to
+; the San Diego Zoo
+
+; TODO: Machine transcription failure
+;SETXY -37 441
+;PENDOWN
+;;CUBIC -35 441 -33 441 -3441
+;PENUP
+
+SETXY -29 442
+PENDOWN
+CUBIC -31 441 -28 439 -28 441
+CUBIC -27 441 -28 442 -29 442
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -27 441
+;PENDOWN
+;;CUBIC -25 440 -22 439 -2438
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -18 438
+;PENDOWN
+;;CUBIC -2437 -18 435 -17 437
+;CUBIC -17 438 -18 438 -18 438
+;PENUP
+
+SETXY -18 435
+PENDOWN
+CUBIC -18 433 -18 430 -18 428
+PENUP
+
+SETXY -19 426
+PENDOWN
+CUBIC -19 424 -16 425 -17 427
+CUBIC -18 427 -19 426 -19 426
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -13 426
+;PENDOWN
+;CUBIC -14 425 -12 424 -11 424
+;;CUBIC -10400 25 -12 420 7 -13 426
+;PENUP
+
+; Turtles are not social creatures while they typically don't mind if there are other turtles around them they don't
+; interact or socialize according to encyclopædia Britannica most Turtles are active during the day spending their
+; time foraging for food
+
+; TODO: Machine transcription failure
+;;SETXY -16
+;PENDOWN
+;CUBIC -15 426 -15 425 -14 426
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -11 427
+;PENDOWN
+;;CUBIC -10 429 -8 431 -7 433
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -7 435
+;PENDOWN
+;;CUBIC -7 434 -5 433 -five 435
+;;CUBIC -five four hundred thirty six -seven four hundred thirty six -seven 435
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -for 444
+;PENDOWN
+;;CUBIC -to 425 nine 450 -0 453
+;;CUBIC -for 452 -for 447 -for 444
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY one 453
+;PENDOWN
+;;CUBIC 12 450 29 437 -one 437
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -to 452
+;PENDOWN
+;;CUBIC -to 450 -1 448 -1 445
+;;CUBIC oh 445 one 443 to 443
+;PENUP
+
+; Turtles are not silent creatures some sound like electric motors some sound like belching humans and some bark like
+; dogs the red-footed tortoise from South America clucks like a chicken
+
+; TODO: Machine transcription failure
+;;SETXY 2 451
+;PENDOWN
+;;CUBIC 0 448 -1 445 -4 443
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -1 437
+;PENDOWN
+;;CUBIC -14 hundred forty -1 443 -one 446
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -for 448
+;PENDOWN
+;;CUBIC -three four hundred forty seven -two 446 -1 445
+;;CUBIC one 446 to 447 3 447
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY o 453
+;PENDOWN
+;;CUBIC -one 448 -one 444 one 440
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -3 439
+;PENDOWN
+;;CUBIC -to 441 -to 443 -one 445
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -16 437
+;PENDOWN
+;;CUBIC -14 436 -11 436 -8 436
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 250 380
+;PENDOWN
+;CUBIC 250 381 250 382 249 383
+;CUBIC 250 382 251 382 252 382
+;SETHEADING -50
+;;FORWARD o
+;PENUP
+
+SETXY 249 383
+PENDOWN
+CUBIC 249 383 248 384 248 384
+PENUP
+
+SETXY 246 386
+PENDOWN
+CUBIC 245 387 245 384 246 384
+CUBIC 248 384 248 387 246 386
+PENUP
+
+SETXY 248 381
+PENDOWN
+CUBIC 247 384 248 384 250 385
+PENUP
+
+SETXY -192 282
+PENDOWN
+CUBIC -197 278 -196 272 -199 168
+PENUP
+
+SETXY -204 261
+PENDOWN
+CUBIC -206 257 -206 252 -209 249
+CUBIC -211 245 -211 240 -213 236
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -214 225
+;PENDOWN
+;;CUBIC -213 223 -214 221 -214 teen
+;;CUBIC -216 221 -215 220 3 -214 224
+;PENUP
+
+SETXY -213 166
+PENDOWN
+CUBIC -213 163 -212 161 -212 159
+CUBIC -212 159 -212 158 -211 158
+CUBIC -209 157 -211 154 -209 152
+PENUP
+
+SETXY -218 207
+PENDOWN
+CUBIC -216 202 -219 197 -217 192
+CUBIC -218 189 -219 185 -217 182
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -209 146
+;PENDOWN
+;CUBIC -207 143 -205 140 -204 137
+;;CUBIC -202 133 -200 to 126 -199 126
+;PENUP
+
+SETXY 108 192
+PENDOWN
+CUBIC 107 187 107 182 107 177
+PENUP
+
+; most Turtles are omnivores they eat a variety of different things depending on their species musk turtles eat
+; mollusks plants small fish and insects the cooter turtle is mostly vegetarian and the green sea turtle only eats
+; grasses and algae
+
+; TODO: Machine transcription failure
+;SETXY 94 134
+;PENDOWN
+;;CUBIC 89/100 2988 120 83 117
+;SETHEADING -171
+;;FORWARD for
+;PENUP
+
+SETXY 105 232
+PENDOWN
+CUBIC 104 230 105 228 106 226
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 61 312
+;PENDOWN
+;CUBIC 61 309 65 308 65 306
+;CUBIC 65 300 565 305 66 305
+;CUBIC 67 306 68 300 468 303
+;CUBIC 68 300 369 302 69 302
+;;CUBIC 7300 one 7371 300
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY to 350 for
+;PENDOWN
+;;CUBIC for 350 283 hundred forty eight eleven 348
+;CUBIC 11 348 11 348 12 348
+;CUBIC 12 348 13 348 14 348
+;CUBIC 14 346 16 347 17 346
+;PENUP
+
+; I read in the LA times this morning that 42,000 Mazda cars were recalled because of a spider problem really makes
+; you think doesn't it
+
+SETXY 358 327
+PENDOWN
+CUBIC 358 326 360 326 360 327
+CUBIC 361 329 358 329 358 327
+PENUP
+
+SETXY 346 338
+PENDOWN
+CUBIC 345 337 346 335 347 335
+CUBIC 349 336 347 348 346 338
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 364 348
+;PENDOWN
+;CUBIC 364 347 365 347 366 348
+;;CUBIC 367 350 360 for 350 360 for 348
+;PENUP
+
+SETXY 353 347
+PENDOWN
+CUBIC 353 346 354 347 354 348
+CUBIC 354 349 352 349 353 347
+PENUP
+
+SETXY 385 359
+PENDOWN
+CUBIC 386 359 387 362 385 362
+CUBIC 384 361 384 360 385 359
+PENUP
+
+SETXY 420 375
+PENDOWN
+CUBIC 420 374 421 373 422 374
+CUBIC 424 375 421 376 420 375
+PENUP
+
+; the alligator snapping turtle lers in Fish with its tongue which looks like a worm it Wiggles its tongue to
+; attract a Hungry Fish and then snaps down on it with its strong jaw it also eats aquatic plants snakes frogs fish
+; worms clams crayfish and other Turtles
+
+; TODO: Machine transcription failure
+;SETXY 402 386
+;PENDOWN
+;CUBIC 401 384 402 384 403 385
+;;CUBIC 404-382-9580 387 402 386
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 394 379
+;PENDOWN
+;CUBIC 396 378 397 381 395 382
+;;CUBIC 394 382 393 380 390 for 379
+;PENUP
+
+SETXY 394 416
+PENDOWN
+CUBIC 394 414 396 415 396 416
+CUBIC 395 418 393 417 394 416
+PENUP
+
+SETXY 392 393
+PENDOWN
+CUBIC 392 391 394 390 394 392
+CUBIC 395 394 392 395 392 393
+PENUP
+
+; TODO: Machine transcription failure
+;;SETXY 380 400 one
+;PENDOWN
+;;CUBIC 380 399 382 403 hundred eighty-two 400
+;;CUBIC 384 403 380 400 for 384 hundred one
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 402 411
+;PENDOWN
+;CUBIC 404 409 405 412 403 413
+;;CUBIC four hundred to four hundred thirteen 402 412 402 411
+;PENUP
+
+; all turtles lay eggs they find a place on land to lay their eggs dig a nest into the sand or dirt and then walk
+; away no species of turtle nurtures their young
+
+; TODO: Machine transcription failure
+;SETXY 368 403
+;PENDOWN
+;;CUBIC 368 401 371 402 371 3
+;CUBIC 371 405 368 405 368 403
+;PENUP
+
+SETXY 370 417
+PENDOWN
+CUBIC 369 416 369 414 370 414
+CUBIC 372 415 371 417 370 417
+PENUP
+
+SETXY 351 427
+PENDOWN
+CUBIC 351 425 353 426 353 427
+CUBIC 353 428 350 428 351 427
+PENUP
+
+SETXY 346 391
+PENDOWN
+CUBIC 346 390 349 392 348 393
+CUBIC 347 394 345 393 346 391
+PENUP
+
+SETXY 336 368
+PENDOWN
+CUBIC 337 365 340 368 338 370
+CUBIC 337 370 336 369 336 368
+PENUP
+
+SETXY 315 364
+PENDOWN
+CUBIC 316 363 317 365 317 366
+CUBIC 315 367 314 366 315 364
+PENUP
+
+SETXY 328 356
+PENDOWN
+CUBIC 328 355 328 354 329 354
+CUBIC 331 355 331 357 328 356
+PENUP
+
+SETXY 323 361
+PENDOWN
+CUBIC 322 360 323 358 324 359
+CUBIC 326 360 324 362 323 361
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 337 343
+;PENDOWN
+;;CUBIC 338 343 339 340 for 339 340 for
+;CUBIC 339 347 336 345 337 343
+;PENUP
+
+; Turtles reach the age to mate at different times some come of age as young as a few years old While others don't
+; reach sexual maturity until around 50 years has passed
+
+; TODO: Machine transcription failure
+;SETXY 342 352
+;PENDOWN
+;;CUBIC 341 350 345 350 300 45 352
+;CUBIC 344 353 342 353 342 352
+;PENUP
+
+SETXY 348 339
+PENDOWN
+CUBIC 350 341 351 343 353 346
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 360 330
+;PENDOWN
+;;CUBIC 361 335 363 340 360 for 345
+;PENUP
+
+SETXY 355 348
+PENDOWN
+CUBIC 358 348 361 348 363 348
+PENUP
+
+SETXY 349 335
+PENDOWN
+CUBIC 352 333 355 331 357 329
+PENUP
+
+SETXY 339 346
+PENDOWN
+CUBIC 340 347 341 348 341 349
+PENUP
+
+SETXY 346 351
+PENDOWN
+CUBIC 347 350 349 349 351 348
+PENUP
+
+SETXY 331 357
+PENDOWN
+CUBIC 333 360 335 363 336 366
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 325 359
+;PENDOWN
+;SETHEADING 131
+;;FORWARD to
+;PENUP
+
+SETXY 318 364
+PENDOWN
+CUBIC 319 363 320 363 322 362
+PENUP
+
+SETXY 318 366
+PENDOWN
+CUBIC 324 367 329 368 335 368
+PENUP
+
+SETXY 337 366
+PENDOWN
+CUBIC 339 362 341 357 342 354
+PENUP
+
+SETXY 338 372
+PENDOWN
+SETHEADING 22
+FORWARD 19
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 349 394
+;PENDOWN
+;;CUBIC 355 397 361-410 366 402
+;PENUP
+
+SETXY 370 406
+PENDOWN
+CUBIC 370 409 370 411 370 413
+PENUP
+
+SETXY 354 426
+PENDOWN
+CUBIC 359 423 364 421 368 418
+PENUP
+
+SETXY 353 424
+PENDOWN
+CUBIC 358 418 363 411 367 405
+PENUP
+
+SETXY 394 383
+PENDOWN
+CUBIC 394 385 394 388 394 390
+PENUP
+
+; some species fight for the right to mate with a female While others seduce her with a mating ritual to mate male and
+; female turtles intertwine their tails so that their shell openings line up perfectly
+
+SETXY 387 363
+PENDOWN
+CUBIC 389 367 392 372 394 377
+PENUP
+
+SETXY 367 350
+PENDOWN
+CUBIC 373 352 378 356 384 359
+PENUP
+
+SETXY 397 382
+PENDOWN
+CUBIC 398 383 399 383 400 384
+PENUP
+
+SETXY 405 384
+PENDOWN
+CUBIC 409 381 414 379 419 376
+PENUP
+
+SETXY 419 374
+PENDOWN
+CUBIC 412 376 405 377 398 379
+PENUP
+
+SETXY 372 403
+PENDOWN
+CUBIC 374 402 377 402 379 402
+PENUP
+
+SETXY 383 400
+PENDOWN
+CUBIC 386 398 389 396 391 395
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 394 395
+;PENDOWN
+;;CUBIC 396 400 399 400 five four hundred to four hundred nine
+;PENUP
+
+SETXY 393 414
+PENDOWN
+CUBIC 390 411 387 407 383 404
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 397 415
+;PENDOWN
+;;CUBIC 398 414 404 hundred fourteen 401 413
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 318 138
+;PENDOWN
+;CUBIC 322 140 326 143 327 146
+;CUBIC 328 147 328 144 329 145
+;CUBIC 330 148 331 142 332 146
+;;CUBIC 333 146 335 145 335 6
+;CUBIC 335 147 335 147 336 147
+;CUBIC 336 145 337 145 338 146
+;CUBIC 340 144 341 140 44 138
+;PENUP
+
+; sea turtles travel from the ocean to lay eggs on beaches usually sea turtles lay around 110 eggs in a nest though
+; the flatback turtle only lays 50 at a time
+
+SETXY 330 146
+PENDOWN
+CUBIC 328 147 328 150 328 152
+CUBIC 329 154 332 157 335 156
+CUBIC 338 154 338 148 336 146
+PENUP
+
+SETXY 332 134
+PENDOWN
+CUBIC 333 134 333 134 334 134
+PENUP
+
+SETXY 332 136
+PENDOWN
+CUBIC 333 136 333 136 334 136
+PENUP
+
+SETXY 332 137
+PENDOWN
+CUBIC 333 137 333 137 334 137
+PENUP
+
+SETXY 332 138
+PENDOWN
+CUBIC 333 139 334 138 334 138
+PENUP
+
+SETXY 332 140
+PENDOWN
+CUBIC 333 140 334 140 334 140
+PENUP
+
+SETXY 332 141
+PENDOWN
+CUBIC 333 141 334 141 334 141
+PENUP
+
+SETXY 332 143
+PENDOWN
+CUBIC 333 143 334 143 335 143
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 332 144
+;PENDOWN
+;SETHEADING 89
+;;FORWARD to
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 330 149
+;PENDOWN
+;CUBIC 329 149 330 148 330 148
+;CUBIC 330 147 330 149 330 149
+;SETHEADING -174
+;;FORWARD o
+;PENUP
+
+SETXY 336 149
+PENDOWN
+CUBIC 336 149 336 148 336 148
+CUBIC 337 148 337 149 336 149
+PENUP
+
+SETXY 332 150
+PENDOWN
+CUBIC 332 147 334 151 332 150
+PENUP
+
+; the temperature of the sand affects the sex of the turtle the perfect Beach temperature produces an equal number of
+; male and female Offspring due to Rising temperatures too many sea turtle females are being born contributing to the
+; decline line in species numbers according to the Sea Turtle Conservancy
+
+SETXY 333 146
+PENDOWN
+CUBIC 333 149 335 147 333 146
+PENUP
+
+SETXY 528 250
+PENDOWN
+CUBIC 544 256 557 267 574 270
+PENUP
+
+SETXY 526 250
+PENDOWN
+CUBIC 525 250 525 249 525 249
+CUBIC 526 248 526 250 525 250
+PENUP
+
+SETXY 525 251
+PENDOWN
+CUBIC 525 251 525 252 525 252
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 524 251
+;PENDOWN
+;SETHEADING -61
+;;FORWARD o
+;PENUP
+
+SETXY 523 249
+PENDOWN
+CUBIC 523 249 523 249 523 249
+PENUP
+
+SETXY 524 247
+PENDOWN
+CUBIC 524 247 524 247 524 247
+PENUP
+
+SETXY 527 247
+PENDOWN
+CUBIC 527 247 527 247 527 247
+PENUP
+
+SETXY 528 249
+PENDOWN
+CUBIC 528 249 528 249 528 249
+PENUP
+
+SETXY 480 218
+PENDOWN
+CUBIC 480 218 481 217 481 217
+CUBIC 482 218 481 219 480 218
+PENUP
+
+SETXY 483 219
+PENDOWN
+CUBIC 485 221 487 222 490 223
+CUBIC 500 226 509 231 519 235
+PENUP
+
+SETXY 529 240
+PENDOWN
+CUBIC 531 240 532 241 533 241
+PENUP
+
+SETXY 537 242
+PENDOWN
+CUBIC 539 243 541 244 542 244
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 480 220
+;PENDOWN
+;SETHEADING -13
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 478 219
+;PENDOWN
+;;CUBIC 478 quadrillion 219 trillion four hundred seventy eight billion 219 million four hundred seventy eight thousand two hundred nineteen
+;PENUP
+
+; according to the international Union for conservation of nature many turtle species are listed as threatened
+; endangered or endangered for example the ploughshare tortoise and radiated tortoise are estimated to be extinct in
+; the next 45 years
+
+; TODO: Machine transcription failure
+;;SETXY C4 hundred seventy eight thousand two hundred Seventeen
+;PENDOWN
+;SETHEADING -115
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY see four hundred seventy nine thousand two hundred fifteen
+;PENDOWN
+;SETHEADING -140
+;;FORWARD one
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C4 hundred eighty 1215
+;PENDOWN
+;PENDOWN
+;;CUBIC 481 quadrillion 215 trillion 481 billion 214 million 480 1214
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C4 hundred eighty three thousand two hundred sixteen
+;PENDOWN
+;;CUBIC 483 quadrillion two hundred sixteen trillion four hundred eighty three billion two hundred sixteen million four hundred eighty three thousand two hundred sixteen
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY C5 hundred seventy nine thousand two hundred seventy two
+;PENDOWN
+;SETHEADING 72
+;;FORWARD for
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY cc 550 5232
+;PENDOWN
+;;CUBIC 543 quadrillion 227 trillion 531 billion two hundred twenty two million five hundred nineteen thousand two hundred fifteen
+;;CUBIC 525 quadrillion 211 trillion five hundred thirty billion 207 million 530 5201
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY c500 58 8233
+;PENDOWN
+;;CUBIC 559 234-567-8910 6230 for
+;PENUP
+
+SETXY 564 236
+PENDOWN
+CUBIC 565 236 566 236 566 237
+PENUP
+
+SETXY 571 238
+PENDOWN
+CUBIC 571 238 572 239 573 239
+PENUP
+
+SETXY 536 199
+PENDOWN
+CUBIC 535 198 537 198 537 199
+CUBIC 537 200 536 200 536 199
+PENUP
+
+SETXY 537 202
+PENDOWN
+CUBIC 537 202 537 202 537 202
+PENUP
+
+SETXY 539 201
+PENDOWN
+CUBIC 539 201 539 201 539 201
+PENUP
+
+SETXY 539 199
+PENDOWN
+CUBIC 540 199 540 199 540 198
+PENUP
+
+SETXY 538 197
+PENDOWN
+CUBIC 538 197 539 197 539 196
+PENUP
+
+SETXY 536 196
+PENDOWN
+CUBIC 536 196 536 196 536 196
+PENUP
+
+SETXY 534 198
+PENDOWN
+CUBIC 534 197 534 197 534 197
+PENUP
+
+SETXY 534 200
+PENDOWN
+CUBIC 534 200 533 200 533 200
+PENUP
+
+SETXY 519 217
+PENDOWN
+CUBIC 520 217 522 217 522 218
+PENUP
+
+; a pair of Russian tortoises went into space in 1968 the Soviet Union launched zond 5 a space probe that was the
+; first spacecraft to orbit the Moon it returned safely in the tortoise has survived they had lost about 10% of their
+; body weight but they remained active and showed no loss of appetite according to NASA
+
+; TODO: Machine transcription failure
+;;SETXY 519
+;PENDOWN
+;CUBIC 519 213 519 213 520 213
+;PENUP
+
+SETXY 516 212
+PENDOWN
+CUBIC 517 207 519 218 518 219
+CUBIC 515 219 516 214 516 212
+PENUP
+
+SETXY 516 213
+PENDOWN
+CUBIC 517 210 514 199 516 200
+CUBIC 517 204 516 208 517 212
+PENUP
+
+SETXY 516 216
+PENDOWN
+CUBIC 517 217 518 217 518 218
+PENUP
+
+SETXY 516 213
+PENDOWN
+CUBIC 516 214 517 214 517 215
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 493 177
+;PENDOWN
+;;CUBIC 496 178 498 179 501
+;CUBIC 501 183 501 185 501 187
+;CUBIC 500 181 496 177 493 172
+;PENUP
+
+SETXY 501 187
+PENDOWN
+CUBIC 502 191 502 195 502 199
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 489 193
+;PENDOWN
+;CUBIC 493 198 499 199 505 200
+;CUBIC 509 201 513 202 517 203
+;;CUBIC 517 203 516 200 to 500 16200 three
+;CUBIC 516 203 516 203 516 203
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 497 203
+;PENDOWN
+;;CUBIC 500 196 512 200 to 500 8 209
+;CUBIC 504 216 494 210 497 203
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 167 189
+;PENDOWN
+;SETHEADING 180
+;;FORWARD for
+;PENUP
+
+SETXY 172 189
+PENDOWN
+CUBIC 172 188 172 187 172 185
+PENUP
+
+SETXY 169 188
+PENDOWN
+CUBIC 168 189 168 185 170 186
+CUBIC 171 186 170 188 169 188
+PENUP
+
+SETXY 170 187
+PENDOWN
+CUBIC 171 187 171 187 172 187
+PENUP
+
+SETXY 167 187
+PENDOWN
+CUBIC 167 187 168 187 168 187
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 156 198
+;PENDOWN
+;CUBIC 156 198 157 197 156 197
+;CUBIC 155 195 154 193 152 192
+;;CUBIC 150 to 190 to 151 192 151 193
+;CUBIC 153 194 154 196 156 198
+;PENUP
+
+SETXY 152 196
+PENDOWN
+CUBIC 153 197 154 198 155 199
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 151 197
+;PENDOWN
+;SETHEADING -137
+;;FORWARD oh
+;CUBIC 152 198 153 199 154 200
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 150 198
+;PENDOWN
+;SETHEADING 43
+;;FORWARD for
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 150 199
+;PENDOWN
+;;CUBIC 150 200 150 one 201 150 to 200 to
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 153 198
+;PENDOWN
+;CUBIC 154 197 154 197 154 197
+;;SETHEADING 54 were do
+;PENUP
+
+SETXY 156 195
+PENDOWN
+CUBIC 156 195 156 195 157 195
+PENUP
+
+SETXY 156 193
+PENDOWN
+CUBIC 156 194 157 195 158 196
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 156 192
+;PENDOWN
+;SETHEADING 45
+;;FORWARD 5
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 157 191
+;PENDOWN
+;SETHEADING 43
+;;FORWARD 5
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 158 190
+;PENDOWN
+;SETHEADING 41
+;;FORWARD for
+;PENUP
+
+SETXY 157 198
+PENDOWN
+CUBIC 157 198 157 198 157 198
+PENUP
+
+SETXY 159 198
+PENDOWN
+CUBIC 160 199 158 200 158 201
+CUBIC 157 201 157 200 157 200
+CUBIC 157 199 158 199 159 198
+PENUP
+
+SETXY 151 194
+PENDOWN
+CUBIC 151 194 151 194 151 194
+CUBIC 151 195 150 196 150 196
+CUBIC 150 196 150 196 49 196
+CUBIC 150 195 151 194 151 194
+PENUP
+
+SETXY 258 380
+PENDOWN
+CUBIC 259 380 259 382 258 382
+CUBIC 258 381 258 380 258 380
+PENUP
+
+SETXY 257 382
+PENDOWN
+CUBIC 257 382 257 382 257 382
+PENUP
+
+SETXY 258 379
+PENDOWN
+CUBIC 258 379 258 379 258 379
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -79 -355
+;PENDOWN
+;CUBIC -79 -359 -73 -358 -71 -358
+;CUBIC -65 -358 -58 -360 -53 -356
+;CUBIC -52 -354 -53 -353 -55 -352
+;CUBIC -57 -351 -58 -349 -60 -347
+;CUBIC -66 -345 -72 -346 -77 -349
+;;CUBIC -80 -350 -79 -353 -a 79 -355
+;PENUP
+
+SETXY -63 -351
+PENDOWN
+CUBIC -62 -352 -59 -352 -57 -352
+CUBIC -58 -349 -64 -346 -63 -351
+PENUP
+
+SETXY -60 -359
+PENDOWN
+CUBIC -60 -359 -59 -360 -59 -361
+PENUP
+
+SETXY -74 -358
+PENDOWN
+CUBIC -74 -359 -74 -360 -75 -360
+PENUP
+
+SETXY -78 -360
+PENDOWN
+SETHEADING 93
+FORWARD 20
+CUBIC -57 -361 -56 -361 -55 -360
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -79 -356
+;PENDOWN
+;;CUBIC -71 -357 -63 -and 57 -55 -357
+;PENUP
+
+SETXY -65 -351
+PENDOWN
+CUBIC -66 -353 -69 -351 -71 -352
+CUBIC -71 -352 -71 -351 -71 -351
+CUBIC -71 -351 -71 -350 -71 -349
+CUBIC -70 -348 -67 -349 -66 -349
+CUBIC -64 -348 -65 -350 -65 -351
+PENUP
+
+SETXY -67 -346
+PENDOWN
+CUBIC -67 -345 -67 -341 -65 -342
+CUBIC -65 -343 -66 -345 -65 -346
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -68 -343
+;PENDOWN
+;CUBIC -76 -343 -84 -342 -91 -343
+;;CUBIC -75 -300 45 -58 -346 -41 -346
+;;CUBIC -47 -300 45 -58 -343 -64 -343
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -81 -340
+;PENDOWN
+;;CUBIC -82 -340 -eighty three -three hundred forty -85 -340
+;PENUP
+
+SETXY -93 -341
+PENDOWN
+CUBIC -94 -342 -94 -344 -92 -344
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -40 -345
+;PENDOWN
+;;CUBIC -39 -345 -39 -347 -40 -346 87
+;PENUP
+
+SETXY -54 -348
+PENDOWN
+CUBIC -53 -348 -51 -348 -50 -348
+PENUP
+
+SETXY -50 -343
+PENDOWN
+CUBIC -51 -343 -52 -343 -53 -342
+PENUP
+
+SETXY -85 -345
+PENDOWN
+CUBIC -83 -346 -82 -346 -81 -346
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -78 -349
+;PENDOWN
+;;CUBIC -86 -351 -95 -349 -13 102 -352
+;CUBIC -107 -356 -113 -359 -119 -359
+;CUBIC -119 -359 -120 -359 -119 -360
+;CUBIC -102 -363 -106 -350 -79 -357
+;PENUP
+
+SETXY -118 -359
+PENDOWN
+CUBIC -119 -358 -120 -356 -120 -354
+CUBIC -119 -356 -119 -358 -118 -359
+PENUP
+
+SETXY -114 -359
+PENDOWN
+CUBIC -115 -357 -115 -356 -115 -353
+CUBIC -115 -356 -114 -357 -113 -359
+PENUP
+
+SETXY -117 -358
+PENDOWN
+CUBIC -117 -357 -118 -355 -118 -354
+CUBIC -117 -355 -117 -357 -116 -359
+PENUP
+
+SETXY -113 -358
+PENDOWN
+CUBIC -113 -356 -113 -354 -112 -353
+CUBIC -112 -354 -112 -356 -112 -358
+PENUP
+
+SETXY -80 -355
+PENDOWN
+CUBIC -86 -355 -94 -353 -100 -355
+PENUP
+
+SETXY 480 -168
+PENDOWN
+CUBIC 480 -166 483 -167 484 -168
+CUBIC 484 -171 480 -175 480 -179
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 478 -179
+;PENDOWN
+;CUBIC 478 -178 481 -180 483 -179
+;CUBIC 482 -180 482 -182 482 -183
+;CUBIC 477 -181 471 -186 471 -192
+;;CUBIC 471 -two hundred to four hundred eighty seven -203 489 -193
+;;CUBIC 491 -189 today 89 -184 484 -183
+;CUBIC 482 -182 477 -184 477 -179
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 473 -190
+;PENDOWN
+;CUBIC 474 -188 475 -189 475 -190
+;CUBIC 475 -189 476 -187 478 -187
+;;CUBIC 477 -seven 477 -186 476 -186
+;CUBIC 474 -185 474 -189 473 -190
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 327 -238
+;PENDOWN
+;CUBIC 323 -237 323 -243 325 -245
+;CUBIC 326 -246 327 -248 327 -251
+;;CUBIC 322 -200 49 323 -253 323 -256
+;CUBIC 325 -256 327 -256 329 -256
+;;CUBIC 329 -254 329 -250 33 129 -251
+;CUBIC 328 -251 327 -251 326 -250
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 325 -256
+;PENDOWN
+;;CUBIC 311 -254 310 -276 324 -red 75
+;CUBIC 335 -276 339 -258 328 -256
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 318 -261
+;PENDOWN
+;CUBIC 317 -262 317 -263 317 -264
+;SETHEADING 41
+;;FORWARD one
+;CUBIC 318 -264 318 -264 318 -265
+;CUBIC 318 -263 320 -262 322 -262
+;CUBIC 319 -62 321 -257 318 -261
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -55 -216
+;PENDOWN
+;CUBIC -60 -217 -60 -222 -57 -225
+;CUBIC -56 -227 -56 -230 -57 -232
+;CUBIC -57 -232 -88 -232 -58 -232
+;CUBIC -59 -233 -59 -235 -59 -237
+;CUBIC -58 -237 -56 -237 -55 -237
+;CUBIC -56 -235 -54 -231 -57 -232
+;SETHEADING 57
+;;FORWARD o
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY -68 -251
+;PENDOWN
+;CUBIC -65 -260 -49 -258 -48 -249
+;;CUBIC -46 -231 -a 71 -234 -68 -251
+;PENUP
+
+SETXY -64 -242
+PENDOWN
+CUBIC -65 -243 -65 -244 -66 -245
+CUBIC -65 -244 -64 -245 -64 -246
+CUBIC -64 -244 -62 -242 -60 -241
+CUBIC -62 -242 -62 -239 -64 -242
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 223 34
+;PENDOWN
+;SETHEADING 169
+;;FORWARD two
+;CUBIC 218 45 221 54 212 36
+;;CUBIC 214 4200 1942 222 45
+;CUBIC 224 42 225 37 227 34
+;PENUP
+
+SETXY 212 37
+PENDOWN
+CUBIC 211 41 212 48 214 52
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 216 64
+;PENDOWN
+;;CUBIC 210 61 200 1451 220 50
+;;CUBIC 230 250 to 200 2871 200 1664
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 225 45
+;PENDOWN
+;CUBIC 218 45 217 46 214 52
+;;CUBIC 200 1848 200 1847 225 46
+;;CUBIC 225 46 5:45 225 45
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 237 40
+;PENDOWN
+;;CUBIC 238 38 241 36 two hundred forty three thirty four
+;;CUBIC 245 42 243 4230 8:45
+;CUBIC 238 44 238 42 237 40
+;PENUP
+
+SETXY 238 46
+PENDOWN
+CUBIC 240 45 241 46 240 245
+CUBIC 243 43 246 42 247 41
+CUBIC 247 39 247 37 246 35
+CUBIC 246 35 246 35 245 35
+CUBIC 245 35 244 35 243 34
+CUBIC 243 35 243 35 243 35
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 244 40
+;PENDOWN
+;;CUBIC 245 41 247 4248 41
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 238 41
+;PENDOWN
+;;CUBIC 238 37 240 140 to 200 4043
+;CUBIC 239 44 239 41 238 41
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 241 41
+;PENDOWN
+;SETHEADING 122
+;;FORWARD o
+;CUBIC 240 240 241 41 241 41
+;PENUP
+
+SETXY 241 39
+PENDOWN
+CUBIC 241 39 241 39 241 39
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 245 42
+;PENDOWN
+;;SETHEADING to
+;FORWARD 16
+;PENUP
+
+; TODO: Machine transcription failure
+;SETXY 236 46
+;PENDOWN
+;SETHEADING -42
+;;FORWARD to
+;PENUP
+
+SETXY 236 45
+PENDOWN
+CUBIC 235 45 234 45 234 45
+PENUP
+
+SETXY 235 42
+PENDOWN
+CUBIC 235 42 234 42 233 42
+PENUP
+
+SETXY 235 39
+PENDOWN
+CUBIC 235 39 234 39 234 38
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY 237 38
+;PENDOWN
+;SETHEADING 103
+;;FORWARD oh
+;CUBIC 237 37 237 37 237 37
+;PENUP
+
+SETXY 238 48
+PENDOWN
+CUBIC 238 48 238 48 238 49
+PENUP
+
+; TODO: Machine transcription failure
+;SETXY -117 81
+;PENDOWN
+;CUBIC -115 81 -114 78 -116 77
+;CUBIC -114 77 -114 76 -116 76
+;;CUBIC -116 77 -118 75 -100 1977
+;;CUBIC -122 74 -120 180 -119 D7
+;CUBIC -120 180 -116 85 -113 83
+;CUBIC -113 83 -113 84 -113 84
+;CUBIC -117 88 -113 91 -112 85
+;CUBIC -112 84 -112 84 -112 84
+;;CUBIC -100 and 85 -108 83 -108 81
+;CUBIC -108 80 -100 979 -110 79
+;;CUBIC -111 79 -112 79 -112/78
+;;CUBIC -112/78 -113 77 -112 77
+;;CUBIC -112 75 -100 1376 -113 77
+;CUBIC -114 77 -114 77 -114 77
+;;SETHEADING 54 were do
+;PENUP
+
+; TODO: Machine transcription failure
+;;SETXY -111 85 and down
+;;CUBIC -113 90 -108 90 -100 1185
+
+; I even talked to Turtles at times but you need to understand logo to appreciate the great great things that have
+; been created we spend so much of our life typing looking but never ever seeing
 
 END
