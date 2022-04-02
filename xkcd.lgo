@@ -1,0 +1,463 @@
+TO CUBIC :X1 :Y1 :X2 :Y2 :EX :EY
+LOCALMAKE "X0 XCOR
+LOCALMAKE "Y0 YCOR
+LOCALMAKE "ERRX1 LERP :X0 :EX 0.25
+LOCALMAKE "ERRY1 LERP :Y0 :EY 0.25
+LOCALMAKE "ERRX2 LERP :X0 :EX 0.75
+LOCALMAKE "ERRY2 LERP :Y0 :EY 0.75
+IFELSE OR LESSP :PIXERR DIST :ERRX1 :ERRY1 :X1 :Y1 LESSP :PIXERR DIST :ERRX2 :ERRY2 :X2 :Y2 [
+ LOCALMAKE "QX0 MIX :X0 :X1
+ LOCALMAKE "QY0 MIX :Y0 :Y1
+ LOCALMAKE "QX1 MIX :X1 :X2
+ LOCALMAKE "QY1 MIX :Y1 :Y2
+ LOCALMAKE "QX2 MIX :X2 :EX
+ LOCALMAKE "QY2 MIX :Y2 :EY
+ LOCALMAKE "LX0 MIX :QX0 :QX1
+ LOCALMAKE "LY0 MIX :QY0 :QY1
+ LOCALMAKE "LX1 MIX :QX1 :QX2
+ LOCALMAKE "LY1 MIX :QY1 :QY2
+ LOCALMAKE "PMX MIX :LX0 :LX1
+ LOCALMAKE "PMY MIX :LY0 :LY1
+ CUBIC :QX0 :QY0 :LX0 :LY0 :PMX :PMY
+ CUBIC :LX1 :LY1 :QX2 :QY2 :EX :EY
+] [
+SETXY :EX :EY
+]
+END
+
+TO DIST :X0 :Y0 :X1 :Y1
+LOCALMAKE "RX DIFFERENCE :X1 :X0
+LOCALMAKE "RY DIFFERENCE :Y1 :Y0
+OUTPUT SQRT SUM PRODUCT :RX :RX PRODUCT :RY :RY
+END
+
+TO LERP :A :B :T
+OUTPUT SUM :A PRODUCT :T DIFFERENCE :B :A
+END
+
+TO MIX :A :B
+OUTPUT LERP :A :B 0.5
+END
+
+TO XKCD 
+
+; NOTE(bcc): added this for the aUCBLogo IDE, which sadly started crashing (sad as it had nicely rendered output). Leaving in case it helps someone.
+; SETSCREENRANGE -500 -450 500 450 
+
+; NOTE(bcc): Added for the FMSLogo interpreter (which is at least working, but renders ugly aliased graphics).
+; If you decide to use FMSLogo, note that the editor is hidden behind the "Edall" button, and that
+; highlighting recent text and running those lines with ctrl-R is super helpful for quickly verifying input.
+SETPENSIZE 3
+
+
+MAKE "PIXERR 0.5
+ 
+ ; Let me show you what is going on up here.
+ 
+CLEARSCREEN
+WINDOW ; NOTE(bcc): for some LOGOs (like aUCBLogo), this must be WINDOWMODE.
+PENUP
+SETXY -473 391
+ 
+ ; I've just covered the entire canvas with just a bit of white
+
+PENDOWN
+
+ ; We start with a vision in our hearts and we put it on canvas
+
+CUBIC -469 424 -458 416 -456 389
+PENUP
+
+SETXY -471 400
+PENDOWN
+SETHEADING 87
+FORWARD 14
+PENUP
+
+SETXY -443 412
+PENDOWN
+CUBIC -443 405 -443 397 -444 390
+PENUP
+
+SETXY -442 400
+PENDOWN
+SETHEADING 84
+FORWARD 10
+PENUP
+
+SETXY -431 409
+PENDOWN
+CUBIC -432 403 -432 397 -431 390
+PENUP
+
+SETXY -427 392
+PENDOWN
+CUBIC -422 419 -415 416 -412 391
+PENUP
+
+SETXY -426 400
+PENDOWN
+CUBIC -422 400 -418 401 -414 401
+PENUP
+
+SETXY -409 410
+PENDOWN
+CUBIC -408 404 -408 398 -408 391
+PENUP
+
+SETXY -409 409
+PENDOWN
+CUBIC -395 421 -390 396 -408 403
+PENUP
+
+SETXY -393 410
+PENDOWN
+CUBIC -392 405 -392 399 -392 393
+PENUP
+
+SETXY -393 411
+PENDOWN
+CUBIC -380 419 -377 400 -392 402
+PENUP
+
+SETXY -372 391
+PENDOWN
+CUBIC -371 402 -374 400 -377 408
+PENUP
+
+SETXY -372 400
+PENDOWN
+SETHEADING 37
+FORWARD 13
+PENUP
+
+SETXY -471 380
+PENDOWN
+CUBIC -471 366 -480 357 -460 361
+PENUP
+
+SETXY -457 379
+PENDOWN
+CUBIC -457 372 -457 366 -457 360
+PENUP
+
+SETXY -448 379
+PENDOWN
+SETHEADING 179
+FORWARD 19
+PENUP
+
+ ; Merriam-Webster defines a turtle as: Noun. Any of an order (Testudines synonym Chelonia)
+ ; of terrestrial, freshwater, and marine reptiles that have a toothless horny beak and a shell
+ ; of bony dermal plates usually covered with horny shields enclosing the trunk and into which
+ ; the head, limbs, and tail usually may be withdrawn.
+
+SETXY -454 378
+PENDOWN
+CUBIC -449 379 -444 380 -440 380
+PENUP
+
+SETXY -434 379
+PENDOWN
+SETHEADING 179
+FORWARD 16
+PENUP
+
+SETXY -439 378
+PENDOWN
+CUBIC -434 379 -430 380 -424 380
+PENUP
+
+SETXY -425 377
+PENDOWN
+CUBIC -424 367 -431 356 -415 360
+PENUP
+
+SETXY -400 380
+PENDOWN
+CUBIC -404 379 -413 382 -412 376
+CUBIC -410 360 -416 356 -400 360
+PENUP
+
+SETXY -412 368
+PENDOWN
+CUBIC -409 369 -406 370 -403 370
+PENUP
+
+SETXY -376 380
+PENDOWN
+SETHEADING 178
+FORWARD 21
+PENUP
+
+SETXY -383 378
+PENDOWN
+CUBIC -379 379 -374 380 -369 381
+PENUP
+
+SETXY -366 379
+PENDOWN
+CUBIC -365 372 -366 366 -366 360
+PENUP
+
+SETXY -366 379
+PENDOWN
+CUBIC -353 384 -349 375 -363 371
+CUBIC -358 372 -356 365 -353 361
+PENUP
+
+SETXY -338 379
+PENDOWN
+CUBIC -341 378 -351 381 -350 376
+CUBIC -348 359 -355 358 -336 361
+PENUP
+
+SETXY -350 370
+PENDOWN
+CUBIC -347 370 -344 370 -341 370
+PENUP
+
+SETXY -320 379
+PENDOWN
+CUBIC -338 381 -331 375 -333 362
+CUBIC -332 358 -323 362 -320 361
+PENUP
+
+SETXY -332 370
+PENDOWN
+SETHEADING 89
+FORWARD 7
+SETHEADING -79
+FORWARD 1
+PENUP
+
+SETXY -474 336
+PENDOWN
+CUBIC -473 329 -473 322 -474 316
+PENUP
+
+SETXY -473 327
+PENDOWN
+SETHEADING 85
+FORWARD 11
+PENUP
+
+SETXY -461 338
+PENDOWN
+CUBIC -461 331 -461 323 -460 316
+PENUP
+
+ ; Here are some interesting notes from interesting facts about turtles.
+ ; A little nature study by a scientist, Forest and Stream, January 1916.
+ ;
+ ; "Over a great many years, I have taken a great interest in the land turtle.
+ ; I have at the present time a number, some of which I have had for at least
+ ; 17 years. To most people, they are ugly and repulsive, as the head, when fully
+ ; extended and protruded, looks like a snake, and furthermore, their clumsy method
+ ; of progression does not add anything attractive."
+
+SETXY -453 335
+PENDOWN
+CUBIC -460 331 -456 312 -447 319
+CUBIC -442 324 -444 339 -453 335
+PENUP
+
+; NOTE(bcc): [00:17:11]
+
+SETXY -439 335
+PENDOWN
+CUBIC -439 329 -441 322 -439 316
+CUBIC -437 315 -433 316 -430 316
+PENUP
+
+SETXY -426 315
+PENDOWN
+CUBIC -412 316 -408 339 -427 336
+CUBIC -426 329 -426 322 -427 315
+PENUP
+
+SETXY -409 336
+PENDOWN
+CUBIC -409 330 -409 323 -409 316
+PENUP
+
+SETXY -405 316
+PENDOWN
+SETHEADING -1
+FORWARD 19
+CUBIC -400 329 -397 322 -394 316
+SETHEADING 4
+FORWARD 20
+PENUP
+
+SETXY -381 325
+PENDOWN
+CUBIC -379 325 -377 325 -375 325
+CUBIC -373 322 -375 319 -377 318
+CUBIC -393 311 -390 343 -375 334
+PENUP
+
+SETXY -359 335
+PENDOWN
+CUBIC -366 307 -340 310 -348 336
+PENUP
+
+SETXY -342 315
+PENDOWN
+CUBIC -341 321 -343 329 -342 335
+CUBIC -326 342 -322 324 -342 325
+PENUP
+
+SETXY -319 315
+PENDOWN
+CUBIC -315 344 -305 337 -303 313
+PENUP
+
+SETXY -317 324
+PENDOWN
+SETHEADING 87
+FORWARD 12
+PENUP
+
+SETXY -473 303
+PENDOWN
+CUBIC -473 296 -473 289 -473 282
+PENUP
+
+SETXY -473 292
+PENDOWN
+CUBIC -469 292 -465 293 -461 293
+PENUP
+
+SETXY -460 303
+PENDOWN
+CUBIC -461 297 -462 290 -461 284
+PENUP
+
+SETXY -456 285
+PENDOWN
+CUBIC -453 312 -445 306 -441 284
+PENUP
+
+SETXY -455 292
+PENDOWN
+CUBIC -451 293 -447 294 -443 293
+SETHEADING -7
+FORWARD 1
+PENUP
+
+SETXY -438 302
+PENDOWN
+SETHEADING 179
+FORWARD 17
+PENUP
+
+SETXY -439 301
+PENDOWN
+CUBIC -425 311 -422 288 -438 293
+PENUP
+
+ ; One of interesting points about turtles is their great variety of foods.
+ ; They are, as a rule, good scavengers, eating all kinds of decomposing and
+ ; putrifying materials. Beef or in fact any meat is eaten. I have seen them
+ ; eat the flesh of birds and of moles, and, while earthworms are relished by
+ ; them, any worm or grub is taken. Worms from shell barks and ordinary maggots
+ ; are gotten rid of in a hurry. Blackberries, mayapples, cherries and mulberries,
+ ; tomatoes, cucumbers.
+ ;
+ ; And one vegetable eagerly eaten by my stock is green
+ ; sugarcorn, either raw or cooked. In the spring, when they first come out of
+ ; the soil and food is not plentiful in their pen, I have bought canned corn,
+ ; and they certainly have made it disappear very quickly. Beetles and tumblebugs,
+ ; potato bugs, either in larval or mature forms, are destroyed. Toadstools,
+ ; especially the large flat pink ones, white and yellow ones, are eaten, while I
+ ; have seen them pass a black toadstool by several days unnoticed.
+
+; NOTE(bcc): [00:24:48]
+
+SETXY -423 303
+PENDOWN
+CUBIC -424 296 -424 289 -424 282
+PENUP
+
+SETXY -423 294
+PENDOWN
+CUBIC -409 292 -406 308 -423 303
+PENUP
+
+SETXY -409 302
+PENDOWN
+CUBIC -404 296 -402 292 -403 284
+PENUP
+
+SETXY -403 294
+PENDOWN
+CUBIC -400 298 -397 301 -393 305
+PENUP
+
+SETXY -381 304
+ ; Here we have a happy little
+PENDOWN
+ ; statement. That's it. And then
+SETHEADING -177
+FORWARD 19
+SETHEADING 87
+FORWARD 10
+PENUP
+
+SETXY -367 303
+PENDOWN
+CUBIC -367 297 -368 291 -368 285
+PENUP
+
+SETXY -363 303
+PENDOWN
+CUBIC -359 304 -355 305 -351 305
+PENUP
+
+SETXY -357 304
+PENDOWN
+CUBIC -358 299 -358 291 -358 286
+PENUP
+
+; NOTE(bcc): [00:27:30]
+
+SETXY -351 301
+PENDOWN
+CUBIC -346 303 -341 304 -336 305
+PENUP
+
+SETXY -344 304
+PENDOWN
+CUBIC -345 297 -345 291 -346 284
+PENUP
+
+SETXY -333 304
+PENDOWN
+CUBIC -334 293 -343 281 -324 286
+PENUP
+
+SETXY -308 305
+PENDOWN
+CUBIC -312 305 -317 304 -321 304
+CUBIC -321 298 -320 291 -321 285
+CUBIC -316 285 -312 285 -307 285
+PENUP
+
+SETXY -321 294
+PENDOWN
+CUBIC -318 295 -315 295 -312 295
+PENUP
+
+; NOTE(bcc): [00:29:31]
+
+SETXY -473 273
+PENDOWN
+CUBIC -472 267 -470 241 -464 260
+CUBIC -463 257 -462 254 -461 252
+CUBIC -457 258 -455 265 -454 272
+PENUP
+
+END
+
+Make "pixerr 0.5
