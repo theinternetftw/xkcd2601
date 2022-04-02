@@ -3637,6 +3637,140 @@ PENUP
 ; Hey, what do you get if you cross a turtle with a giraffe?  A turtleneck!
 SETXY -29 436
 PENDOWN
+CUBIC -27 435 -25 435 -24 434
+PENUP
 ; NOTE: [07:30:02]
+SETXY -22 434
+PENDOWN
+CUBIC -23 435 -23 432 -22 432
+CUBIC -21 432 -21 434 -22 434
+PENUP
+SETXY -22 431
+PENDOWN
+SETHEADING -176
+FORWARD 7
+PENUP
+SETXY -23 423
+PENDOWN
+CUBIC -25 424 -24 420 -23 422
+CUBIC -22 422 -23 423 -23 423
+PENUP
+SETXY -21 422
+PENDOWN
+CUBIC -19 422 -16 421 -13 421
+PENUP
+SETXY -11 421
+PENDOWN
+CUBIC -12 422 -12 420 -12 420
+CUBIC -11 419 -10 422 -12 421
+PENUP
+SETXY -10 422
+PENDOWN
+CUBIC -9 424 -7 427 -5 429
+PENUP
+SETXY -4 432
+PENDOWN
+CUBIC -5 432 -6 430 -5 430
+CUBIC -4 430 -3 431 -4 432
+PENUP
+; NOTE: [07:32:39]
+; The african helmeted turtle is the most common turtle in Africa, according to
+; Animal Planet.  It is a hunter scavenger that eats young birds and small mammals.
+; It steals bait from fishermen's hooks.  It also releases a foul smelling liquid
+; from glands in its legs.
+SETXY -49 436
+PENDOWN
+CUBIC -46 438 -44 439 -41 440
+PENUP
+SETXY -40 441
+PENDOWN
+CUBIC -40 439 -37 441 -39 442
+CUBIC -40 443 -40 442 -40 441
+PENUP
+; NOTE: [07:33:42]
+; Roti Island snake-necked turtles are found only on Roti Island,
+; a 62 square mile island in Indonesia, according to the San Diego Zoo.
+SETXY -37 441
+PENDOWN
+CUBIC -35 441 -33 441 -30 441
+PENUP
+SETXY -29 442
+PENDOWN
+CUBIC -31 441 -28 439 -28 441
+CUBIC -27 441 -28 442 -29 442
+PENUP
+SETXY -27 441
+PENDOWN
+CUBIC -25 440 -22 439 -20 438
+PENUP
+SETXY -18 438
+PENDOWN
+CUBIC -20 437 -18 435 -17 437
+CUBIC -17 438 -18 438 -18 438
+PENUP
+SETXY -18 435
+PENDOWN
+CUBIC -18 433 -18 430 -18 428
+PENUP
+SETXY -19 426
+PENDOWN
+CUBIC -19 424 -16 425 -17 427
+CUBIC -18 427 -19 426 -19 426
+PENUP
+SETXY -13 426
+PENDOWN
+CUBIC -14 425 -12 424 -11 424
+CUBIC -10 425 -12 427 -13 426
+PENUP
+; NOTE: [07:36:34]
+; Turtles are not social creatures.  While they typically don't mind if there
+; are other turtles around them, they don't interact or socialize, according
+; to Encyclopedia Britannica.  Most turtles are active during the day, spending
+; their time foraging for food.
+SETXY -16 425
+PENDOWN
+CUBIC -15 426 -15 425 -14 426
+PENUP
+SETXY -11 427
+PENDOWN
+CUBIC -10 429 -8 431 -7 433
+PENUP
+SETXY -7 435
+PENDOWN
+CUBIC -7 434 -5 433 -5 435
+CUBIC -5 436 -7 436 -7 435
+PENUP
+SETXY -4 444
+PENDOWN
+CUBIC -2 425 9 450 -0 453
+CUBIC -4 452 -4 447 -4 444
+PENUP
+SETXY 1 453
+PENDOWN
+CUBIC 12 452 9 437 -1 437
+PENUP
+SETXY -2 452
+PENDOWN
+CUBIC -2 450 -1 448 -1 445
+CUBIC 0 445 1 443 2 443
+PENUP
+; NOTE: [07:38:58]
+; Turtles are not silent creatures.  Some sound like electric motors, some
+; sound like belching humans, and some bark like dogs.  The red-footed tortoise
+; from South America clucks like a chicken.
+SETXY 2 451
+PENDOWN
+CUBIC 0 448 -1 445 -4 443
+PENUP
+SETXY -1 437
+PENDOWN
+CUBIC -1 440 -1 443 -1 446
+PENUP
+SETXY -4 448
+PENDOWN
+CUBIC -3 447 -2 446 -1 445
+CUBIC 1 446 2 447 3 447
+PENUP
+; NOTE: [07:40:10]
 
 END
