@@ -2676,4 +2676,140 @@ CUBIC 435 259 441 252 432 256
 
 ; NOTE: [04:10:00]
 
+; NOTE: [05:09:54]
+
+CUBIC 361 -430 358 -428 356 -427
+CUBIC 338 -425 321 -416 304 -413
+CUBIC 294 -411 283 -411 273 -409
+CUBIC 252 -400 229 -402 206 -401
+PENUP
+
+; Eating seems a mere superfluidity with him since for weeks at a time he may
+; be headed up in a barrel with a bung out and emerged after his long fast
+; apparently none the worse for his enforced abstinence from food, from light,
+; and almost from air.
+
+SETXY 485 -533
+
+; All you need to draw is a few instructions, a little turtle, 
+; and a vision in your mind.
+
+PENDOWN
+CUBIC 517 -540 550 -541 582 -536
+CUBIC 583 -521 585 -500 576 -487
+CUBIC 567 -477 552 -475 542 -466
+CUBIC 535 -461 528 -452 518 -453
+CUBIC 503 -453 492 -452 482 -464
+CUBIC 479 -466 475 -462 472 -465
+CUBIC 468 -456 460 -468 453 -465
+CUBIC 462 -470 452 -479 445 -478
+CUBIC 451 -486 444 -499 434 -498
+CUBIC 438 -511 422 -517 411 -516
+CUBIC 413 -539 382 -544 365 -535
+CUBIC 365 -542 361 -549 354 -552
+PENUP
+
+
+SETXY 567 -538
+
+PENDOWN
+CUBIC 565 -546 558 -549 551 -549
+PENUP
+
+SETXY 513 -464
+
+PENDOWN
+CUBIC 503 -463 494 -473 496 -483
+CUBIC 498 -493 512 -498 521 -495
+CUBIC 538 -488 531 -463 513 -464
+PENUP
+
+SETXY 513 -472
+
+; NOTE: [05:14:53]
+
+PENDOWN
+CUBIC 504 -474 507 -486 514 -487
+CUBIC 529 -489 528 -469 513 -472
+PENUP
+
+SETXY 513 -486
+
+PENDOWN
+CUBIC 510 -481 518 -473 523 -476
+PENUP
+
+SETXY 515 -486
+
+PENDOWN
+CUBIC 512 -481 519 -474 523 -478
+PENUP
+
+SETXY 516 -487
+
+PENDOWN
+CUBIC 514 -483 519 -476 524 -479
+PENUP
+
+; In the whole category of animal organisms, there is none so tenacious in life
+; as the turtle. Injuries that would instantly be fatal even to fish leave the
+; turtle apparently undisturbed and his power of staving off death is nothing
+; short of marvelous.
+
+SETXY 517 -487
+
+PENDOWN
+CUBIC 516 -484 520 -479 524 -481
+PENUP
+
+SETXY 518 -487
+
+PENDOWN
+CUBIC 519 -484 520 -481 524 -482
+PENUP
+
+SETXY 520 -486
+
+PENDOWN
+CUBIC 520 -484 521 -483 523 -483
+PENUP
+
+SETXY 521 -475
+
+; NOTE: [05:17:46]
+
+PENDOWN
+CUBIC 512 -470 504 -478 512 -485
+SETHEADING 0
+FORWARD 0
+PENUP
+
+SETXY 472 -465
+
+PENDOWN
+CUBIC 449 -481 439 -513 436 -540
+PENUP
+
+SETXY 478 -467
+
+PENDOWN
+CUBIC 456 -482 446 -525 454 -549
+PENUP
+
+SETXY 464 -462
+
+PENDOWN
+CUBIC 465 -447 439 -444 428 -444
+CUBIC 425 -441 421 -440 417 -442
+CUBIC 411 -427 367 -425 351 -427
+PENUP
+
+SETXY 381 -438
+
+PENDOWN
+CUBIC 395 -430 423 -441 428 -456
+CUBIC 423 -469 406 -464 407 -480
+
+; NOTE: [05:20:02]
+
 END
