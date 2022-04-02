@@ -62,6 +62,8 @@ TO CUBIC :X1 :Y1 :X2 :Y2 :EX :EY
     ]
 END
 
+TO XKCD
+
 ; NOTE: [00:04:16]
 
  ; "I think there's a programmer hidden at the bottom of every single one of us."
@@ -72,8 +74,6 @@ MAKE "PIXERR 0.5
 
 CLEARSCREEN
 WINDOW          ; NOTE: for some LOGOs (like aUCBLogo), this must be WINDOWMODE.
-
-TO XKCD 
 
 PENUP
 SETXY -473 391
