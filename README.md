@@ -6,9 +6,7 @@ This is a project to transcribe xkcd #2601, the April Fools post for 2022, to ru
 
 There are options.
 
-#### jslogo
-
-One of the developers of #2601 [helpfully shared](https://github.com/theinternetftw/xkcd2601/issues/26)
+**jslogo** - One of the developers of #2601 [helpfully shared](https://github.com/theinternetftw/xkcd2601/issues/26)
 that the logo they used to develop the code was jslogo, which can be found online [here](https://www.calormen.com/jslogo/).
 To run the current iteration of the transcription in it, copy/paste the code into the window, then stick a line that says
 **xkcd** at the bottom of it all. If the image doesn't fit in your window, add **SETSCRUNCH 0.5 0.5** (or some other decimal)
@@ -16,13 +14,9 @@ to the code right before you call xkcd.
 
 This is fun to watch, and renders very nicely, but is slow (at least on my laptop).
 
-#### makesvg.py
+**makesvg.py** - There's also now a python script to generate an svg, which might be of use.
 
-There's also now a python script to generate an svg, which might be of use.
-
-#### FMSLogo
-
-To quickly run the code again and again to check the commits as they come in, I'm currently
+**FMSLogo** - To quickly run the code again and again to check the commits as they come in, I'm currently
 using FMSLogo, which is windows only, sadly. But it might also run on your native logo
 variant of choice.
 
