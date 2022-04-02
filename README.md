@@ -43,6 +43,6 @@ Try to run your code before submitting by sticking it at the end of what we alre
 If you don't have a github account and want to help, you can message me on reddit if you
 have an account there, and I'll update the bugs and such accordingly.
 
-### First 140 minutes of transcription:
+### First 200 minutes of transcription:
 
-![first 140 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-140-minutes.gif)
+![first 200 minutes](https://github.com/theinternetftw/xkcd2601/raw/main/screens/first-200-minutes.png)
