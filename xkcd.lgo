@@ -3651,15 +3651,16 @@ PENUP
 
 ; NOTE: [06:00:00]
 
-CUBIC 252 -166 252 -165 254 -165
-CUBIC 260 -163 266 -161 272 -159
-PENUP
+; TODO: uncomment
+; CUBIC 252 -166 252 -165 254 -165
+; CUBIC 260 -163 266 -161 272 -159
+; PENUP
 
- ; They come in all shapes and sizes. There are currently 356 known species of
+ ; "They come in all shapes and sizes. There are currently 356 known species of
  ; turtles. As a rule, they are all reptiles with a hard cartilage shell. But
- ; that's about where the similarities end. There are sea turtles, leatherback
- ; turtles, snapping turtles, pond turtles, soft-shelled turtles – and of
- ; course, tortoises…
+ ; that is about where the similarities end. There are sea turtles, leatherback
+ ; turtles, snapping turtles, pond turtles, soft-shelled turtles - and of
+ ; course, tortoises..."
 
 SETXY 330 -156
 PENDOWN
@@ -3686,7 +3687,7 @@ PENUP
 SETXY 460 -146
 PENDOWN
 
-; It is your creation. You can do anything you want to do.
+ ; It is your creation. You can do anything you want to do.
 
 CUBIC 461 -143 464 -142 467 -141
 CUBIC 468 -140 470 -138 472 -138
@@ -3722,6 +3723,8 @@ SETXY 43 -159
 PENDOWN
 CUBIC 42 -168 43 -178 47 -186
 PENUP
+
+; NOTE: [06:07:00]
 
 SETXY 62 -162
 PENDOWN
@@ -3759,12 +3762,12 @@ CUBIC 98 -173 100 -177 98 -180
 CUBIC 97 -181 99 -181 100 -181
 PENUP
 
- ; Not all turtles are tortoises…but all tortoises are turtles. Yes,
+ ; "Not all turtles are tortoises, but all tortoises are turtles. Yes,
  ; technically all tortoises are in fact turtles. They belong to the
  ; Testudines family which includes reptiles whose bodies are protected by a
  ; bony outer shell. But the main difference between turtles and tortoises is
  ; that tortoises live exclusively on land, while most turtles live in or near
- ; water.
+ ; water."
 
 ; NOTE: [06:10:02]
 
