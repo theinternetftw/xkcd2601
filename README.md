@@ -28,10 +28,10 @@ zooming/panning feature, which is very fast and loads the latest version of the 
 
 There's also now a python script to generate an svg, which might be of use.
 
-#### FMSLogo
+#### FMSLogo or similar
 
-To quickly run the code again and again to check the commits as they come in, I used
-using FMSLogo, which is windows only, sadly. But it might also run on your native logo
+To quickly run the code again and again to check the commits as they came in, I used
+FMSLogo, which is windows only, sadly. But it might also run on your native logo
 variant of choice.
 
 To run this code in FMSLogo, open the file, then in the console, type **xkcd**.
