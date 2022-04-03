@@ -3771,10 +3771,287 @@ PENUP
 
 ; NOTE: [06:10:02]
 
+SETXY 95 -169
+PENDOWN
+SETHEADING -174
+FORWARD 4
+PENUP
 
+SETXY 90 -165
+PENDOWN
+CUBIC 89 -166 89 -168 90 -170
+PENUP
 
+SETXY 84 -162
+PENDOWN
+SETHEADING -173
+FORWARD 5
+PENUP
 
+SETXY 78 -162
+PENDOWN
+CUBIC 77 -164 76 -167 77 -169
+PENUP
 
+SETXY 66 -162
+PENDOWN
+CUBIC 66 -163 64 -169 67 -169
+PENUP
+
+SETXY 109 -181
+PENDOWN
+CUBIC 109 -183 110 -185 111 -186
+PENUP
+
+SETXY 113 -183
+PENDOWN
+CUBIC 113 -185 114 -187 114 -189
+PENUP
+
+SETXY 124 -177
+PENDOWN
+CUBIC 125 -179 123 -183 124 -185
+PENUP
+
+SETXY 129 -180
+PENDOWN
+CUBIC 129 -184 129 -189 128 -193
+PENUP
+
+SETXY 148 -182
+PENDOWN
+CUBIC 147 -184 147 -186 147 -188
+PENUP
+
+SETXY 172 -191
+PENDOWN
+CUBIC 171 -199 169 -208 163 -215
+PENUP
+
+ ; "Some turtles are vegetarians, while others are carnivorous. Most turtles are
+ ; actually omnivores, but a few species are more picky when it comes to their
+ ; diet. Most tortoises are happy to munch on leafy greens or fruit. Not so for
+ ; the fearsome-looking alligator turtle, which is almost entirely carnivorous
+ ; and feeds on anything from fish to small mammals that venture too close to
+ ; the water's edge."
+
+SETXY 178 -192
+PENDOWN
+CUBIC 178 -195 177 -197 176 -199
+PENUP
+
+SETXY 162 -189
+PENDOWN
+CUBIC 162 -190 161 -192 160 -193
+PENUP
+
+SETXY 271 -160
+PENDOWN
+CUBIC 272 -162 271 -163 274 -164
+CUBIC 274 -165 273 -168 275 -168
+PENUP
+
+SETXY 280 -157
+PENDOWN
+CUBIC 280 -159 282 -161 281 -162
+PENUP
+
+SETXY 287 -152
+PENDOWN
+CUBIC 288 -155 289 -158 288 -161
+PENUP
+
+SETXY 292 -159
+PENDOWN
+SETHEADING -136
+FORWARD 1
+CUBIC 291 -159 292 -159 292 -158
+CUBIC 292 -157 291 -156 291 -155
+CUBIC 290 -154 291 -152 290 -151
+CUBIC 291 -152 292 -153 292 -154
+CUBIC 292 -155 293 -156 294 -157
+CUBIC 293 -158 293 -159 294 -160
+CUBIC 294 -161 294 -162 294 -164
+CUBIC 294 -164 295 -166 294 -167
+PENUP
+
+SETXY 284 -155
+PENDOWN
+CUBIC 283 -156 284 -158 284 -159
+PENUP
+
+SETXY 276 -159
+PENDOWN
+CUBIC 276 -160 276 -160 277 -161
+PENUP
+
+SETXY 308 -154
+PENDOWN
+CUBIC 307 -155 305 -157 304 -157
+CUBIC 303 -158 302 -160 301 -161
+PENUP
+
+SETXY 312 -157
+PENDOWN
+SETHEADING 80
+FORWARD 0
+CUBIC 310 -161 302 -162 303 -165
+PENUP
+
+SETXY 317 -158
+PENDOWN
+SETHEADING -135
+FORWARD 7
+PENUP
+
+SETXY 326 -157
+PENDOWN
+CUBIC 326 -161 322 -164 320 -167
+CUBIC 319 -169 316 -170 315 -172
+PENUP
+
+ ; "All species lay their eggs on land. When they are ready to lay
+ ; their eggs, even water-dwelling turtles will dig their nests in the
+ ; sands or the earth near their habitat. But they are not the nurturing
+ ; type. No species of turtle sticks around to raise their young. When the
+ ; babies hatch, they are on their own."
+
+; NOTE: [06:20:22]
+
+SETXY 309 -176
+PENDOWN
+CUBIC 307 -178 305 -181 304 -183
+PENUP
+
+SETXY 300 -164
+PENDOWN
+CUBIC 298 -165 297 -167 296 -168
+PENUP
+
+SETXY 310 -156
+PENDOWN
+CUBIC 309 -157 307 -158 306 -159
+PENUP
+
+SETXY 410 -171
+PENDOWN
+CUBIC 416 -168 417 -164 419 -159
+PENUP
+
+SETXY 427 -157
+PENDOWN
+CUBIC 427 -157 424 -163 425 -164
+CUBIC 425 -166 422 -167 421 -169
+CUBIC 421 -171 420 -173 418 -173
+PENUP
+
+SETXY 435 -155
+PENDOWN
+CUBIC 437 -156 434 -158 434 -160
+CUBIC 435 -161 433 -163 433 -163
+PENUP
+
+SETXY 417 -158
+PENDOWN
+SETHEADING 30
+FORWARD 1
+CUBIC 411 -161 413 -166 403 -170
+PENUP
+
+ ; "A turtle's gender is determined by temperature. Like crocodiles and alligators,
+ ; a turtle's gender is determined after fertilization. If a turtle's eggs incubate
+ ; below 27.7 degrees Celsius, the hatchlings will be male. But if the eggs incubate
+ ; above 31 degrees, they will be female. If the temperature is somewhere in between,
+ ; or fluctuates, a mix of male and female babies will hatch. As oceans warm, turtles
+ ; tend to give birth to more females."
+
+SETXY 432 -156
+PENDOWN
+CUBIC 431 -158 430 -159 430 -161
+PENUP
+
+SETXY 424 -158
+PENDOWN
+CUBIC 423 -158 422 -159 422 -160
+PENUP
+
+SETXY 440 -152
+PENDOWN
+SETHEADING -167
+FORWARD 6
+PENUP
+
+SETXY 455 -147
+PENDOWN
+CUBIC 456 -151 453 -154 450 -156
+PENUP
+
+SETXY 495 -120
+PENDOWN
+CUBIC 491 -123 487 -128 482 -132
+PENUP
+
+SETXY 505 -120
+PENDOWN
+SETHEADING 6
+FORWARD 1
+CUBIC 502 -122 499 -126 496 -130
+PENUP
+
+; NOTE: [06:26:00]
+
+SETXY 500 -119
+PENDOWN
+CUBIC 497 -121 494 -124 493 -128
+PENUP
+
+ ; "They have an amazing sense of direction. Sea turtles are known
+ ; for their amazing ability to return to the exact beach where they
+ ; were born years later. Like many animals, turtles can navigate their
+ ; way at sea by sensing the individual lines of the magnetic field. But
+ ; they can also remember the magnetic signature of coastlines and sense
+ ; tiny variations in magnetic fields, allowing them to guide themselves
+ ; home."
+
+SETXY 479 -135
+PENDOWN
+CUBIC 476 -138 473 -142 469 -143
+CUBIC 467 -143 466 -144 465 -145
+CUBIC 463 -146 461 -147 461 -149
+PENUP
+
+SETXY 481 -136
+PENDOWN
+CUBIC 477 -140 472 -143 469 -148
+PENUP
+
+SETXY 503 -120
+PENDOWN
+CUBIC 501 -122 499 -123 498 -126
+PENUP
+
+SETXY 499 -118
+PENDOWN
+SETHEADING -144
+FORWARD 6
+PENUP
+
+SETXY 489 -122
+PENDOWN
+SETHEADING 0
+FORWARD 1
+CUBIC 488 -123 486 -125 485 -127
+CUBIC 485 -127 485 -127 486 -127
+PENUP
+
+SETXY 510 -122
+PENDOWN
+SETHEADING 33
+FORWARD 1
+CUBIC 508 -122 507 -125 506 -127
+SETHEADING 57
+FORWARD 1
+PENUP
 
 ; NOTE: [06:29:37]
 
