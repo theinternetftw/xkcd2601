@@ -3939,6 +3939,10 @@ SETXY -265 -530
 PENDOWN
 CUBIC -271 -531 -277 -538 -280 -544
 PENUP
+
+; NOTE: [05:31:51]
+;some comment that needs transcription 
+
 SETXY -53 -429
 PENDOWN
 CUBIC -53 -428 -54 -427 -55 -425
