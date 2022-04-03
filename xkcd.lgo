@@ -3305,16 +3305,394 @@ PENUP
 
 ; NOTE: [04:30:19]
 
+SETXY 31 344
+PENDOWN
+CUBIC 33 341 35 339 38 338
+CUBIC 41 345 31 351 29 345
+CUBIC 31 352 22 350 27 347
+CUBIC 28 347 28 344 30 344
+CUBIC 31 344 31 343 32 343
+PENUP
 
+SETXY 37 338
+PENDOWN
+CUBIC 37 337 38 336 39 336
+PENUP
 
+SETXY 99 391
+PENDOWN
+CUBIC 104 358 160 347 175 378
+PENUP
 
+SETXY 179 389
+PENDOWN
+CUBIC 196 446 105 460 99 403
+PENUP
 
+SETXY 185 396
+PENDOWN
+CUBIC 250 368 27 405 97 411
+PENUP
 
+SETXY 98 416
+PENDOWN
+CUBIC -45 426 202 361 224 385
+CUBIC 220 395 195 400 184 402
+PENUP
 
+SETXY 251 382
+PENDOWN
+CUBIC 247 380 250 374 255 375
+CUBIC 260 377 256 385 251 382
+PENUP
 
+SETXY -190 419
+PENDOWN
+CUBIC -194 416 -197 413 -201 409
+CUBIC -198 407 -167 428 -176 427
+CUBIC -186 425 -208 412 -208 402
+CUBIC -199 400 -172 418 -167 427
+PENUP
 
+SETXY -96 432
+PENDOWN
+CUBIC -89 425 -82 428 -93 434
+CUBIC -115 445 -91 421 -82 421
+CUBIC -76 423 -86 433 -89 435
+PENUP
 
+SETXY -237 324
+PENDOWN
+CUBIC -232 327 -228 330 -223 334
+CUBIC -229 333 -234 334 -240 334
+CUBIC -235 330 -230 326 -226 323
+CUBIC -227 328 -229 333 -231 338
+CUBIC -233 333 -235 328 -237 324
+PENUP
 
+SETXY -253 328
+PENDOWN
+SETHEADING -135
+FORWARD 0
+PENUP
+
+SETXY -254 332
+PENDOWN
+CUBIC -254 332 -254 333 -254 334
+PENUP
+
+SETXY -251 332
+PENDOWN
+CUBIC -250 332 -250 333 -249 333
+PENUP
+
+SETXY -249 328
+PENDOWN
+CUBIC -248 329 -248 329 -247 329
+PENUP
+
+SETXY -250 325
+PENDOWN
+CUBIC -249 325 -249 324 -248 324
+PENUP
+
+SETXY -253 324
+PENDOWN
+SETHEADING 166
+FORWARD 2
+PENUP
+
+SETXY -255 324
+PENDOWN
+CUBIC -256 324 -256 323 -256 322
+PENUP
+
+SETXY -259 326
+PENDOWN
+CUBIC -259 326 -260 325 -260 325
+PENUP
+
+SETXY -257 330
+PENDOWN
+CUBIC -258 330 -258 331 -259 331
+PENUP
+
+SETXY -185 103
+PENDOWN
+CUBIC -287 237 -131 426 18 347
+CUBIC 104 298 138 193 80 109
+PENUP
+
+ ; "For the most interesting egg laying I ever witnessed, the
+ ; turtle commenced to dig at 8 p.m. and was still busy at work
+ ; the next morning at 8 o'clock. Five days later, a second turtle
+ ; dug these eggs out arid, deposited four of her own, and covered
+ ; the nest up. Personally, I do not believe that the turtle digging
+ ; out the previous batch of eggs was vindictive or mischievous, but
+ ; that the ground seemed soft and easily worked. Therefore, it took
+ ; advantage of the spot.
+
+SETXY 43 300
+PENDOWN
+CUBIC 46 300 50 298 53 298
+CUBIC 60 298 61 290 63 285
+PENUP
+
+SETXY 28 310
+PENDOWN
+CUBIC 34 310 34 310 34 304
+PENUP
+
+SETXY 48 325
+PENDOWN
+CUBIC 47 323 50 322 51 320
+CUBIC 52 318 53 317 55 317
+CUBIC 56 316 56 312 59 313
+PENUP
+
+SETXY 74 298
+PENDOWN
+CUBIC 71 295 73 290 77 288
+CUBIC 77 282 76 279 82 275
+CUBIC 87 270 85 263 89 257
+CUBIC 92 253 94 249 98 245
+CUBIC 101 243 102 239 104 235
+PENUP
+
+SETXY 107 219
+PENDOWN
+SETHEADING -34
+FORWARD 3
+CUBIC 104 218 104 214 105 210
+SETHEADING 59
+FORWARD 1
+CUBIC 105 206 106 202 106 198
+CUBIC 107 198 107 199 107 199
+CUBIC 108 198 108 197 107 197
+CUBIC 107 197 107 198 108 198
+PENUP
+
+ ; "Average Person Paints Three Turtles A Year" Factoid Actually Just Statistical Error
+ ; 
+ ; Average person paints zero turtles per year. Turtles Geord, who lives in cave and
+ ; eats over 10,000 each day, is an outlier and should not have been counted.
+
+SETXY 104 166
+PENDOWN
+CUBIC 102 167 99 161 101 160
+CUBIC 104 158 94 149 98 143
+PENUP
+
+SETXY -203 227
+PENDOWN
+CUBIC -202 229 -201 227 -202 226
+CUBIC -200 234 -195 241 -193 249
+CUBIC -193 251 -194 254 -192 255
+CUBIC -202 243 -203 246 -203 227
+PENUP
+
+SETXY -192 285
+PENDOWN
+CUBIC -189 285 -187 287 -184 287
+CUBIC -181 287 -178 282 -175 282
+CUBIC -141 282 -148 295 -126 302
+CUBIC -120 303 -115 301 -109 305
+CUBIC -100 311 -90 314 -81 318
+CUBIC -67 332 -53 345 -40 359
+CUBIC -42 360 -47 352 -40 359
+CUBIC -42 360 -42 363 -41 364
+PENUP
+
+SETXY -161 154
+PENDOWN
+CUBIC -161 154 -162 154 -162 154
+CUBIC -162 153 -161 154 -162 154
+PENUP
+
+SETXY -151 149
+PENDOWN
+CUBIC -151 149 -150 147 -150 148
+PENUP
+
+SETXY -138 146
+PENDOWN
+CUBIC -138 145 -137 144 -136 145
+PENUP
+
+ ; "The young turtles, when they make their emergence at the end
+ ; of three months, are dark in color and quite active. If you place
+ ; one on its back at this time, it will arch its head and neck and
+ ; come around to its normal position. The shell, of course, is quite
+ ; soft, but in about three years, the shell really becomes hardened,
+ ; though some clear portions of the shell around the edges are still
+ ; soft. The color of the shell gradually changes to that usually seen
+ ; in the head and soft parts are mottled, speckled, or of a solid color.
+ ; I have two in my collection where the head and neck are solid yellow.
+
+SETXY -102 144
+PENDOWN
+CUBIC -104 143 -107 139 -104 137
+CUBIC -103 137 -100 140 -101 138
+CUBIC -100 140 -99 143 -102 143
+CUBIC -102 143 -103 142 -103 142
+CUBIC -103 143 -103 143 -103 143
+PENUP
+
+SETXY -202 141
+PENDOWN
+CUBIC -198 139 -198 132 -196 128
+CUBIC -195 130 -192 128 -193 126
+CUBIC -194 124 -195 122 -194 121
+CUBIC -187 120 -191 115 -188 111
+SETHEADING -38
+FORWARD 2
+PENUP
+
+SETXY -216 198
+PENDOWN
+CUBIC -214 196 -213 193 -215 191
+CUBIC -213 190 -213 177 -213 174
+PENUP
+
+SETXY -202 171
+PENDOWN
+CUBIC -202 168 -203 165 -200 164
+PENUP
+
+SETXY 255 261
+PENDOWN
+CUBIC 254 272 258 284 265 293
+CUBIC 276 277 268 258 266 241
+CUBIC 263 240 258 243 255 241
+CUBIC 253 247 255 255 255 261
+PENUP
+
+SETXY 257 237
+PENDOWN
+CUBIC 247 231 260 220 258 211
+CUBIC 257 220 270 227 264 236
+PENUP
+
+ ; Do you know what a sea turtle's favorite sandwich is?
+ ;
+ ; Peanut butter and jellyfish. That sounds weird, but it's
+ ; actually true. Just ask the next sea turtle you meet. But
+ ; I think we shouldn't mention it to the jellyfish.
+
+SETXY 259 233
+PENDOWN
+CUBIC 257 232 258 228 258 226
+PENUP
+
+SETXY 262 233
+PENDOWN
+CUBIC 263 231 262 228 261 226
+PENUP
+
+SETXY 268 251
+PENDOWN
+CUBIC 275 250 272 242 273 237
+CUBIC 271 239 269 240 267 241
+PENUP
+
+SETXY 254 253
+PENDOWN
+CUBIC 247 252 247 245 247 240
+CUBIC 249 241 252 242 254 243
+PENUP
+
+ ; Here are some interesting observations from "Odd Facts About Turtles",
+ ; Christian Observer, May 11th 1919.
+ ;
+ ; "It has been said that the turtle, like the whale, has no other enemy
+ ; than man, in as much as both the little creature and the big pursue their
+ ; various ways in practical immunity from harm and the fear of sudden death."
+
+SETXY 255 267
+PENDOWN
+CUBIC 260 264 265 264 270 264
+PENUP
+
+SETXY 254 260
+PENDOWN
+CUBIC 259 259 264 259 269 258
+PENUP
+
+SETXY 124 293
+PENDOWN
+CUBIC 127 296 132 295 134 292
+CUBIC 135 296 143 296 145 292
+PENUP
+
+SETXY 153 312
+PENDOWN
+CUBIC 158 311 161 306 163 302
+CUBIC 165 306 169 310 173 312
+PENUP
+
+SETXY 168 288
+PENDOWN
+CUBIC 177 296 183 297 187 285
+PENUP
+
+; NOTE: [04:56:22]
+
+SETXY 175 206
+PENDOWN
+CUBIC 164 216 145 206 146 192
+CUBIC 152 161 194 181 175 206
+PENUP
+
+SETXY 162 215
+PENDOWN
+SETHEADING -3
+FORWARD 6
+PENUP
+
+SETXY 170 214
+PENDOWN
+CUBIC 171 217 172 219 173 220
+PENUP
+
+SETXY 178 211
+PENDOWN
+CUBIC 179 212 180 214 182 216
+PENUP
+
+SETXY 184 202
+PENDOWN
+CUBIC 186 203 188 203 190 204
+PENUP
+
+SETXY 185 190
+PENDOWN
+CUBIC 187 190 189 189 192 189
+PENUP
+
+SETXY 182 182
+PENDOWN
+CUBIC 184 181 186 180 188 179
+PENUP
+
+SETXY 174 174
+PENDOWN
+CUBIC 175 173 176 171 177 169
+PENUP
+
+SETXY 163 172
+PENDOWN
+CUBIC 163 170 163 168 163 166
+PENUP
+
+ ; "In many ways, the turtle is one of the strangest of living things. Whales
+ ; must come to the surface frequently to breathe, and it is pretty well
+ ; known what they feed upon. The seal cannot remain beneath the sea nearly
+ ; as long as the whale, and his food is very well known. But the turtle, in
+ ; all his varieties and all his ways, is a most mysterious animal. It does not,
+ ; indeed, seem to matter to him whether he stays beneath the surface for an hour
+ ; or for a week, nor does it trouble him to stay for an equal time on high land
+ ; if the need arises. Your turtle is neither fish, flesh, nor fowl, yet his flesh
+ ; partakes of the characteristics of all three."
 
 ; NOTE: [04:59:47]
 
