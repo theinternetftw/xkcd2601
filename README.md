@@ -45,3 +45,5 @@ The transcription is complete! But if you see anything wrong, please file a bug 
 ### Transcription complete!
 
 ![transcription complete](https://github.com/theinternetftw/xkcd2601/raw/main/screens/xkcd2601.png)
+
+![](screens/xkcd2601.gif)
