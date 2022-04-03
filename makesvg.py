@@ -100,7 +100,7 @@ def write_svg():
         print(f'<svg xmlns="http://www.w3.org/2000/svg" width="{xmax - xmin}mm" height="{ymax - ymin}mm" viewBox="{xmin} {-ymax} {xmax-xmin} {ymax-ymin}">', file=fp)
         print(f'\t<rect x="{xmin}" y="{-ymax}" width="{xmax - xmin}" height="{ymax-ymin}" style="fill: white" />', file=fp)
         print('\t<g>', file=fp)
-        print('\t\t<path style="stroke: black; stroke-width: 2px; fill: none;" d="', file=fp)
+        print('\t\t<path style="stroke: black; stroke-width: 1px; fill: none;" d="', file=fp)
         for step in steps:
             print(f'\t\t\t{step}', file=fp)
         print('\t\t" />', file=fp)
