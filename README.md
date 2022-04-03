@@ -66,4 +66,4 @@ have an account there, and I'll update the bugs and such accordingly.
 
 ### transcription:
 
-![first 270 minutes](https://github.com/Gh05t-1337/xkcd2601/blob/main/screens/full.png)
+![first 270 minutes](https://github.com/Gh05t-1337/xkcd2601/blob/main/screens/full-graphic.png)
