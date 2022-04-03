@@ -3649,7 +3649,124 @@ PENUP
 
 
 
+; NOTE: [06:00:00]
 
+CUBIC 252 -166 252 -165 254 -165
+CUBIC 260 -163 266 -161 272 -159
+PENUP
+
+ ; They come in all shapes and sizes. There are currently 356 known species of
+ ; turtles. As a rule, they are all reptiles with a hard cartilage shell. But
+ ; that's about where the similarities end. There are sea turtles, leatherback
+ ; turtles, snapping turtles, pond turtles, soft-shelled turtles – and of
+ ; course, tortoises…
+
+SETXY 330 -156
+PENDOWN
+CUBIC 332 -155 334 -156 336 -156
+CUBIC 337 -156 338 -155 339 -155
+CUBIC 340 -156 341 -156 342 -156
+CUBIC 343 -158 344 -156 345 -157
+CUBIC 345 -157 346 -157 346 -157
+CUBIC 346 -157 346 -158 346 -158
+PENUP
+
+SETXY 365 -153
+PENDOWN
+CUBIC 367 -147 376 -148 381 -144
+CUBIC 382 -146 384 -144 385 -145
+CUBIC 387 -147 389 -145 391 -147
+CUBIC 393 -148 397 -144 399 -146
+CUBIC 400 -148 402 -147 404 -147
+SETHEADING -176
+FORWARD 1
+CUBIC 404 -149 406 -149 406 -148
+PENUP
+
+SETXY 460 -146
+PENDOWN
+
+; It is your creation. You can do anything you want to do.
+
+CUBIC 461 -143 464 -142 467 -141
+CUBIC 468 -140 470 -138 472 -138
+CUBIC 473 -138 474 -138 474 -138
+SETHEADING 15
+FORWARD 1
+PENUP
+
+SETXY 481 -130
+PENDOWN
+CUBIC 484 -124 489 -121 495 -120
+CUBIC 496 -118 497 -117 499 -118
+CUBIC 500 -119 502 -117 503 -119
+CUBIC 505 -121 508 -119 510 -120
+PENUP
+
+SETXY 525 -119
+PENDOWN
+CUBIC 527 -117 528 -114 532 -116
+CUBIC 532 -116 533 -115 534 -116
+CUBIC 534 -115 535 -115 536 -115
+CUBIC 537 -115 538 -114 538 -114
+PENUP
+
+SETXY 552 -109
+PENDOWN
+SETHEADING 164
+FORWARD 0
+CUBIC 552 -103 561 -103 564 -98
+PENUP
+
+SETXY 43 -159
+PENDOWN
+CUBIC 42 -168 43 -178 47 -186
+PENUP
+
+SETXY 62 -162
+PENDOWN
+CUBIC 62 -168 60 -175 64 -181
+CUBIC 65 -185 62 -190 64 -195
+PENUP
+
+SETXY 54 -158
+PENDOWN
+CUBIC 53 -161 55 -178 57 -180
+PENUP
+
+SETXY 83 -163
+PENDOWN
+CUBIC 84 -166 81 -169 81 -173
+CUBIC 83 -179 80 -184 82 -186
+PENUP
+
+SETXY 87 -161
+PENDOWN
+CUBIC 86 -165 86 -167 87 -171
+CUBIC 88 -174 87 -180 88 -183
+PENUP
+
+SETXY 92 -168
+PENDOWN
+CUBIC 91 -172 91 -176 93 -179
+PENUP
+
+SETXY 98 -170
+PENDOWN
+SETHEADING 28
+FORWARD 1
+CUBIC 98 -173 100 -177 98 -180
+CUBIC 97 -181 99 -181 100 -181
+PENUP
+
+ ; Not all turtles are tortoises…but all tortoises are turtles. Yes,
+ ; technically all tortoises are in fact turtles. They belong to the
+ ; Testudines family which includes reptiles whose bodies are protected by a
+ ; bony outer shell. But the main difference between turtles and tortoises is
+ ; that tortoises live exclusively on land, while most turtles live in or near
+ ; water.
+
+; NOTE: [06:10:02]
 
 
 
