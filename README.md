@@ -4,6 +4,8 @@ This is a project to transcribe xkcd #2601, the April Fools post for 2022, to ru
 
 It's done now (sans any bug fixes). Yay!
 
+Many thanks to everyone who contributed to getting this done.
+
 ### Running the code:
 
 There are options.
@@ -40,6 +42,6 @@ To run this code in FMSLogo, open the file, then in the console, type **xkcd**.
 
 The transcription is complete! But if you see anything wrong, please file a bug report!
 
-### Transcription complete!:
+### Transcription complete!
 
 ![transcription complete](https://github.com/theinternetftw/xkcd2601/raw/main/screens/xkcd2601.png)
