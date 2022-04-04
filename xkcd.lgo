@@ -3474,7 +3474,7 @@ PENUP
 
  ; "Average Person Paints Three Turtles A Year" Factoid Actually Just Statistical Error
  ; 
- ; Average person paints zero turtles per year. Turtles Geord, who lives in cave and
+ ; Average person paints zero turtles per year. Turtles Georg, who lives in cave and
  ; eats over 10,000 each day, is an outlier and should not have been counted.
 
 SETXY 104 166
@@ -5505,8 +5505,8 @@ PENUP
  ; according to the Animal Diversity Web at the University of Michigan.
  ; The top part of the shell is called the carapace and the bottom is
  ; called the plastering. According to the San Diego Zoo, the shell is
- ; made up of about 60 bones that are covered by plates called scoots.
- ; Scoots are made of keratin, the same material that makes up humans'
+ ; made up of about 60 bones that are covered by plates called scutes.
+ ; Scutes are made of keratin, the same material that makes up humans'
  ; fingernails."
 
 SETXY 409 -360
