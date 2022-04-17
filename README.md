@@ -1,6 +1,6 @@
 # xkcd2601
 
-This is a project to transcribe xkcd #2601, the April Fools post for 2022, to runnable logo code.
+This is a project to transcribe [xkcd #2601](https://xkcd.com/2601), the April Fools post for 2022, to runnable logo code.
 
 It's done now (sans any bug fixes). Yay!
 
